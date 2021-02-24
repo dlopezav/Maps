@@ -11,18 +11,19 @@
       <end></end>
     </fixedRange>
   </temporal>
-  <renderer-v2 enableorderby="0" type="RuleRenderer" forceraster="0" symbollevels="0">
-    <rules key="{af48fdbd-4434-4f54-81e4-7b741bba6091}">
-      <rule key="{b809045d-781b-4755-81ba-34bc1c01a31a}" symbol="0" filter=" &quot;Amarilla_Identifica&quot; is null and  &quot;Naranja_Identifica&quot; is null and  &quot;Verde_Identifica&quot;  is null"/>
-      <rule key="{8bebf48d-58e5-4213-924d-08918826e63d}" label="Amarillo" symbol="1" filter=" &quot;Amarilla_Identifica&quot; is not null"/>
-      <rule key="{25a3abdc-883b-40f6-be5c-c82bd7bc8104}" label="Naranja" symbol="2" filter=" &quot;Naranja_Identifica&quot; is not null"/>
-      <rule key="{7ef177da-80b6-4bb5-9921-594d0de4138f}" label="Verde" symbol="3" filter=" &quot;Verde_Identifica&quot; is not null"/>
-    </rules>
+  <renderer-v2 attr="Color" enableorderby="0" type="categorizedSymbol" forceraster="0" symbollevels="0">
+    <categories>
+      <category render="true" label="Amarillo" value="Amarillo" symbol="0"/>
+      <category render="true" label="Naranja" value="Naranja" symbol="1"/>
+      <category render="true" label="Rojo" value="Rojo" symbol="2"/>
+      <category render="true" label="Verde" value="Verde" symbol="3"/>
+      <category render="true" label="" value="" symbol="4"/>
+    </categories>
     <symbols>
       <symbol type="fill" alpha="1" force_rhr="0" name="0" clip_to_extent="1">
         <layer locked="0" enabled="1" pass="0" class="SimpleFill">
           <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
-          <prop v="255,1,5,255" k="color"/>
+          <prop v="250,254,0,255" k="color"/>
           <prop v="bevel" k="joinstyle"/>
           <prop v="0,0" k="offset"/>
           <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
@@ -44,11 +45,11 @@
       <symbol type="fill" alpha="1" force_rhr="0" name="1" clip_to_extent="1">
         <layer locked="0" enabled="1" pass="0" class="SimpleFill">
           <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
-          <prop v="235,238,21,255" k="color"/>
+          <prop v="239,141,65,255" k="color"/>
           <prop v="bevel" k="joinstyle"/>
           <prop v="0,0" k="offset"/>
           <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
-          <prop v="MapUnit" k="offset_unit"/>
+          <prop v="MM" k="offset_unit"/>
           <prop v="35,35,35,255" k="outline_color"/>
           <prop v="solid" k="outline_style"/>
           <prop v="0.26" k="outline_width"/>
@@ -66,7 +67,7 @@
       <symbol type="fill" alpha="1" force_rhr="0" name="2" clip_to_extent="1">
         <layer locked="0" enabled="1" pass="0" class="SimpleFill">
           <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
-          <prop v="253,143,106,255" k="color"/>
+          <prop v="255,5,1,255" k="color"/>
           <prop v="bevel" k="joinstyle"/>
           <prop v="0,0" k="offset"/>
           <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
@@ -88,7 +89,29 @@
       <symbol type="fill" alpha="1" force_rhr="0" name="3" clip_to_extent="1">
         <layer locked="0" enabled="1" pass="0" class="SimpleFill">
           <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
-          <prop v="96,239,25,255" k="color"/>
+          <prop v="88,255,11,255" k="color"/>
+          <prop v="bevel" k="joinstyle"/>
+          <prop v="0,0" k="offset"/>
+          <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+          <prop v="MM" k="offset_unit"/>
+          <prop v="35,35,35,255" k="outline_color"/>
+          <prop v="solid" k="outline_style"/>
+          <prop v="0.26" k="outline_width"/>
+          <prop v="MM" k="outline_width_unit"/>
+          <prop v="solid" k="style"/>
+          <data_defined_properties>
+            <Option type="Map">
+              <Option type="QString" value="" name="name"/>
+              <Option name="properties"/>
+              <Option type="QString" value="collection" name="type"/>
+            </Option>
+          </data_defined_properties>
+        </layer>
+      </symbol>
+      <symbol type="fill" alpha="1" force_rhr="0" name="4" clip_to_extent="1">
+        <layer locked="0" enabled="1" pass="0" class="SimpleFill">
+          <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
+          <prop v="137,102,224,255" k="color"/>
           <prop v="bevel" k="joinstyle"/>
           <prop v="0,0" k="offset"/>
           <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
@@ -108,11 +131,35 @@
         </layer>
       </symbol>
     </symbols>
+    <source-symbol>
+      <symbol type="fill" alpha="1" force_rhr="0" name="0" clip_to_extent="1">
+        <layer locked="0" enabled="1" pass="0" class="SimpleFill">
+          <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
+          <prop v="125,139,143,255" k="color"/>
+          <prop v="bevel" k="joinstyle"/>
+          <prop v="0,0" k="offset"/>
+          <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+          <prop v="MM" k="offset_unit"/>
+          <prop v="35,35,35,255" k="outline_color"/>
+          <prop v="solid" k="outline_style"/>
+          <prop v="0.26" k="outline_width"/>
+          <prop v="MM" k="outline_width_unit"/>
+          <prop v="solid" k="style"/>
+          <data_defined_properties>
+            <Option type="Map">
+              <Option type="QString" value="" name="name"/>
+              <Option name="properties"/>
+              <Option type="QString" value="collection" name="type"/>
+            </Option>
+          </data_defined_properties>
+        </layer>
+      </symbol>
+    </source-symbol>
+    <colorramp type="randomcolors" name="[source]"/>
+    <rotation/>
+    <sizescale/>
   </renderer-v2>
   <customproperties>
-    <property key="dualview/previewExpressions">
-      <value>"UPlNombre"</value>
-    </property>
     <property key="embeddedWidgets/count" value="0"/>
     <property key="variableNames"/>
     <property key="variableValues"/>
@@ -123,7 +170,6 @@
   <SingleCategoryDiagramRenderer attributeLegend="1" diagramType="Histogram">
     <DiagramCategory height="15" penAlpha="255" penColor="#000000" sizeScale="3x:0,0,0,0,0,0" scaleDependency="Area" lineSizeScale="3x:0,0,0,0,0,0" labelPlacementMethod="XHeight" enabled="0" backgroundColor="#ffffff" backgroundAlpha="255" width="15" showAxis="1" opacity="1" rotationOffset="270" lineSizeType="MM" direction="0" barWidth="5" minimumSize="0" maxScaleDenominator="1e+08" scaleBasedVisibility="0" spacing="5" spacingUnitScale="3x:0,0,0,0,0,0" diagramOrientation="Up" sizeType="MM" spacingUnit="MM" penWidth="0" minScaleDenominator="0">
       <fontProperties description="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0" style=""/>
-      <attribute color="#000000" label="" field=""/>
       <axisSymbol>
         <symbol type="line" alpha="1" force_rhr="0" name="" clip_to_extent="1">
           <layer locked="0" enabled="1" pass="0" class="SimpleLine">
@@ -273,21 +319,84 @@
         </config>
       </editWidget>
     </field>
-    <field configurationFlags="None" name="Amarilla_Identifica">
+    <field configurationFlags="None" name="layer">
       <editWidget type="TextEdit">
         <config>
           <Option/>
         </config>
       </editWidget>
     </field>
-    <field configurationFlags="None" name="Naranja_Identifica">
+    <field configurationFlags="None" name="path">
       <editWidget type="TextEdit">
         <config>
           <Option/>
         </config>
       </editWidget>
     </field>
-    <field configurationFlags="None" name="Verde_Identifica">
+    <field configurationFlags="None" name="Color">
+      <editWidget type="TextEdit">
+        <config>
+          <Option/>
+        </config>
+      </editWidget>
+    </field>
+    <field configurationFlags="None" name="Año">
+      <editWidget type="TextEdit">
+        <config>
+          <Option/>
+        </config>
+      </editWidget>
+    </field>
+    <field configurationFlags="None" name="SHAPE.AREA">
+      <editWidget type="TextEdit">
+        <config>
+          <Option/>
+        </config>
+      </editWidget>
+    </field>
+    <field configurationFlags="None" name="SHAPE.LEN">
+      <editWidget type="TextEdit">
+        <config>
+          <Option/>
+        </config>
+      </editWidget>
+    </field>
+    <field configurationFlags="None" name="UPlAAdmini">
+      <editWidget type="TextEdit">
+        <config>
+          <Option/>
+        </config>
+      </editWidget>
+    </field>
+    <field configurationFlags="None" name="UPlArea">
+      <editWidget type="TextEdit">
+        <config>
+          <Option/>
+        </config>
+      </editWidget>
+    </field>
+    <field configurationFlags="None" name="SHAPE_Leng">
+      <editWidget type="TextEdit">
+        <config>
+          <Option/>
+        </config>
+      </editWidget>
+    </field>
+    <field configurationFlags="None" name="SHAPE_Area">
+      <editWidget type="TextEdit">
+        <config>
+          <Option/>
+        </config>
+      </editWidget>
+    </field>
+    <field configurationFlags="None" name="Densidad">
+      <editWidget type="TextEdit">
+        <config>
+          <Option/>
+        </config>
+      </editWidget>
+    </field>
+    <field configurationFlags="None" name="Población">
       <editWidget type="TextEdit">
         <config>
           <Option/>
@@ -309,9 +418,18 @@
     <alias index="10" field="pob_manz" name=""/>
     <alias index="11" field="Area" name=""/>
     <alias index="12" field="est_sum" name=""/>
-    <alias index="13" field="Amarilla_Identifica" name=""/>
-    <alias index="14" field="Naranja_Identifica" name=""/>
-    <alias index="15" field="Verde_Identifica" name=""/>
+    <alias index="13" field="layer" name=""/>
+    <alias index="14" field="path" name=""/>
+    <alias index="15" field="Color" name=""/>
+    <alias index="16" field="Año" name=""/>
+    <alias index="17" field="SHAPE.AREA" name=""/>
+    <alias index="18" field="SHAPE.LEN" name=""/>
+    <alias index="19" field="UPlAAdmini" name=""/>
+    <alias index="20" field="UPlArea" name=""/>
+    <alias index="21" field="SHAPE_Leng" name=""/>
+    <alias index="22" field="SHAPE_Area" name=""/>
+    <alias index="23" field="Densidad" name=""/>
+    <alias index="24" field="Población" name=""/>
   </aliases>
   <defaults>
     <default expression="" applyOnUpdate="0" field="OBJECTID"/>
@@ -327,9 +445,18 @@
     <default expression="" applyOnUpdate="0" field="pob_manz"/>
     <default expression="" applyOnUpdate="0" field="Area"/>
     <default expression="" applyOnUpdate="0" field="est_sum"/>
-    <default expression="" applyOnUpdate="0" field="Amarilla_Identifica"/>
-    <default expression="" applyOnUpdate="0" field="Naranja_Identifica"/>
-    <default expression="" applyOnUpdate="0" field="Verde_Identifica"/>
+    <default expression="" applyOnUpdate="0" field="layer"/>
+    <default expression="" applyOnUpdate="0" field="path"/>
+    <default expression="" applyOnUpdate="0" field="Color"/>
+    <default expression="" applyOnUpdate="0" field="Año"/>
+    <default expression="" applyOnUpdate="0" field="SHAPE.AREA"/>
+    <default expression="" applyOnUpdate="0" field="SHAPE.LEN"/>
+    <default expression="" applyOnUpdate="0" field="UPlAAdmini"/>
+    <default expression="" applyOnUpdate="0" field="UPlArea"/>
+    <default expression="" applyOnUpdate="0" field="SHAPE_Leng"/>
+    <default expression="" applyOnUpdate="0" field="SHAPE_Area"/>
+    <default expression="" applyOnUpdate="0" field="Densidad"/>
+    <default expression="" applyOnUpdate="0" field="Población"/>
   </defaults>
   <constraints>
     <constraint constraints="0" exp_strength="0" notnull_strength="0" field="OBJECTID" unique_strength="0"/>
@@ -345,9 +472,18 @@
     <constraint constraints="0" exp_strength="0" notnull_strength="0" field="pob_manz" unique_strength="0"/>
     <constraint constraints="0" exp_strength="0" notnull_strength="0" field="Area" unique_strength="0"/>
     <constraint constraints="0" exp_strength="0" notnull_strength="0" field="est_sum" unique_strength="0"/>
-    <constraint constraints="0" exp_strength="0" notnull_strength="0" field="Amarilla_Identifica" unique_strength="0"/>
-    <constraint constraints="0" exp_strength="0" notnull_strength="0" field="Naranja_Identifica" unique_strength="0"/>
-    <constraint constraints="0" exp_strength="0" notnull_strength="0" field="Verde_Identifica" unique_strength="0"/>
+    <constraint constraints="0" exp_strength="0" notnull_strength="0" field="layer" unique_strength="0"/>
+    <constraint constraints="0" exp_strength="0" notnull_strength="0" field="path" unique_strength="0"/>
+    <constraint constraints="0" exp_strength="0" notnull_strength="0" field="Color" unique_strength="0"/>
+    <constraint constraints="0" exp_strength="0" notnull_strength="0" field="Año" unique_strength="0"/>
+    <constraint constraints="0" exp_strength="0" notnull_strength="0" field="SHAPE.AREA" unique_strength="0"/>
+    <constraint constraints="0" exp_strength="0" notnull_strength="0" field="SHAPE.LEN" unique_strength="0"/>
+    <constraint constraints="0" exp_strength="0" notnull_strength="0" field="UPlAAdmini" unique_strength="0"/>
+    <constraint constraints="0" exp_strength="0" notnull_strength="0" field="UPlArea" unique_strength="0"/>
+    <constraint constraints="0" exp_strength="0" notnull_strength="0" field="SHAPE_Leng" unique_strength="0"/>
+    <constraint constraints="0" exp_strength="0" notnull_strength="0" field="SHAPE_Area" unique_strength="0"/>
+    <constraint constraints="0" exp_strength="0" notnull_strength="0" field="Densidad" unique_strength="0"/>
+    <constraint constraints="0" exp_strength="0" notnull_strength="0" field="Población" unique_strength="0"/>
   </constraints>
   <constraintExpressions>
     <constraint exp="" field="OBJECTID" desc=""/>
@@ -363,15 +499,24 @@
     <constraint exp="" field="pob_manz" desc=""/>
     <constraint exp="" field="Area" desc=""/>
     <constraint exp="" field="est_sum" desc=""/>
-    <constraint exp="" field="Amarilla_Identifica" desc=""/>
-    <constraint exp="" field="Naranja_Identifica" desc=""/>
-    <constraint exp="" field="Verde_Identifica" desc=""/>
+    <constraint exp="" field="layer" desc=""/>
+    <constraint exp="" field="path" desc=""/>
+    <constraint exp="" field="Color" desc=""/>
+    <constraint exp="" field="Año" desc=""/>
+    <constraint exp="" field="SHAPE.AREA" desc=""/>
+    <constraint exp="" field="SHAPE.LEN" desc=""/>
+    <constraint exp="" field="UPlAAdmini" desc=""/>
+    <constraint exp="" field="UPlArea" desc=""/>
+    <constraint exp="" field="SHAPE_Leng" desc=""/>
+    <constraint exp="" field="SHAPE_Area" desc=""/>
+    <constraint exp="" field="Densidad" desc=""/>
+    <constraint exp="" field="Población" desc=""/>
   </constraintExpressions>
   <expressionfields/>
   <attributeactions>
     <defaultAction key="Canvas" value="{00000000-0000-0000-0000-000000000000}"/>
   </attributeactions>
-  <attributetableconfig sortOrder="1" actionWidgetStyle="dropDown" sortExpression="&quot;pob_manz&quot;">
+  <attributetableconfig sortOrder="0" actionWidgetStyle="dropDown" sortExpression="">
     <columns>
       <column hidden="0" type="field" width="-1" name="OBJECTID"/>
       <column hidden="0" type="field" width="-1" name="Identifica"/>
@@ -385,11 +530,20 @@
       <column hidden="0" type="field" width="-1" name="tamRelUPZ"/>
       <column hidden="0" type="field" width="-1" name="pob_manz"/>
       <column hidden="0" type="field" width="-1" name="Area"/>
-      <column hidden="1" type="actions" width="-1"/>
       <column hidden="0" type="field" width="-1" name="est_sum"/>
-      <column hidden="0" type="field" width="-1" name="Amarilla_Identifica"/>
-      <column hidden="0" type="field" width="-1" name="Naranja_Identifica"/>
-      <column hidden="0" type="field" width="-1" name="Verde_Identifica"/>
+      <column hidden="0" type="field" width="-1" name="layer"/>
+      <column hidden="0" type="field" width="-1" name="path"/>
+      <column hidden="0" type="field" width="-1" name="Color"/>
+      <column hidden="0" type="field" width="-1" name="Año"/>
+      <column hidden="0" type="field" width="-1" name="SHAPE.AREA"/>
+      <column hidden="0" type="field" width="-1" name="SHAPE.LEN"/>
+      <column hidden="0" type="field" width="-1" name="UPlAAdmini"/>
+      <column hidden="0" type="field" width="-1" name="UPlArea"/>
+      <column hidden="0" type="field" width="-1" name="SHAPE_Leng"/>
+      <column hidden="0" type="field" width="-1" name="SHAPE_Area"/>
+      <column hidden="0" type="field" width="-1" name="Densidad"/>
+      <column hidden="0" type="field" width="-1" name="Población"/>
+      <column hidden="1" type="actions" width="-1"/>
     </columns>
   </attributetableconfig>
   <conditionalstyles>
@@ -421,40 +575,56 @@ def my_form_open(dialog, layer, feature):
   <featformsuppress>0</featformsuppress>
   <editorlayout>generatedlayout</editorlayout>
   <editable>
-    <field editable="0" name="Amarilla_Identifica"/>
     <field editable="1" name="Area"/>
+    <field editable="1" name="Año"/>
+    <field editable="1" name="Color"/>
+    <field editable="1" name="Densidad"/>
     <field editable="1" name="Identifica"/>
-    <field editable="0" name="Naranja_Identifica"/>
     <field editable="1" name="Número_de"/>
     <field editable="1" name="OBJECTID"/>
+    <field editable="1" name="Población"/>
+    <field editable="1" name="SHAPE.AREA"/>
+    <field editable="1" name="SHAPE.LEN"/>
+    <field editable="1" name="SHAPE_Area"/>
+    <field editable="1" name="SHAPE_Leng"/>
+    <field editable="1" name="UPlAAdmini"/>
+    <field editable="1" name="UPlArea"/>
     <field editable="1" name="UPlCodigo"/>
     <field editable="1" name="UPlNombre"/>
     <field editable="1" name="UPlTipo"/>
     <field editable="1" name="Uso"/>
-    <field editable="0" name="Verde_Identifica"/>
     <field editable="1" name="areaXaltur"/>
     <field editable="1" name="enc_Person"/>
-    <field editable="0" name="est_sum"/>
-    <field editable="0" name="estsum"/>
+    <field editable="1" name="est_sum"/>
+    <field editable="1" name="layer"/>
+    <field editable="1" name="path"/>
     <field editable="1" name="pob_manz"/>
     <field editable="1" name="tamRelUPZ"/>
   </editable>
   <labelOnTop>
-    <field labelOnTop="0" name="Amarilla_Identifica"/>
     <field labelOnTop="0" name="Area"/>
+    <field labelOnTop="0" name="Año"/>
+    <field labelOnTop="0" name="Color"/>
+    <field labelOnTop="0" name="Densidad"/>
     <field labelOnTop="0" name="Identifica"/>
-    <field labelOnTop="0" name="Naranja_Identifica"/>
     <field labelOnTop="0" name="Número_de"/>
     <field labelOnTop="0" name="OBJECTID"/>
+    <field labelOnTop="0" name="Población"/>
+    <field labelOnTop="0" name="SHAPE.AREA"/>
+    <field labelOnTop="0" name="SHAPE.LEN"/>
+    <field labelOnTop="0" name="SHAPE_Area"/>
+    <field labelOnTop="0" name="SHAPE_Leng"/>
+    <field labelOnTop="0" name="UPlAAdmini"/>
+    <field labelOnTop="0" name="UPlArea"/>
     <field labelOnTop="0" name="UPlCodigo"/>
     <field labelOnTop="0" name="UPlNombre"/>
     <field labelOnTop="0" name="UPlTipo"/>
     <field labelOnTop="0" name="Uso"/>
-    <field labelOnTop="0" name="Verde_Identifica"/>
     <field labelOnTop="0" name="areaXaltur"/>
     <field labelOnTop="0" name="enc_Person"/>
     <field labelOnTop="0" name="est_sum"/>
-    <field labelOnTop="0" name="estsum"/>
+    <field labelOnTop="0" name="layer"/>
+    <field labelOnTop="0" name="path"/>
     <field labelOnTop="0" name="pob_manz"/>
     <field labelOnTop="0" name="tamRelUPZ"/>
   </labelOnTop>
