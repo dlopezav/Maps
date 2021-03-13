@@ -1,138 +1,138 @@
 <!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
-<qgis readOnly="0" simplifyAlgorithm="0" simplifyDrawingTol="1" simplifyMaxScale="1" version="3.16.3-Hannover" hasScaleBasedVisibilityFlag="0" styleCategories="AllStyleCategories" simplifyDrawingHints="1" minScale="100000000" maxScale="0" simplifyLocal="1" labelsEnabled="0">
+<qgis readOnly="0" minScale="100000000" labelsEnabled="0" styleCategories="AllStyleCategories" hasScaleBasedVisibilityFlag="0" maxScale="0" simplifyAlgorithm="0" simplifyDrawingHints="1" simplifyMaxScale="1" version="3.16.3-Hannover" simplifyLocal="1" simplifyDrawingTol="1">
   <flags>
     <Identifiable>1</Identifiable>
     <Removable>1</Removable>
     <Searchable>1</Searchable>
   </flags>
-  <temporal endExpression="" endField="" enabled="0" durationField="" fixedDuration="0" mode="0" accumulate="0" startField="" durationUnit="min" startExpression="">
+  <temporal mode="0" accumulate="0" durationUnit="min" fixedDuration="0" startField="" durationField="" endExpression="" endField="" enabled="0" startExpression="">
     <fixedRange>
       <start></start>
       <end></end>
     </fixedRange>
   </temporal>
-  <renderer-v2 forceraster="0" type="categorizedSymbol" attr="MDR_TIPO" symbollevels="0" enableorderby="0">
+  <renderer-v2 attr="MDR_TIPO" symbollevels="0" type="categorizedSymbol" enableorderby="0" forceraster="0">
     <categories>
-      <category label="1-NINGUNO" value="1-NINGUNO" render="true" symbol="0"/>
-      <category label="2-LEVE" value="2-LEVE" render="true" symbol="1"/>
-      <category label="3-MODERADO" value="3-MODERADO" render="true" symbol="2"/>
-      <category label="4-FUERTE" value="4-FUERTE" render="true" symbol="3"/>
-      <category label="5-SEVERO" value="5-SEVERO" render="true" symbol="4"/>
-      <category label="No modelado" value="" render="true" symbol="5"/>
+      <category label="1-NINGUNO" render="true" symbol="0" value="1-NINGUNO"/>
+      <category label="2-LEVE" render="true" symbol="1" value="2-LEVE"/>
+      <category label="3-MODERADO" render="true" symbol="2" value="3-MODERADO"/>
+      <category label="4-FUERTE" render="true" symbol="3" value="4-FUERTE"/>
+      <category label="5-SEVERO" render="true" symbol="4" value="5-SEVERO"/>
+      <category label="No modelado" render="true" symbol="5" value=""/>
     </categories>
     <symbols>
-      <symbol alpha="1" clip_to_extent="1" type="fill" force_rhr="0" name="0">
-        <layer enabled="1" pass="0" class="SimpleFill" locked="0">
+      <symbol name="0" alpha="1" clip_to_extent="1" force_rhr="0" type="fill">
+        <layer pass="0" locked="0" class="SimpleFill" enabled="1">
           <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
-          <prop v="195,202,208,255" k="color"/>
+          <prop v="203,203,203,255" k="color"/>
           <prop v="bevel" k="joinstyle"/>
           <prop v="0,0" k="offset"/>
           <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
           <prop v="MM" k="offset_unit"/>
           <prop v="35,35,35,255" k="outline_color"/>
-          <prop v="solid" k="outline_style"/>
-          <prop v="0.026" k="outline_width"/>
+          <prop v="no" k="outline_style"/>
+          <prop v="0" k="outline_width"/>
           <prop v="MM" k="outline_width_unit"/>
           <prop v="solid" k="style"/>
           <data_defined_properties>
             <Option type="Map">
-              <Option type="QString" name="name" value=""/>
+              <Option name="name" value="" type="QString"/>
               <Option name="properties"/>
-              <Option type="QString" name="type" value="collection"/>
+              <Option name="type" value="collection" type="QString"/>
             </Option>
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol alpha="1" clip_to_extent="1" type="fill" force_rhr="0" name="1">
-        <layer enabled="1" pass="0" class="SimpleFill" locked="0">
+      <symbol name="1" alpha="1" clip_to_extent="1" force_rhr="0" type="fill">
+        <layer pass="0" locked="0" class="SimpleFill" enabled="1">
           <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
-          <prop v="95,255,95,255" k="color"/>
+          <prop v="85,255,0,255" k="color"/>
           <prop v="bevel" k="joinstyle"/>
           <prop v="0,0" k="offset"/>
           <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
           <prop v="MM" k="offset_unit"/>
           <prop v="35,35,35,255" k="outline_color"/>
-          <prop v="solid" k="outline_style"/>
-          <prop v="0.026" k="outline_width"/>
+          <prop v="no" k="outline_style"/>
+          <prop v="0" k="outline_width"/>
           <prop v="MM" k="outline_width_unit"/>
           <prop v="solid" k="style"/>
           <data_defined_properties>
             <Option type="Map">
-              <Option type="QString" name="name" value=""/>
+              <Option name="name" value="" type="QString"/>
               <Option name="properties"/>
-              <Option type="QString" name="type" value="collection"/>
+              <Option name="type" value="collection" type="QString"/>
             </Option>
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol alpha="1" clip_to_extent="1" type="fill" force_rhr="0" name="2">
-        <layer enabled="1" pass="0" class="SimpleFill" locked="0">
+      <symbol name="2" alpha="1" clip_to_extent="1" force_rhr="0" type="fill">
+        <layer pass="0" locked="0" class="SimpleFill" enabled="1">
           <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
-          <prop v="253,255,97,255" k="color"/>
+          <prop v="255,254,0,255" k="color"/>
           <prop v="bevel" k="joinstyle"/>
           <prop v="0,0" k="offset"/>
           <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
           <prop v="MM" k="offset_unit"/>
           <prop v="35,35,35,255" k="outline_color"/>
-          <prop v="solid" k="outline_style"/>
-          <prop v="0.026" k="outline_width"/>
+          <prop v="no" k="outline_style"/>
+          <prop v="0" k="outline_width"/>
           <prop v="MM" k="outline_width_unit"/>
           <prop v="solid" k="style"/>
           <data_defined_properties>
             <Option type="Map">
-              <Option type="QString" name="name" value=""/>
+              <Option name="name" value="" type="QString"/>
               <Option name="properties"/>
-              <Option type="QString" name="type" value="collection"/>
+              <Option name="type" value="collection" type="QString"/>
             </Option>
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol alpha="1" clip_to_extent="1" type="fill" force_rhr="0" name="3">
-        <layer enabled="1" pass="0" class="SimpleFill" locked="0">
+      <symbol name="3" alpha="1" clip_to_extent="1" force_rhr="0" type="fill">
+        <layer pass="0" locked="0" class="SimpleFill" enabled="1">
           <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
-          <prop v="242,150,79,255" k="color"/>
+          <prop v="254,143,10,255" k="color"/>
           <prop v="bevel" k="joinstyle"/>
           <prop v="0,0" k="offset"/>
           <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
           <prop v="MM" k="offset_unit"/>
           <prop v="35,35,35,255" k="outline_color"/>
-          <prop v="solid" k="outline_style"/>
-          <prop v="0.026" k="outline_width"/>
+          <prop v="no" k="outline_style"/>
+          <prop v="0" k="outline_width"/>
           <prop v="MM" k="outline_width_unit"/>
           <prop v="solid" k="style"/>
           <data_defined_properties>
             <Option type="Map">
-              <Option type="QString" name="name" value=""/>
+              <Option name="name" value="" type="QString"/>
               <Option name="properties"/>
-              <Option type="QString" name="type" value="collection"/>
+              <Option name="type" value="collection" type="QString"/>
             </Option>
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol alpha="1" clip_to_extent="1" type="fill" force_rhr="0" name="4">
-        <layer enabled="1" pass="0" class="SimpleFill" locked="0">
+      <symbol name="4" alpha="1" clip_to_extent="1" force_rhr="0" type="fill">
+        <layer pass="0" locked="0" class="SimpleFill" enabled="1">
           <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
-          <prop v="255,1,39,255" k="color"/>
+          <prop v="255,0,0,255" k="color"/>
           <prop v="bevel" k="joinstyle"/>
           <prop v="0,0" k="offset"/>
           <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
           <prop v="MM" k="offset_unit"/>
           <prop v="35,35,35,255" k="outline_color"/>
-          <prop v="solid" k="outline_style"/>
-          <prop v="0.026" k="outline_width"/>
+          <prop v="no" k="outline_style"/>
+          <prop v="0" k="outline_width"/>
           <prop v="MM" k="outline_width_unit"/>
           <prop v="solid" k="style"/>
           <data_defined_properties>
             <Option type="Map">
-              <Option type="QString" name="name" value=""/>
+              <Option name="name" value="" type="QString"/>
               <Option name="properties"/>
-              <Option type="QString" name="type" value="collection"/>
+              <Option name="type" value="collection" type="QString"/>
             </Option>
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol alpha="1" clip_to_extent="1" type="fill" force_rhr="0" name="5">
-        <layer enabled="1" pass="0" class="SimpleFill" locked="0">
+      <symbol name="5" alpha="1" clip_to_extent="1" force_rhr="0" type="fill">
+        <layer pass="0" locked="0" class="SimpleFill" enabled="1">
           <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
           <prop v="255,255,255,255" k="color"/>
           <prop v="bevel" k="joinstyle"/>
@@ -140,23 +140,23 @@
           <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
           <prop v="MM" k="offset_unit"/>
           <prop v="35,35,35,255" k="outline_color"/>
-          <prop v="solid" k="outline_style"/>
-          <prop v="0.026" k="outline_width"/>
+          <prop v="no" k="outline_style"/>
+          <prop v="0" k="outline_width"/>
           <prop v="MM" k="outline_width_unit"/>
           <prop v="solid" k="style"/>
           <data_defined_properties>
             <Option type="Map">
-              <Option type="QString" name="name" value=""/>
+              <Option name="name" value="" type="QString"/>
               <Option name="properties"/>
-              <Option type="QString" name="type" value="collection"/>
+              <Option name="type" value="collection" type="QString"/>
             </Option>
           </data_defined_properties>
         </layer>
       </symbol>
     </symbols>
     <source-symbol>
-      <symbol alpha="1" clip_to_extent="1" type="fill" force_rhr="0" name="0">
-        <layer enabled="1" pass="0" class="SimpleFill" locked="0">
+      <symbol name="0" alpha="1" clip_to_extent="1" force_rhr="0" type="fill">
+        <layer pass="0" locked="0" class="SimpleFill" enabled="1">
           <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
           <prop v="152,125,183,255" k="color"/>
           <prop v="bevel" k="joinstyle"/>
@@ -164,38 +164,39 @@
           <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
           <prop v="MM" k="offset_unit"/>
           <prop v="35,35,35,255" k="outline_color"/>
-          <prop v="solid" k="outline_style"/>
-          <prop v="0.026" k="outline_width"/>
+          <prop v="no" k="outline_style"/>
+          <prop v="0" k="outline_width"/>
           <prop v="MM" k="outline_width_unit"/>
           <prop v="solid" k="style"/>
           <data_defined_properties>
             <Option type="Map">
-              <Option type="QString" name="name" value=""/>
+              <Option name="name" value="" type="QString"/>
               <Option name="properties"/>
-              <Option type="QString" name="type" value="collection"/>
+              <Option name="type" value="collection" type="QString"/>
             </Option>
           </data_defined_properties>
         </layer>
       </symbol>
     </source-symbol>
-    <colorramp type="randomcolors" name="[source]"/>
     <rotation/>
     <sizescale/>
   </renderer-v2>
   <customproperties>
-    <property key="embeddedWidgets/count" value="0"/>
+    <property value="&quot;LON&quot;" key="dualview/previewExpressions"/>
+    <property value="0" key="embeddedWidgets/count"/>
     <property key="variableNames"/>
     <property key="variableValues"/>
   </customproperties>
   <blendMode>0</blendMode>
   <featureBlendMode>0</featureBlendMode>
   <layerOpacity>1</layerOpacity>
-  <SingleCategoryDiagramRenderer attributeLegend="1" diagramType="Histogram">
-    <DiagramCategory direction="0" spacing="5" penWidth="0" lineSizeType="MM" width="15" enabled="0" backgroundAlpha="255" sizeType="MM" showAxis="1" barWidth="5" spacingUnitScale="3x:0,0,0,0,0,0" diagramOrientation="Up" scaleBasedVisibility="0" opacity="1" minimumSize="0" lineSizeScale="3x:0,0,0,0,0,0" spacingUnit="MM" penAlpha="255" sizeScale="3x:0,0,0,0,0,0" penColor="#000000" labelPlacementMethod="XHeight" rotationOffset="270" minScaleDenominator="0" backgroundColor="#ffffff" height="15" scaleDependency="Area" maxScaleDenominator="1e+08">
-      <fontProperties description="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0" style=""/>
+  <SingleCategoryDiagramRenderer diagramType="Histogram" attributeLegend="1">
+    <DiagramCategory enabled="0" penWidth="0" backgroundAlpha="255" height="15" spacing="5" scaleDependency="Area" minScaleDenominator="0" spacingUnitScale="3x:0,0,0,0,0,0" backgroundColor="#ffffff" direction="0" barWidth="5" penColor="#000000" rotationOffset="270" showAxis="1" lineSizeScale="3x:0,0,0,0,0,0" minimumSize="0" opacity="1" sizeType="MM" diagramOrientation="Up" labelPlacementMethod="XHeight" spacingUnit="MM" penAlpha="255" scaleBasedVisibility="0" maxScaleDenominator="1e+08" sizeScale="3x:0,0,0,0,0,0" lineSizeType="MM" width="15">
+      <fontProperties style="" description="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0"/>
+      <attribute field="" label="" color="#000000"/>
       <axisSymbol>
-        <symbol alpha="1" clip_to_extent="1" type="line" force_rhr="0" name="">
-          <layer enabled="1" pass="0" class="SimpleLine" locked="0">
+        <symbol name="" alpha="1" clip_to_extent="1" force_rhr="0" type="line">
+          <layer pass="0" locked="0" class="SimpleLine" enabled="1">
             <prop v="0" k="align_dash_pattern"/>
             <prop v="square" k="capstyle"/>
             <prop v="5;2" k="customdash"/>
@@ -219,9 +220,9 @@
             <prop v="3x:0,0,0,0,0,0" k="width_map_unit_scale"/>
             <data_defined_properties>
               <Option type="Map">
-                <Option type="QString" name="name" value=""/>
+                <Option name="name" value="" type="QString"/>
                 <Option name="properties"/>
-                <Option type="QString" name="type" value="collection"/>
+                <Option name="type" value="collection" type="QString"/>
               </Option>
             </data_defined_properties>
           </layer>
@@ -229,22 +230,22 @@
       </axisSymbol>
     </DiagramCategory>
   </SingleCategoryDiagramRenderer>
-  <DiagramLayerSettings dist="0" priority="0" showAll="1" obstacle="0" zIndex="0" placement="1" linePlacementFlags="18">
+  <DiagramLayerSettings placement="1" showAll="1" priority="0" dist="0" linePlacementFlags="18" zIndex="0" obstacle="0">
     <properties>
       <Option type="Map">
-        <Option type="QString" name="name" value=""/>
+        <Option name="name" value="" type="QString"/>
         <Option name="properties"/>
-        <Option type="QString" name="type" value="collection"/>
+        <Option name="type" value="collection" type="QString"/>
       </Option>
     </properties>
   </DiagramLayerSettings>
   <geometryOptions removeDuplicateNodes="0" geometryPrecision="0">
     <activeChecks/>
     <checkConfiguration type="Map">
-      <Option type="Map" name="QgsGeometryGapCheck">
-        <Option type="double" name="allowedGapsBuffer" value="0"/>
-        <Option type="bool" name="allowedGapsEnabled" value="false"/>
-        <Option type="QString" name="allowedGapsLayer" value=""/>
+      <Option name="QgsGeometryGapCheck" type="Map">
+        <Option name="allowedGapsBuffer" value="0" type="double"/>
+        <Option name="allowedGapsEnabled" value="false" type="bool"/>
+        <Option name="allowedGapsLayer" value="" type="QString"/>
       </Option>
     </checkConfiguration>
   </geometryOptions>
@@ -286,6 +287,20 @@
         </config>
       </editWidget>
     </field>
+    <field name="layer" configurationFlags="None">
+      <editWidget type="TextEdit">
+        <config>
+          <Option/>
+        </config>
+      </editWidget>
+    </field>
+    <field name="path" configurationFlags="None">
+      <editWidget type="TextEdit">
+        <config>
+          <Option/>
+        </config>
+      </editWidget>
+    </field>
   </fieldConfiguration>
   <aliases>
     <alias field="LON" name="" index="0"/>
@@ -293,40 +308,50 @@
     <alias field="MDR" name="" index="2"/>
     <alias field="BARMAN" name="" index="3"/>
     <alias field="MDR_TIPO" name="" index="4"/>
+    <alias field="layer" name="" index="5"/>
+    <alias field="path" name="" index="6"/>
   </aliases>
   <defaults>
-    <default applyOnUpdate="0" field="LON" expression=""/>
-    <default applyOnUpdate="0" field="LAT" expression=""/>
-    <default applyOnUpdate="0" field="MDR" expression=""/>
-    <default applyOnUpdate="0" field="BARMAN" expression=""/>
-    <default applyOnUpdate="0" field="MDR_TIPO" expression=""/>
+    <default field="LON" applyOnUpdate="0" expression=""/>
+    <default field="LAT" applyOnUpdate="0" expression=""/>
+    <default field="MDR" applyOnUpdate="0" expression=""/>
+    <default field="BARMAN" applyOnUpdate="0" expression=""/>
+    <default field="MDR_TIPO" applyOnUpdate="0" expression=""/>
+    <default field="layer" applyOnUpdate="0" expression=""/>
+    <default field="path" applyOnUpdate="0" expression=""/>
   </defaults>
   <constraints>
-    <constraint exp_strength="0" constraints="0" unique_strength="0" field="LON" notnull_strength="0"/>
-    <constraint exp_strength="0" constraints="0" unique_strength="0" field="LAT" notnull_strength="0"/>
-    <constraint exp_strength="0" constraints="0" unique_strength="0" field="MDR" notnull_strength="0"/>
-    <constraint exp_strength="0" constraints="0" unique_strength="0" field="BARMAN" notnull_strength="0"/>
-    <constraint exp_strength="0" constraints="0" unique_strength="0" field="MDR_TIPO" notnull_strength="0"/>
+    <constraint field="LON" unique_strength="0" exp_strength="0" notnull_strength="0" constraints="0"/>
+    <constraint field="LAT" unique_strength="0" exp_strength="0" notnull_strength="0" constraints="0"/>
+    <constraint field="MDR" unique_strength="0" exp_strength="0" notnull_strength="0" constraints="0"/>
+    <constraint field="BARMAN" unique_strength="0" exp_strength="0" notnull_strength="0" constraints="0"/>
+    <constraint field="MDR_TIPO" unique_strength="0" exp_strength="0" notnull_strength="0" constraints="0"/>
+    <constraint field="layer" unique_strength="0" exp_strength="0" notnull_strength="0" constraints="0"/>
+    <constraint field="path" unique_strength="0" exp_strength="0" notnull_strength="0" constraints="0"/>
   </constraints>
   <constraintExpressions>
-    <constraint field="LON" exp="" desc=""/>
-    <constraint field="LAT" exp="" desc=""/>
-    <constraint field="MDR" exp="" desc=""/>
-    <constraint field="BARMAN" exp="" desc=""/>
-    <constraint field="MDR_TIPO" exp="" desc=""/>
+    <constraint field="LON" desc="" exp=""/>
+    <constraint field="LAT" desc="" exp=""/>
+    <constraint field="MDR" desc="" exp=""/>
+    <constraint field="BARMAN" desc="" exp=""/>
+    <constraint field="MDR_TIPO" desc="" exp=""/>
+    <constraint field="layer" desc="" exp=""/>
+    <constraint field="path" desc="" exp=""/>
   </constraintExpressions>
   <expressionfields/>
   <attributeactions>
-    <defaultAction key="Canvas" value="{00000000-0000-0000-0000-000000000000}"/>
+    <defaultAction value="{00000000-0000-0000-0000-000000000000}" key="Canvas"/>
   </attributeactions>
-  <attributetableconfig sortExpression="" actionWidgetStyle="dropDown" sortOrder="0">
+  <attributetableconfig sortOrder="0" sortExpression="" actionWidgetStyle="dropDown">
     <columns>
-      <column width="-1" hidden="0" type="field" name="LON"/>
-      <column width="-1" hidden="0" type="field" name="LAT"/>
-      <column width="-1" hidden="0" type="field" name="MDR"/>
-      <column width="-1" hidden="0" type="field" name="BARMAN"/>
-      <column width="-1" hidden="0" type="field" name="MDR_TIPO"/>
-      <column width="-1" hidden="1" type="actions"/>
+      <column name="LON" type="field" hidden="0" width="-1"/>
+      <column name="LAT" type="field" hidden="0" width="-1"/>
+      <column name="MDR" type="field" hidden="0" width="-1"/>
+      <column name="BARMAN" type="field" hidden="0" width="-1"/>
+      <column name="MDR_TIPO" type="field" hidden="0" width="-1"/>
+      <column type="actions" hidden="1" width="-1"/>
+      <column name="layer" type="field" hidden="0" width="-1"/>
+      <column name="path" type="field" hidden="0" width="-1"/>
     </columns>
   </attributetableconfig>
   <conditionalstyles>
@@ -358,18 +383,22 @@ def my_form_open(dialog, layer, feature):
   <featformsuppress>0</featformsuppress>
   <editorlayout>generatedlayout</editorlayout>
   <editable>
-    <field name="BARMAN" editable="1"/>
-    <field name="LAT" editable="1"/>
-    <field name="LON" editable="1"/>
-    <field name="MDR" editable="1"/>
-    <field name="MDR_TIPO" editable="1"/>
+    <field editable="1" name="BARMAN"/>
+    <field editable="1" name="LAT"/>
+    <field editable="1" name="LON"/>
+    <field editable="1" name="MDR"/>
+    <field editable="1" name="MDR_TIPO"/>
+    <field editable="1" name="layer"/>
+    <field editable="1" name="path"/>
   </editable>
   <labelOnTop>
-    <field name="BARMAN" labelOnTop="0"/>
-    <field name="LAT" labelOnTop="0"/>
-    <field name="LON" labelOnTop="0"/>
-    <field name="MDR" labelOnTop="0"/>
-    <field name="MDR_TIPO" labelOnTop="0"/>
+    <field labelOnTop="0" name="BARMAN"/>
+    <field labelOnTop="0" name="LAT"/>
+    <field labelOnTop="0" name="LON"/>
+    <field labelOnTop="0" name="MDR"/>
+    <field labelOnTop="0" name="MDR_TIPO"/>
+    <field labelOnTop="0" name="layer"/>
+    <field labelOnTop="0" name="path"/>
   </labelOnTop>
   <dataDefinedFieldProperties/>
   <widgets/>

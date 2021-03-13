@@ -1,0 +1,7 @@
+Al eliminar manzanas rurales se perdieron:
+
+Rojas:0
+Naranjas:2
+Amarillas: 32
+Verdes: 83
+Grises: 156
