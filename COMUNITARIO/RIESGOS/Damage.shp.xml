@@ -1,2 +1,1305 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<metadata xml:lang="es"><Esri><CreaDate>20180717</CreaDate><CreaTime>14001100</CreaTime><ArcGISFormat>1.0</ArcGISFormat><SyncOnce>TRUE</SyncOnce><DataProperties><lineage><Process Name="Add Field MDR_MOD" ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\AddField" Date="20180717" Time="140011">AddField Damage MDR_MOD DOUBLE # # # # NULLABLE NON_REQUIRED #</Process><Process Name="Calculate MDR_MOD" ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20180717" Time="140018">CalculateField Damage MDR_MOD [MDR] VB #</Process><Process Name="Add Field" ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\AddField" Date="20180717" Time="140018">AddField Damage BARMAN TEXT # # 9 # NULLABLE NON_REQUIRED #</Process><Process Name="Add Field (2)" ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\AddField" Date="20180717" Time="140018">AddField Damage MDR_TIPO TEXT # # 10 # NULLABLE NON_REQUIRED #</Process><Process Name="Calculate Field (3)" ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20180717" Time="140020">CalculateField Damage MDR_TIPO "1-NINGUNO" VB #</Process><Process Name="Calculate Field (4)" ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20180717" Time="140023">CalculateField Damage MDR_TIPO "2-LEVE" VB #</Process><Process Name="Calculate Field (5)" ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20180717" Time="140027">CalculateField Damage MDR_TIPO "3-MODERADO" VB #</Process><Process Name="Calculate Field (6)" ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20180717" Time="140027">CalculateField Damage MDR_TIPO "4-FUERTE" VB #</Process><Process Name="Calculate Field (7)" ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20180717" Time="140028">CalculateField Damage MDR_TIPO "5-SEVERO" VB #</Process><Process Name="Add Field (4)" ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\AddField" Date="20180717" Time="140028">AddField Damage LOC TEXT # # 2 # NULLABLE NON_REQUIRED #</Process><Process Name="Add Field (5)" ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\AddField" Date="20180717" Time="140029">AddField Damage UPLA TEXT # # 3 # NULLABLE NON_REQUIRED #</Process><Process Name="Add Field (6)" ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\AddField" Date="20180717" Time="140029">AddField Damage NUM_UPLA TEXT # # 3 # NULLABLE NON_REQUIRED #</Process><Process Name="Add Field (8)" ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\AddField" Date="20180717" Time="140029">AddField Damage SECTOR_CAT TEXT # # 60 # NULLABLE NON_REQUIRED #</Process><Process Name="Add Field (7)" ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\AddField" Date="20180717" Time="140030">AddField Damage UPLA_ TEXT # # 6 # NULLABLE NON_REQUIRED #</Process><Process Name="Add Field (9)" ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\AddField" Date="20180717" Time="140030">AddField Damage TOT_CONST LONG # # # # NULLABLE NON_REQUIRED #</Process><Process Name="Add Field (10)" ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\AddField" Date="20180717" Time="140030">AddField Damage A_CONS_USO DOUBLE # # # # NULLABLE NON_REQUIRED #</Process><Process Name="Add Field (11)" ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\AddField" Date="20180717" Time="140031">AddField Damage VAL_CONST DOUBLE # # # # NULLABLE NON_REQUIRED #</Process><Process Name="Add Field (12)" ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\AddField" Date="20180717" Time="140031">AddField Damage POB_2017 LONG # # # # NULLABLE NON_REQUIRED #</Process><Process Name="Add Field (3)" ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\AddField" Date="20180717" Time="140031">AddField Damage TOT_PREDIO LONG # # # # NULLABLE NON_REQUIRED #</Process><Process Name="Add Field (13)" ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\AddField" Date="20180717" Time="140031">AddField Damage TOT_LOTES LONG # # # # NULLABLE NON_REQUIRED #</Process><Process Name="Calculate Field (12)" ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20180717" Time="140148">CalculateField Damage Damage.UPLA_ "[UPLA] &amp; [NUM_UPLA]" VB #</Process><Process ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20180717" Time="141224">CalculateField Damage SS [FID] VB #</Process><Process ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\DeleteField" Date="20180717" Time="142043">DeleteField Damage MDR_MOD;BARMAN;MDR_TIPO;LOC;UPLA;NUM_UPLA;SECTOR_CAT;UPLA_;TOT_CONST;A_CONS_USO;VAL_CONST;POB_2017;TOT_PREDIO;TOT_LOTES;SS</Process><Process Name="Add Field MDR_MOD" ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\AddField" Date="20180717" Time="151555">AddField Damage MDR_MOD DOUBLE # # # # NULLABLE NON_REQUIRED #</Process><Process Name="Calculate MDR_MOD" ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20180717" Time="151601">CalculateField Damage MDR_MOD [MDR] VB #</Process><Process Name="Calculate Field MDR_MOD=0" ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20180717" Time="151602">CalculateField Damage MDR_MOD 0 VB #</Process><Process Name="Calculate Field PF=0" ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20180717" Time="151602">CalculateField Damage PF 0 VB #</Process><Process Name="Calculate Field PH=0" ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20180717" Time="151602">CalculateField Damage PH 0 VB #</Process><Process Name="Calculate Field INJURED=0" ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20180717" Time="151602">CalculateField Damage Injured 0 VB #</Process><Process Name="Add Field" ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\AddField" Date="20180717" Time="151602">AddField Damage BARMAN TEXT # # 9 # NULLABLE NON_REQUIRED #</Process><Process Name="Add Field (2)" ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\AddField" Date="20180717" Time="151603">AddField Damage MDR_TIPO TEXT # # 10 # NULLABLE NON_REQUIRED #</Process><Process Name="Calculate Field (3)" ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20180717" Time="151604">CalculateField Damage MDR_TIPO "1-NINGUNO" VB #</Process><Process Name="Calculate Field (4)" ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20180717" Time="151608">CalculateField Damage MDR_TIPO "2-LEVE" VB #</Process><Process Name="Calculate Field (5)" ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20180717" Time="151610">CalculateField Damage MDR_TIPO "3-MODERADO" VB #</Process><Process Name="Calculate Field (6)" ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20180717" Time="151611">CalculateField Damage MDR_TIPO "4-FUERTE" VB #</Process><Process Name="Calculate Field (7)" ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20180717" Time="151612">CalculateField Damage MDR_TIPO "5-SEVERO" VB #</Process><Process Name="Add Field (4)" ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\AddField" Date="20180717" Time="151612">AddField Damage LOC TEXT # # 2 # NULLABLE NON_REQUIRED #</Process><Process Name="Add Field (5)" ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\AddField" Date="20180717" Time="151613">AddField Damage UPLA TEXT # # 3 # NULLABLE NON_REQUIRED #</Process><Process Name="Add Field (6)" ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\AddField" Date="20180717" Time="151613">AddField Damage NUM_UPLA TEXT # # 3 # NULLABLE NON_REQUIRED #</Process><Process Name="Add Field (8)" ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\AddField" Date="20180717" Time="151613">AddField Damage SECTOR_CAT TEXT # # 60 # NULLABLE NON_REQUIRED #</Process><Process Name="Add Field (7)" ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\AddField" Date="20180717" Time="151614">AddField Damage UPLA_ TEXT # # 6 # NULLABLE NON_REQUIRED #</Process><Process Name="Add Field (9)" ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\AddField" Date="20180717" Time="151614">AddField Damage TOT_CONST LONG # # # # NULLABLE NON_REQUIRED #</Process><Process Name="Add Field (10)" ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\AddField" Date="20180717" Time="151614">AddField Damage A_CONS_USO DOUBLE # # # # NULLABLE NON_REQUIRED #</Process><Process Name="Add Field (11)" ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\AddField" Date="20180717" Time="151615">AddField Damage VAL_CONST DOUBLE # # # # NULLABLE NON_REQUIRED #</Process><Process Name="Add Field (12)" ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\AddField" Date="20180717" Time="151615">AddField Damage POB_2017 LONG # # # # NULLABLE NON_REQUIRED #</Process><Process Name="Add Field (3)" ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\AddField" Date="20180717" Time="151615">AddField Damage TOT_PREDIO LONG # # # # NULLABLE NON_REQUIRED #</Process><Process Name="Add Field (13)" ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\AddField" Date="20180717" Time="151616">AddField Damage TOT_LOTES LONG # # # # NULLABLE NON_REQUIRED #</Process><Process Name="Calculate Field (12)" ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20180717" Time="151721">CalculateField Damage Damage.UPLA_ "[UPLA] &amp; [NUM_UPLA]" VB #</Process><Process Name="Add Field (4)" ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\AddField" Date="20180717" Time="151839">AddField Damage UNION5 TEXT # # 20 # NULLABLE NON_REQUIRED #</Process><Process Name="Calculate Field (4)" ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20180717" Time="151845">CalculateField Damage UNION5 " [LOC] &amp; "-" &amp; [MDR_TIPO] " VB #</Process><Process Name="Delete Field (4)" ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\DeleteField" Date="20180717" Time="151850">DeleteField Damage UNION5</Process><Process Name="Add Field (3)" ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\AddField" Date="20180717" Time="151851">AddField Damage UNION3 TEXT # # 20 # NULLABLE NON_REQUIRED #</Process><Process Name="Calculate Field (3)" ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20180717" Time="151852">CalculateField Damage UNION3 "[MDR_TIPO] &amp; "-" &amp; [LOC] " VB #</Process><Process Name="Delete Field (3)" ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\DeleteField" Date="20180717" Time="151853">DeleteField Damage UNION3</Process><Process Name="Add Field" ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\AddField" Date="20180717" Time="151853">AddField Damage UNION TEXT # # 20 # NULLABLE NON_REQUIRED #</Process><Process Name="Calculate Field" ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20180717" Time="151854">CalculateField Damage UNION "[MDR_TIPO] &amp; "-" &amp; [LOC] &amp; "-" &amp; [UPLA_]" VB #</Process><Process Name="Delete Field" ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\DeleteField" Date="20180717" Time="151855">DeleteField Damage UNION</Process><Process Name="Add Field (2)" ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\AddField" Date="20180717" Time="151856">AddField Damage UNION2 TEXT # # 255 # NULLABLE NON_REQUIRED #</Process><Process Name="Calculate Field (2)" ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20180717" Time="151857">CalculateField Damage UNION2 " [MDR_TIPO] &amp; "-" &amp; [LOC] &amp; "-" &amp; [UPLA_] &amp; "-" &amp; [SECTOR_CAT]" VB #</Process><Process Name="Delete Field (2)" ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\DeleteField" Date="20180717" Time="151858">DeleteField Damage UNION2</Process><Process Name="Add Field (5)" ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\AddField" Date="20180717" Time="151858">AddField Damage UNION8 TEXT # # 255 # NULLABLE NON_REQUIRED #</Process><Process Name="Calculate Field (5)" ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20180717" Time="151905">CalculateField Damage UNION8 "[LOC] &amp; "-" &amp; [UPLA_]" VB #</Process><Process Name="Delete Field (5)" ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\DeleteField" Date="20180717" Time="151910">DeleteField Damage UNION8</Process><Process Name="Add Field (6)" ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\AddField" Date="20180717" Time="151911">AddField Damage UNION20 TEXT # # 20 # NULLABLE NON_REQUIRED #</Process><Process Name="Calculate Field (6)" ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20180717" Time="151917">CalculateField Damage UNION20 "[MDR_TIPO] &amp; "-" &amp; [LOC] &amp; "-" &amp;  [UPLA_]" VB #</Process><Process Name="Delete Field (6)" ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\DeleteField" Date="20180717" Time="151923">DeleteField Damage UNION20</Process><Process ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20180717" Time="154332">CalculateField Damage MDR_TIPO "" VB #</Process><Process Name="Add Field (4)" ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\AddField" Date="20180717" Time="154552">AddField Damage UNION5 TEXT # # 20 # NULLABLE NON_REQUIRED #</Process><Process Name="Calculate Field (4)" ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20180717" Time="154559">CalculateField Damage UNION5 " [LOC] &amp; "-" &amp; [MDR_TIPO] " VB #</Process><Process Name="Delete Field (4)" ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\DeleteField" Date="20180717" Time="154604">DeleteField Damage UNION5</Process><Process Name="Add Field (3)" ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\AddField" Date="20180717" Time="154604">AddField Damage UNION3 TEXT # # 20 # NULLABLE NON_REQUIRED #</Process><Process Name="Calculate Field (3)" ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20180717" Time="154605">CalculateField Damage UNION3 "[MDR_TIPO] &amp; "-" &amp; [LOC] " VB #</Process><Process Name="Delete Field (3)" ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\DeleteField" Date="20180717" Time="154606">DeleteField Damage UNION3</Process><Process Name="Add Field" ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\AddField" Date="20180717" Time="154606">AddField Damage UNION TEXT # # 20 # NULLABLE NON_REQUIRED #</Process><Process Name="Calculate Field" ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20180717" Time="154607">CalculateField Damage UNION "[MDR_TIPO] &amp; "-" &amp; [LOC] &amp; "-" &amp; [UPLA_]" VB #</Process><Process Name="Delete Field" ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\DeleteField" Date="20180717" Time="154608">DeleteField Damage UNION</Process><Process Name="Add Field (2)" ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\AddField" Date="20180717" Time="154608">AddField Damage UNION2 TEXT # # 255 # NULLABLE NON_REQUIRED #</Process><Process Name="Calculate Field (2)" ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20180717" Time="154609">CalculateField Damage UNION2 " [MDR_TIPO] &amp; "-" &amp; [LOC] &amp; "-" &amp; [UPLA_] &amp; "-" &amp; [SECTOR_CAT]" VB #</Process><Process Name="Delete Field (2)" ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\DeleteField" Date="20180717" Time="154610">DeleteField Damage UNION2</Process><Process Name="Add Field (5)" ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\AddField" Date="20180717" Time="154611">AddField Damage UNION8 TEXT # # 255 # NULLABLE NON_REQUIRED #</Process><Process Name="Calculate Field (5)" ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20180717" Time="154617">CalculateField Damage UNION8 "[LOC] &amp; "-" &amp; [UPLA_]" VB #</Process><Process Name="Delete Field (5)" ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\DeleteField" Date="20180717" Time="154622">DeleteField Damage UNION8</Process><Process Name="Add Field (6)" ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\AddField" Date="20180717" Time="154622">AddField Damage UNION20 TEXT # # 20 # NULLABLE NON_REQUIRED #</Process><Process Name="Calculate Field (6)" ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20180717" Time="154629">CalculateField Damage UNION20 "[MDR_TIPO] &amp; "-" &amp; [LOC] &amp; "-" &amp;  [UPLA_]" VB #</Process><Process Name="Delete Field (6)" ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\DeleteField" Date="20180717" Time="154634">DeleteField Damage UNION20</Process><Process ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20180718" Time="095151">CalculateField Damage POB_2017 0 VB #</Process><Process ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20180718" Time="095154">CalculateField Damage TOT_PREDIO 0 VB #</Process><Process ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20180718" Time="095158">CalculateField Damage TOT_LOTES 0 VB #</Process><Process ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20180718" Time="095203">CalculateField Damage VAL_CONST 0 VB #</Process><Process ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20180718" Time="095206">CalculateField Damage A_CONS_USO 0 VB #</Process><Process ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20180718" Time="095210">CalculateField Damage TOT_CONST 0 VB #</Process><Process Name="Add Field (4)" ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\AddField" Date="20180718" Time="095303">AddField Damage UNION5 TEXT # # 20 # NULLABLE NON_REQUIRED #</Process><Process Name="Calculate Field (4)" ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20180718" Time="095310">CalculateField Damage UNION5 " [LOC] &amp; "-" &amp; [MDR_TIPO] " VB #</Process><Process Name="Delete Field (4)" ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\DeleteField" Date="20180718" Time="095315">DeleteField Damage UNION5</Process><Process Name="Add Field (3)" ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\AddField" Date="20180718" Time="095315">AddField Damage UNION3 TEXT # # 20 # NULLABLE NON_REQUIRED #</Process><Process Name="Calculate Field (3)" ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20180718" Time="095317">CalculateField Damage UNION3 "[MDR_TIPO] &amp; "-" &amp; [LOC] " VB #</Process><Process Name="Delete Field (3)" ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\DeleteField" Date="20180718" Time="095318">DeleteField Damage UNION3</Process><Process Name="Add Field" ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\AddField" Date="20180718" Time="095318">AddField Damage UNION TEXT # # 20 # NULLABLE NON_REQUIRED #</Process><Process Name="Calculate Field" ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20180718" Time="095320">CalculateField Damage UNION "[MDR_TIPO] &amp; "-" &amp; [LOC] &amp; "-" &amp; [UPLA_]" VB #</Process><Process Name="Delete Field" ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\DeleteField" Date="20180718" Time="095320">DeleteField Damage UNION</Process><Process Name="Add Field (2)" ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\AddField" Date="20180718" Time="095321">AddField Damage UNION2 TEXT # # 255 # NULLABLE NON_REQUIRED #</Process><Process Name="Calculate Field (2)" ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20180718" Time="095323">CalculateField Damage UNION2 " [MDR_TIPO] &amp; "-" &amp; [LOC] &amp; "-" &amp; [UPLA_] &amp; "-" &amp; [SECTOR_CAT]" VB #</Process><Process Name="Delete Field (2)" ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\DeleteField" Date="20180718" Time="095324">DeleteField Damage UNION2</Process><Process Name="Add Field (5)" ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\AddField" Date="20180718" Time="095324">AddField Damage UNION8 TEXT # # 255 # NULLABLE NON_REQUIRED #</Process><Process Name="Calculate Field (5)" ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20180718" Time="095331">CalculateField Damage UNION8 "[LOC] &amp; "-" &amp; [UPLA_]" VB #</Process><Process Name="Delete Field (5)" ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\DeleteField" Date="20180718" Time="095336">DeleteField Damage UNION8</Process><Process Name="Add Field (6)" ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\AddField" Date="20180718" Time="095336">AddField Damage UNION20 TEXT # # 20 # NULLABLE NON_REQUIRED #</Process><Process Name="Calculate Field (6)" ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20180718" Time="095343">CalculateField Damage UNION20 "[MDR_TIPO] &amp; "-" &amp; [LOC] &amp; "-" &amp;  [UPLA_]" VB #</Process><Process Name="Delete Field (6)" ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\DeleteField" Date="20180718" Time="095348">DeleteField Damage UNION20</Process><Process ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\DeleteField" Date="20180718" Time="103359">DeleteField Damage MDR_MOD;BARMAN;MDR_TIPO;LOC;UPLA;NUM_UPLA;SECTOR_CAT;UPLA_;TOT_CONST;A_CONS_USO;VAL_CONST;POB_2017;TOT_PREDIO;TOT_LOTES</Process><Process Name="Add Field MDR_MOD" ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\AddField" Date="20180718" Time="103802">AddField Damage MDR_MOD DOUBLE # # # # NULLABLE NON_REQUIRED #</Process><Process Name="Calculate MDR_MOD" ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20180718" Time="103809">CalculateField Damage MDR_MOD [MDR] VB #</Process><Process Name="Calculate Field MDR_MOD=0" ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20180718" Time="103810">CalculateField Damage MDR_MOD 0 VB #</Process><Process Name="Calculate Field PF=0" ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20180718" Time="103810">CalculateField Damage PF 0 VB #</Process><Process Name="Calculate Field PH=0" ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20180718" Time="103810">CalculateField Damage PH 0 VB #</Process><Process Name="Calculate Field INJURED=0" ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20180718" Time="103811">CalculateField Damage Injured 0 VB #</Process><Process Name="Add Field MDR_MOD" ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\AddField" Date="20180718" Time="103850">AddField Damage MDR_MOD DOUBLE # # # # NULLABLE NON_REQUIRED #</Process><Process Name="Calculate MDR_MOD" ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20180718" Time="103859">CalculateField Damage MDR_MOD [MDR] VB #</Process><Process Name="Calculate Field MDR_MOD=0" ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20180718" Time="103859">CalculateField Damage MDR_MOD 0 VB #</Process><Process Name="Calculate Field PF=0" ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20180718" Time="103859">CalculateField Damage PF 0 VB #</Process><Process Name="Calculate Field PH=0" ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20180718" Time="103900">CalculateField Damage PH 0 VB #</Process><Process Name="Calculate Field INJURED=0" ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20180718" Time="103900">CalculateField Damage Injured 0 VB #</Process><Process Name="Add Field MDR_MOD" ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\AddField" Date="20180718" Time="104229">AddField Damage MDR_MOD DOUBLE # # # # NULLABLE NON_REQUIRED #</Process><Process Name="Add Field" ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\AddField" Date="20180718" Time="104229">AddField Damage BARMAN TEXT # # 9 # NULLABLE NON_REQUIRED #</Process><Process Name="Add Field (2)" ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\AddField" Date="20180718" Time="104229">AddField Damage MDR_TIPO TEXT # # 10 # NULLABLE NON_REQUIRED #</Process><Process Name="Calculate MDR_MOD" ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20180718" Time="104236">CalculateField Damage MDR_MOD [MDR] VB #</Process><Process Name="Calculate Field MDR_MOD=0" ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20180718" Time="104237">CalculateField Damage MDR_MOD 0 VB #</Process><Process Name="Calculate Field PF=0" ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20180718" Time="104237">CalculateField Damage PF 0 VB #</Process><Process Name="Calculate Field PH=0" ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20180718" Time="104237">CalculateField Damage PH 0 VB #</Process><Process Name="Calculate Field INJURED=0" ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20180718" Time="104238">CalculateField Damage Injured 0 VB #</Process><Process Name="Calculate Field (18)" ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20180718" Time="104238">CalculateField Damage MDR_TIPO "" VB #</Process><Process Name="Add Field MDR_MOD" ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\AddField" Date="20180718" Time="111213">AddField Damage MDR_MOD DOUBLE # # # # NULLABLE NON_REQUIRED #</Process><Process Name="Add Field BARMAN" ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\AddField" Date="20180718" Time="111213">AddField Damage BARMAN TEXT # # 9 # NULLABLE NON_REQUIRED #</Process><Process Name="Add Field MDR_TIPO" ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\AddField" Date="20180718" Time="111213">AddField Damage MDR_TIPO TEXT # # 10 # NULLABLE NON_REQUIRED #</Process><Process Name="Calculate MDR_MOD" ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20180718" Time="111221">CalculateField Damage MDR_MOD [MDR] VB #</Process><Process Name="Calculate Field NINGUNO" ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20180718" Time="111225">CalculateField Damage MDR_TIPO "1-NINGUNO" VB #</Process><Process Name="Calculate Field (4)" ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20180718" Time="111231">CalculateField Damage MDR_TIPO "2-LEVE" VB #</Process><Process Name="Calculate Field (5)" ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20180718" Time="111237">CalculateField Damage MDR_TIPO "3-MODERADO" VB #</Process><Process Name="Calculate Field (6)" ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20180718" Time="111239">CalculateField Damage MDR_TIPO "4-FUERTE" VB #</Process><Process Name="Calculate Field SEVERO" ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20180718" Time="111240">CalculateField Damage MDR_TIPO "5-SEVERO" VB #</Process><Process Name="Add Field LOC" ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\AddField" Date="20180718" Time="111240">AddField Damage LOC TEXT # # 2 # NULLABLE NON_REQUIRED #</Process><Process Name="Add Field UPLA" ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\AddField" Date="20180718" Time="111240">AddField Damage UPLA TEXT # # 3 # NULLABLE NON_REQUIRED #</Process><Process Name="Add Field NUM_UPLA" ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\AddField" Date="20180718" Time="111241">AddField Damage NUM_UPLA TEXT # # 3 # NULLABLE NON_REQUIRED #</Process><Process Name="Add Field SEC_CAT" ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\AddField" Date="20180718" Time="111241">AddField Damage SECTOR_CAT TEXT # # 60 # NULLABLE NON_REQUIRED #</Process><Process Name="Add Field N_UPLA" ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\AddField" Date="20180718" Time="111241">AddField Damage UPLA_ TEXT # # 6 # NULLABLE NON_REQUIRED #</Process><Process Name="Add Field TOT_CONST" ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\AddField" Date="20180718" Time="111242">AddField Damage TOT_CONST LONG # # # # NULLABLE NON_REQUIRED #</Process><Process Name="Add Field A_CONST_USO" ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\AddField" Date="20180718" Time="111242">AddField Damage A_CONS_USO DOUBLE # # # # NULLABLE NON_REQUIRED #</Process><Process Name="Add Field VAL_CONST" ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\AddField" Date="20180718" Time="111242">AddField Damage VAL_CONST DOUBLE # # # # NULLABLE NON_REQUIRED #</Process><Process Name="Add Field POB_2017" ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\AddField" Date="20180718" Time="111243">AddField Damage POB_2017 LONG # # # # NULLABLE NON_REQUIRED #</Process><Process Name="Add Field TOT_PREDIO" ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\AddField" Date="20180718" Time="111243">AddField Damage TOT_PREDIO LONG # # # # NULLABLE NON_REQUIRED #</Process><Process Name="Add Field TOT_LOTES" ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\AddField" Date="20180718" Time="111243">AddField Damage TOT_LOTES LONG # # # # NULLABLE NON_REQUIRED #</Process><Process Name="Calculate Field (12)" ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20180718" Time="111407">CalculateField Damage Damage.UPLA_ "[UPLA] &amp; [NUM_UPLA]" VB #</Process><Process Name="Calculate Field MDR_MOD=0" ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20180718" Time="111408">CalculateField Damage MDR_MOD 0 VB #</Process><Process Name="Calculate Field PF=0" ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20180718" Time="111408">CalculateField Damage PF 0 VB #</Process><Process Name="Calculate Field PH=0" ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20180718" Time="111409">CalculateField Damage PH 0 VB #</Process><Process Name="Calculate Field INJURED=0" ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20180718" Time="111409">CalculateField Damage Injured 0 VB #</Process><Process Name="Calculate Field TOT_CONST=0" ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20180718" Time="111409">CalculateField Damage TOT_CONST 0 VB #</Process><Process Name="Calculate Field AREA_USO=0" ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20180718" Time="111409">CalculateField Damage A_CONS_USO 0 VB #</Process><Process Name="Calculate Field VAL_CONST=0" ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20180718" Time="111410">CalculateField Damage VAL_CONST 0 VB #</Process><Process Name="Calculate Field POB_2017=0" ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20180718" Time="111410">CalculateField Damage POB_2017 0 VB #</Process><Process Name="Add Field (4)" ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\AddField" Date="20180718" Time="111501">AddField Damage UNION5 TEXT # # 20 # NULLABLE NON_REQUIRED #</Process><Process Name="Calculate Field (4)" ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20180718" Time="111508">CalculateField Damage UNION5 " [LOC] &amp; "-" &amp; [MDR_TIPO] " VB #</Process><Process Name="Delete Field (4)" ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\DeleteField" Date="20180718" Time="111513">DeleteField Damage UNION5</Process><Process Name="Add Field (3)" ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\AddField" Date="20180718" Time="111513">AddField Damage UNION3 TEXT # # 20 # NULLABLE NON_REQUIRED #</Process><Process Name="Calculate Field (3)" ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20180718" Time="111515">CalculateField Damage UNION3 "[MDR_TIPO] &amp; "-" &amp; [LOC] " VB #</Process><Process Name="Delete Field (3)" ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\DeleteField" Date="20180718" Time="111516">DeleteField Damage UNION3</Process><Process Name="Add Field" ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\AddField" Date="20180718" Time="111516">AddField Damage UNION TEXT # # 20 # NULLABLE NON_REQUIRED #</Process><Process Name="Calculate Field" ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20180718" Time="111518">CalculateField Damage UNION "[MDR_TIPO] &amp; "-" &amp; [LOC] &amp; "-" &amp; [UPLA_]" VB #</Process><Process Name="Delete Field" ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\DeleteField" Date="20180718" Time="111518">DeleteField Damage UNION</Process><Process Name="Add Field (2)" ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\AddField" Date="20180718" Time="111519">AddField Damage UNION2 TEXT # # 255 # NULLABLE NON_REQUIRED #</Process><Process Name="Calculate Field (2)" ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20180718" Time="111521">CalculateField Damage UNION2 " [MDR_TIPO] &amp; "-" &amp; [LOC] &amp; "-" &amp; [UPLA_] &amp; "-" &amp; [SECTOR_CAT]" VB #</Process><Process Name="Delete Field (2)" ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\DeleteField" Date="20180718" Time="111522">DeleteField Damage UNION2</Process><Process Name="Add Field (5)" ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\AddField" Date="20180718" Time="111522">AddField Damage UNION8 TEXT # # 255 # NULLABLE NON_REQUIRED #</Process><Process Name="Calculate Field (5)" ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20180718" Time="111529">CalculateField Damage UNION8 "[LOC] &amp; "-" &amp; [UPLA_]" VB #</Process><Process Name="Delete Field (5)" ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\DeleteField" Date="20180718" Time="111534">DeleteField Damage UNION8</Process><Process Name="Add Field (6)" ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\AddField" Date="20180718" Time="111534">AddField Damage UNION20 TEXT # # 20 # NULLABLE NON_REQUIRED #</Process><Process Name="Calculate Field (6)" ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20180718" Time="111541">CalculateField Damage UNION20 "[MDR_TIPO] &amp; "-" &amp; [LOC] &amp; "-" &amp;  [UPLA_]" VB #</Process><Process Name="Delete Field (6)" ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\DeleteField" Date="20180718" Time="111545">DeleteField Damage UNION20</Process><Process ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\DeleteField" Date="20180718" Time="112148">DeleteField Damage MDR_MOD;BARMAN;MDR_TIPO;LOC;UPLA;NUM_UPLA;SECTOR_CAT;UPLA_;TOT_CONST;A_CONS_USO;VAL_CONST;POB_2017;TOT_PREDIO;TOT_LOTES</Process><Process Name="Add Field MDR_MOD" ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\AddField" Date="20180718" Time="112219">AddField Damage MDR_MOD DOUBLE # # # # NULLABLE NON_REQUIRED #</Process><Process Name="Add Field BARMAN" ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\AddField" Date="20180718" Time="112219">AddField Damage BARMAN TEXT # # 9 # NULLABLE NON_REQUIRED #</Process><Process Name="Add Field MDR_TIPO" ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\AddField" Date="20180718" Time="112219">AddField Damage MDR_TIPO TEXT # # 10 # NULLABLE NON_REQUIRED #</Process><Process Name="Calculate MDR_MOD" ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20180718" Time="112226">CalculateField Damage MDR_MOD [MDR] VB #</Process><Process Name="Calculate Field NINGUNO" ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20180718" Time="112231">CalculateField Damage MDR_TIPO "1-NINGUNO" VB #</Process><Process Name="Calculate Field (4)" ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20180718" Time="112236">CalculateField Damage MDR_TIPO "2-LEVE" VB #</Process><Process Name="Calculate Field (5)" ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20180718" Time="112242">CalculateField Damage MDR_TIPO "3-MODERADO" VB #</Process><Process Name="Calculate Field (6)" ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20180718" Time="112244">CalculateField Damage MDR_TIPO "4-FUERTE" VB #</Process><Process Name="Calculate Field SEVERO" ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20180718" Time="112244">CalculateField Damage MDR_TIPO "5-SEVERO" VB #</Process><Process Name="Add Field LOC" ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\AddField" Date="20180718" Time="112244">AddField Damage LOC TEXT # # 2 # NULLABLE NON_REQUIRED #</Process><Process Name="Add Field UPLA" ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\AddField" Date="20180718" Time="112245">AddField Damage UPLA TEXT # # 3 # NULLABLE NON_REQUIRED #</Process><Process Name="Add Field NUM_UPLA" ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\AddField" Date="20180718" Time="112245">AddField Damage NUM_UPLA TEXT # # 3 # NULLABLE NON_REQUIRED #</Process><Process Name="Add Field SEC_CAT" ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\AddField" Date="20180718" Time="112245">AddField Damage SECTOR_CAT TEXT # # 60 # NULLABLE NON_REQUIRED #</Process><Process Name="Add Field N_UPLA" ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\AddField" Date="20180718" Time="112245">AddField Damage UPLA_ TEXT # # 6 # NULLABLE NON_REQUIRED #</Process><Process Name="Add Field TOT_CONST" ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\AddField" Date="20180718" Time="112246">AddField Damage TOT_CONST LONG # # # # NULLABLE NON_REQUIRED #</Process><Process Name="Add Field A_CONST_USO" ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\AddField" Date="20180718" Time="112246">AddField Damage A_CONS_USO DOUBLE # # # # NULLABLE NON_REQUIRED #</Process><Process Name="Add Field VAL_CONST" ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\AddField" Date="20180718" Time="112246">AddField Damage VAL_CONST DOUBLE # # # # NULLABLE NON_REQUIRED #</Process><Process Name="Add Field POB_2017" ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\AddField" Date="20180718" Time="112247">AddField Damage POB_2017 LONG # # # # NULLABLE NON_REQUIRED #</Process><Process Name="Add Field TOT_PREDIO" ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\AddField" Date="20180718" Time="112247">AddField Damage TOT_PREDIO LONG # # # # NULLABLE NON_REQUIRED #</Process><Process Name="Add Field TOT_LOTES" ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\AddField" Date="20180718" Time="112247">AddField Damage TOT_LOTES LONG # # # # NULLABLE NON_REQUIRED #</Process><Process Name="Calculate Field (12)" ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20180718" Time="112350">CalculateField Damage Damage.UPLA_ "[UPLA] &amp; [NUM_UPLA]" VB #</Process><Process Name="Calculate Field MDR_MOD=0" ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20180718" Time="112350">CalculateField Damage MDR_MOD 0 VB #</Process><Process Name="Calculate Field PF=0" ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20180718" Time="112350">CalculateField Damage PF 0 VB #</Process><Process Name="Calculate Field PH=0" ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20180718" Time="112351">CalculateField Damage PH 0 VB #</Process><Process Name="Calculate Field INJURED=0" ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20180718" Time="112351">CalculateField Damage Injured 0 VB #</Process><Process Name="Calculate Field TOT_CONST=0" ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20180718" Time="112351">CalculateField Damage TOT_CONST 0 VB #</Process><Process Name="Calculate Field AREA_USO=0" ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20180718" Time="112352">CalculateField Damage A_CONS_USO 0 VB #</Process><Process Name="Calculate Field VAL_CONST=0" ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20180718" Time="112352">CalculateField Damage VAL_CONST 0 VB #</Process><Process Name="Calculate Field POB_2017=0" ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20180718" Time="112352">CalculateField Damage POB_2017 0 VB #</Process><Process Name="Calculate Field MDR_TIPO=&quot;&quot;" ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20180718" Time="112353">CalculateField Damage MDR_TIPO "" VB #</Process><Process Name="Add Field (4)" ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\AddField" Date="20180718" Time="112501">AddField Damage UNION5 TEXT # # 20 # NULLABLE NON_REQUIRED #</Process><Process Name="Calculate Field (4)" ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20180718" Time="112508">CalculateField Damage UNION5 " [LOC] &amp; "-" &amp; [MDR_TIPO] " VB #</Process><Process Name="Delete Field (4)" ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\DeleteField" Date="20180718" Time="112513">DeleteField Damage UNION5</Process><Process Name="Add Field (3)" ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\AddField" Date="20180718" Time="112513">AddField Damage UNION3 TEXT # # 20 # NULLABLE NON_REQUIRED #</Process><Process Name="Calculate Field (3)" ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20180718" Time="112515">CalculateField Damage UNION3 "[MDR_TIPO] &amp; "-" &amp; [LOC] " VB #</Process><Process Name="Delete Field (3)" ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\DeleteField" Date="20180718" Time="112516">DeleteField Damage UNION3</Process><Process Name="Add Field" ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\AddField" Date="20180718" Time="112516">AddField Damage UNION TEXT # # 20 # NULLABLE NON_REQUIRED #</Process><Process Name="Calculate Field" ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20180718" Time="112518">CalculateField Damage UNION "[MDR_TIPO] &amp; "-" &amp; [LOC] &amp; "-" &amp; [UPLA_]" VB #</Process><Process Name="Delete Field" ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\DeleteField" Date="20180718" Time="112519">DeleteField Damage UNION</Process><Process Name="Add Field (2)" ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\AddField" Date="20180718" Time="112519">AddField Damage UNION2 TEXT # # 255 # NULLABLE NON_REQUIRED #</Process><Process Name="Calculate Field (2)" ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20180718" Time="112521">CalculateField Damage UNION2 " [MDR_TIPO] &amp; "-" &amp; [LOC] &amp; "-" &amp; [UPLA_] &amp; "-" &amp; [SECTOR_CAT]" VB #</Process><Process Name="Delete Field (2)" ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\DeleteField" Date="20180718" Time="112522">DeleteField Damage UNION2</Process><Process Name="Add Field (5)" ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\AddField" Date="20180718" Time="112522">AddField Damage UNION8 TEXT # # 255 # NULLABLE NON_REQUIRED #</Process><Process Name="Calculate Field (5)" ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20180718" Time="112529">CalculateField Damage UNION8 "[LOC] &amp; "-" &amp; [UPLA_]" VB #</Process><Process Name="Delete Field (5)" ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\DeleteField" Date="20180718" Time="112534">DeleteField Damage UNION8</Process><Process Name="Add Field (6)" ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\AddField" Date="20180718" Time="112534">AddField Damage UNION20 TEXT # # 20 # NULLABLE NON_REQUIRED #</Process><Process Name="Calculate Field (6)" ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20180718" Time="112541">CalculateField Damage UNION20 "[MDR_TIPO] &amp; "-" &amp; [LOC] &amp; "-" &amp;  [UPLA_]" VB #</Process><Process Name="Delete Field (6)" ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\DeleteField" Date="20180718" Time="112546">DeleteField Damage UNION20</Process><Process ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\DeleteField" Date="20180718" Time="141458">DeleteField Damage MDR_MOD;BARMAN;MDR_TIPO;LOC;UPLA;NUM_UPLA;SECTOR_CAT;UPLA_;TOT_CONST;A_CONS_USO;VAL_CONST;POB_2017;TOT_PREDIO;TOT_LOTES</Process><Process Name="Add Field MDR_MOD" ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\AddField" Date="20180718" Time="141509">AddField Damage MDR_MOD DOUBLE # # # # NULLABLE NON_REQUIRED #</Process><Process Name="Add Field BARMAN" ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\AddField" Date="20180718" Time="141509">AddField Damage BARMAN TEXT # # 9 # NULLABLE NON_REQUIRED #</Process><Process Name="Add Field MDR_TIPO" ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\AddField" Date="20180718" Time="141509">AddField Damage MDR_TIPO TEXT # # 10 # NULLABLE NON_REQUIRED #</Process><Process Name="Calculate MDR_MOD" ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20180718" Time="141516">CalculateField Damage MDR_MOD [MDR] VB #</Process><Process Name="Calculate Field NINGUNO" ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20180718" Time="141520">CalculateField Damage MDR_TIPO "1-NINGUNO" VB #</Process><Process Name="Calculate Field (4)" ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20180718" Time="141524">CalculateField Damage MDR_TIPO "2-LEVE" VB #</Process><Process Name="Calculate Field (5)" ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20180718" Time="141530">CalculateField Damage MDR_TIPO "3-MODERADO" VB #</Process><Process Name="Calculate Field (6)" ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20180718" Time="141532">CalculateField Damage MDR_TIPO "4-FUERTE" VB #</Process><Process Name="Calculate Field SEVERO" ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20180718" Time="141532">CalculateField Damage MDR_TIPO "5-SEVERO" VB #</Process><Process Name="Add Field LOC" ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\AddField" Date="20180718" Time="141533">AddField Damage LOC TEXT # # 2 # NULLABLE NON_REQUIRED #</Process><Process Name="Add Field UPLA" ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\AddField" Date="20180718" Time="141533">AddField Damage UPLA TEXT # # 3 # NULLABLE NON_REQUIRED #</Process><Process Name="Add Field NUM_UPLA" ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\AddField" Date="20180718" Time="141533">AddField Damage NUM_UPLA TEXT # # 3 # NULLABLE NON_REQUIRED #</Process><Process Name="Add Field SEC_CAT" ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\AddField" Date="20180718" Time="141534">AddField Damage SECTOR_CAT TEXT # # 60 # NULLABLE NON_REQUIRED #</Process><Process Name="Add Field N_UPLA" ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\AddField" Date="20180718" Time="141534">AddField Damage UPLA_ TEXT # # 6 # NULLABLE NON_REQUIRED #</Process><Process Name="Add Field TOT_CONST" ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\AddField" Date="20180718" Time="141534">AddField Damage TOT_CONST LONG # # # # NULLABLE NON_REQUIRED #</Process><Process Name="Add Field A_CONST_USO" ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\AddField" Date="20180718" Time="141535">AddField Damage A_CONS_USO DOUBLE # # # # NULLABLE NON_REQUIRED #</Process><Process Name="Add Field VAL_CONST" ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\AddField" Date="20180718" Time="141535">AddField Damage VAL_CONST DOUBLE # # # # NULLABLE NON_REQUIRED #</Process><Process Name="Add Field POB_2017" ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\AddField" Date="20180718" Time="141535">AddField Damage POB_2017 LONG # # # # NULLABLE NON_REQUIRED #</Process><Process Name="Add Field TOT_PREDIO" ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\AddField" Date="20180718" Time="141535">AddField Damage TOT_PREDIO LONG # # # # NULLABLE NON_REQUIRED #</Process><Process Name="Add Field TOT_LOTES" ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\AddField" Date="20180718" Time="141536">AddField Damage TOT_LOTES LONG # # # # NULLABLE NON_REQUIRED #</Process><Process Name="Calculate Field (12)" ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20180718" Time="141644">CalculateField Damage Damage.UPLA_ "[UPLA] &amp; [NUM_UPLA]" VB #</Process><Process Name="Calculate Field MDR_MOD=0" ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20180718" Time="141644">CalculateField Damage MDR_MOD 0 VB #</Process><Process Name="Calculate Field PF=0" ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20180718" Time="141645">CalculateField Damage PF 0 VB #</Process><Process Name="Calculate Field PH=0" ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20180718" Time="141645">CalculateField Damage PH 0 VB #</Process><Process Name="Calculate Field INJURED=0" ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20180718" Time="141646">CalculateField Damage Injured 0 VB #</Process><Process Name="Calculate Field TOT_CONST=0" ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20180718" Time="141646">CalculateField Damage TOT_CONST 0 VB #</Process><Process Name="Calculate Field AREA_USO=0" ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20180718" Time="141646">CalculateField Damage A_CONS_USO 0 VB #</Process><Process Name="Calculate Field VAL_CONST=0" ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20180718" Time="141647">CalculateField Damage VAL_CONST 0 VB #</Process><Process Name="Calculate Field POB_2017=0" ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20180718" Time="141647">CalculateField Damage POB_2017 0 VB #</Process><Process Name="Calculate Field MDR_TIPO=&quot;&quot;" ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20180718" Time="141647">CalculateField Damage MDR_TIPO "" VB #</Process><Process Name="Add Field (4)" ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\AddField" Date="20180718" Time="141750">AddField Damage UNION5 TEXT # # 20 # NULLABLE NON_REQUIRED #</Process><Process Name="Calculate Field (4)" ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20180718" Time="141759">CalculateField Damage UNION5 " [LOC] &amp; "-" &amp; [MDR_TIPO] " VB #</Process><Process Name="Delete Field (4)" ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\DeleteField" Date="20180718" Time="141804">DeleteField Damage UNION5</Process><Process Name="Add Field (3)" ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\AddField" Date="20180718" Time="141805">AddField Damage UNION3 TEXT # # 20 # NULLABLE NON_REQUIRED #</Process><Process Name="Calculate Field (3)" ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20180718" Time="141807">CalculateField Damage UNION3 "[MDR_TIPO] &amp; "-" &amp; [LOC] " VB #</Process><Process Name="Delete Field (3)" ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\DeleteField" Date="20180718" Time="141808">DeleteField Damage UNION3</Process><Process Name="Add Field" ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\AddField" Date="20180718" Time="141808">AddField Damage UNION TEXT # # 20 # NULLABLE NON_REQUIRED #</Process><Process Name="Calculate Field" ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20180718" Time="141810">CalculateField Damage UNION "[MDR_TIPO] &amp; "-" &amp; [LOC] &amp; "-" &amp; [UPLA_]" VB #</Process><Process Name="Delete Field" ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\DeleteField" Date="20180718" Time="141811">DeleteField Damage UNION</Process><Process Name="Add Field (2)" ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\AddField" Date="20180718" Time="141811">AddField Damage UNION2 TEXT # # 255 # NULLABLE NON_REQUIRED #</Process><Process Name="Calculate Field (2)" ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20180718" Time="141813">CalculateField Damage UNION2 " [MDR_TIPO] &amp; "-" &amp; [LOC] &amp; "-" &amp; [UPLA_] &amp; "-" &amp; [SECTOR_CAT]" VB #</Process><Process Name="Delete Field (2)" ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\DeleteField" Date="20180718" Time="141814">DeleteField Damage UNION2</Process><Process Name="Add Field (5)" ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\AddField" Date="20180718" Time="141815">AddField Damage UNION8 TEXT # # 255 # NULLABLE NON_REQUIRED #</Process><Process Name="Calculate Field (5)" ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20180718" Time="141824">CalculateField Damage UNION8 "[LOC] &amp; "-" &amp; [UPLA_]" VB #</Process><Process Name="Delete Field (5)" ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\DeleteField" Date="20180718" Time="141828">DeleteField Damage UNION8</Process><Process Name="Add Field (6)" ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\AddField" Date="20180718" Time="141829">AddField Damage UNION20 TEXT # # 20 # NULLABLE NON_REQUIRED #</Process><Process Name="Calculate Field (6)" ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20180718" Time="141837">CalculateField Damage UNION20 "[MDR_TIPO] &amp; "-" &amp; [LOC] &amp; "-" &amp;  [UPLA_]" VB #</Process><Process Name="Delete Field (6)" ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\DeleteField" Date="20180718" Time="141842">DeleteField Damage UNION20</Process><Process ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20180718" Time="151845">CalculateField "Relación media de daño" POB_ALBERG "[POB_2017]- [PH]- [Injured]" VB #</Process><Process ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20180719" Time="093319">CalculateField Damage UNION "[LOC] &amp; "-" &amp; [UPLA_]" VB #</Process><Process Name="Add Field POB_ALBERG" ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\AddField" Date="20180830" Time="112540">AddField Damage POB_ALBERG LONG # # # # NULLABLE NON_REQUIRED #</Process><Process Name="Calculate Field POB_ALBERG" ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20180830" Time="112541">CalculateField Damage POB_ALBERG "[POB_2017]- [PH]- [Injured]" VB #</Process><Process Name="Add Field POB_ALBERG" ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\AddField" Date="20180830" Time="112631">AddField Damage POB_ALBERG LONG # # # # NULLABLE NON_REQUIRED #</Process><Process Name="Calculate Field POB_ALBERG" ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20180830" Time="112633">CalculateField Damage POB_ALBERG "[POB_2017]- [PH]- [Injured]" VB #</Process><Process Name="Add Field UNION9" ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\AddField" Date="20180830" Time="112633">AddField Damage UNION9 TEXT # # 250 # NULLABLE NON_REQUIRED #</Process><Process Name="Calculate Field UNION9" ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20180830" Time="112635">CalculateField Damage UNION9 "[LOC] &amp; [UPLA_]" VB #</Process><Process Name="Delete Field UNION9" ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\DeleteField" Date="20180830" Time="112636">DeleteField Damage UNION9</Process><Process Name="Join Field" ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\JoinField" Date="20180914" Time="153730">JoinField Damage BARMAN dec176 BARMAN ESTRAT</Process><Process Name="Join Field" ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\JoinField" Date="20180917" Time="111046">JoinField Damage BARMAN C:\Users\jprieto\Documents\JULIO_PRIETO\SHAPES\ESTRATIFICACION\dec176.shp BARMAN ESTRAT</Process><Process Name="Add Field" ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\AddField" Date="20180917" Time="135557">AddField Damage ESTRATO TEXT # # 2 # NULLABLE NON_REQUIRED #</Process><Process Name="Add Field (4)" ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\AddField" Date="20181120" Time="144052">AddField Damage UNION5 TEXT # # 20 # NULLABLE NON_REQUIRED #</Process><Process Name="Calculate Field (4)" ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20181120" Time="144059">CalculateField Damage UNION5 " [LOC] &amp; "-" &amp; [MDR_TIPO] " VB #</Process><Process Name="Delete Field (4)" ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\DeleteField" Date="20181120" Time="144104">DeleteField Damage UNION5</Process><Process Name="Add Field (3)" ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\AddField" Date="20181120" Time="144104">AddField Damage UNION3 TEXT # # 20 # NULLABLE NON_REQUIRED #</Process><Process Name="Calculate Field (3)" ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20181120" Time="144105">CalculateField Damage UNION3 "[MDR_TIPO] &amp; "-" &amp; [LOC] " VB #</Process><Process Name="Delete Field (3)" ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\DeleteField" Date="20181120" Time="144106">DeleteField Damage UNION3</Process><Process Name="Add Field" ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\AddField" Date="20181120" Time="144106">AddField Damage UNION TEXT # # 20 # NULLABLE NON_REQUIRED #</Process><Process Name="Calculate Field" ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20181120" Time="144108">CalculateField Damage UNION "[MDR_TIPO] &amp; "-" &amp; [LOC] &amp; "-" &amp; [UPLA_]" VB #</Process><Process Name="Delete Field" ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\DeleteField" Date="20181120" Time="144108">DeleteField Damage UNION</Process><Process Name="Add Field (2)" ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\AddField" Date="20181120" Time="144109">AddField Damage UNION2 TEXT # # 255 # NULLABLE NON_REQUIRED #</Process><Process Name="Calculate Field (2)" ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20181120" Time="144110">CalculateField Damage UNION2 " [MDR_TIPO] &amp; "-" &amp; [LOC] &amp; "-" &amp; [UPLA_] &amp; "-" &amp; [SECTOR_CAT]" VB #</Process><Process Name="Delete Field (2)" ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\DeleteField" Date="20181120" Time="144111">DeleteField Damage UNION2</Process><Process Name="Add Field (5)" ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\AddField" Date="20181120" Time="144112">AddField Damage UNION8 TEXT # # 255 # NULLABLE NON_REQUIRED #</Process><Process Name="Calculate Field (5)" ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20181120" Time="144121">CalculateField Damage UNION8 "[LOC] &amp; "-" &amp; [UPLA_]" VB #</Process><Process Name="Delete Field (5)" ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\DeleteField" Date="20181120" Time="144126">DeleteField Damage UNION8</Process><Process Name="Add Field (6)" ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\AddField" Date="20181120" Time="144126">AddField Damage UNION20 TEXT # # 20 # NULLABLE NON_REQUIRED #</Process><Process Name="Calculate Field (6)" ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20181120" Time="144134">CalculateField Damage UNION20 "[MDR_TIPO] &amp; "-" &amp; [LOC] &amp; "-" &amp;  [UPLA_]" VB #</Process><Process Name="Delete Field (6)" ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\DeleteField" Date="20181120" Time="144139">DeleteField Damage UNION20</Process><Process Name="Add Field POB_ALBERG" ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\AddField" Date="20181120" Time="144203">AddField Damage POB_ALBERG LONG # # # # NULLABLE NON_REQUIRED #</Process><Process Name="Calculate Field POB_ALBERG" ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20181120" Time="144205">CalculateField Damage POB_ALBERG "[POB_2017]- [PH]- [Injured]" VB #</Process><Process Name="Add Field UNION9" ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\AddField" Date="20181120" Time="144205">AddField Damage UNION9 TEXT # # 250 # NULLABLE NON_REQUIRED #</Process><Process Name="Calculate Field UNION9" ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField" Date="20181120" Time="144207">CalculateField Damage UNION9 "[LOC] &amp; [UPLA_]" VB #</Process><Process Name="Delete Field UNION9" ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\DeleteField" Date="20181120" Time="144208">DeleteField Damage UNION9</Process><Process Name="Add Field" ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\AddField" Date="20181120" Time="144211">AddField Damage ESTRATO TEXT # # 2 # NULLABLE NON_REQUIRED #</Process></lineage></DataProperties></Esri></metadata>
+<metadata xml:lang="es">
+    <Esri>
+        <CreaDate>20180717</CreaDate>
+        <CreaTime>14001100</CreaTime>
+        <ArcGISFormat>1.0</ArcGISFormat>
+        <SyncOnce>TRUE</SyncOnce>
+        <DataProperties>
+            <lineage>
+                <Process Name="Add Field MDR_MOD"
+                         ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\AddField"
+                         Date="20180717" Time="140011">AddField Damage MDR_MOD DOUBLE # # # # NULLABLE NON_REQUIRED #
+                </Process>
+                <Process Name="Calculate MDR_MOD"
+                         ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField"
+                         Date="20180717" Time="140018">CalculateField Damage MDR_MOD [MDR] VB #
+                </Process>
+                <Process Name="Add Field"
+                         ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\AddField"
+                         Date="20180717" Time="140018">AddField Damage BARMAN TEXT # # 9 # NULLABLE NON_REQUIRED #
+                </Process>
+                <Process Name="Add Field (2)"
+                         ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\AddField"
+                         Date="20180717" Time="140018">AddField Damage MDR_TIPO TEXT # # 10 # NULLABLE NON_REQUIRED #
+                </Process>
+                <Process Name="Calculate Field (3)"
+                         ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField"
+                         Date="20180717" Time="140020">CalculateField Damage MDR_TIPO "1-NINGUNO" VB #
+                </Process>
+                <Process Name="Calculate Field (4)"
+                         ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField"
+                         Date="20180717" Time="140023">CalculateField Damage MDR_TIPO "2-LEVE" VB #
+                </Process>
+                <Process Name="Calculate Field (5)"
+                         ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField"
+                         Date="20180717" Time="140027">CalculateField Damage MDR_TIPO "3-MODERADO" VB #
+                </Process>
+                <Process Name="Calculate Field (6)"
+                         ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField"
+                         Date="20180717" Time="140027">CalculateField Damage MDR_TIPO "4-FUERTE" VB #
+                </Process>
+                <Process Name="Calculate Field (7)"
+                         ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField"
+                         Date="20180717" Time="140028">CalculateField Damage MDR_TIPO "5-SEVERO" VB #
+                </Process>
+                <Process Name="Add Field (4)"
+                         ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\AddField"
+                         Date="20180717" Time="140028">AddField Damage LOC TEXT # # 2 # NULLABLE NON_REQUIRED #
+                </Process>
+                <Process Name="Add Field (5)"
+                         ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\AddField"
+                         Date="20180717" Time="140029">AddField Damage UPLA TEXT # # 3 # NULLABLE NON_REQUIRED #
+                </Process>
+                <Process Name="Add Field (6)"
+                         ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\AddField"
+                         Date="20180717" Time="140029">AddField Damage NUM_UPLA TEXT # # 3 # NULLABLE NON_REQUIRED #
+                </Process>
+                <Process Name="Add Field (8)"
+                         ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\AddField"
+                         Date="20180717" Time="140029">AddField Damage SECTOR_CAT TEXT # # 60 # NULLABLE NON_REQUIRED #
+                </Process>
+                <Process Name="Add Field (7)"
+                         ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\AddField"
+                         Date="20180717" Time="140030">AddField Damage UPLA_ TEXT # # 6 # NULLABLE NON_REQUIRED #
+                </Process>
+                <Process Name="Add Field (9)"
+                         ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\AddField"
+                         Date="20180717" Time="140030">AddField Damage TOT_CONST LONG # # # # NULLABLE NON_REQUIRED #
+                </Process>
+                <Process Name="Add Field (10)"
+                         ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\AddField"
+                         Date="20180717" Time="140030">AddField Damage A_CONS_USO DOUBLE # # # # NULLABLE NON_REQUIRED #
+                </Process>
+                <Process Name="Add Field (11)"
+                         ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\AddField"
+                         Date="20180717" Time="140031">AddField Damage VAL_CONST DOUBLE # # # # NULLABLE NON_REQUIRED #
+                </Process>
+                <Process Name="Add Field (12)"
+                         ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\AddField"
+                         Date="20180717" Time="140031">AddField Damage POB_2017 LONG # # # # NULLABLE NON_REQUIRED #
+                </Process>
+                <Process Name="Add Field (3)"
+                         ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\AddField"
+                         Date="20180717" Time="140031">AddField Damage TOT_PREDIO LONG # # # # NULLABLE NON_REQUIRED #
+                </Process>
+                <Process Name="Add Field (13)"
+                         ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\AddField"
+                         Date="20180717" Time="140031">AddField Damage TOT_LOTES LONG # # # # NULLABLE NON_REQUIRED #
+                </Process>
+                <Process Name="Calculate Field (12)"
+                         ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField"
+                         Date="20180717" Time="140148">CalculateField Damage Damage.UPLA_ "[UPLA] &amp; [NUM_UPLA]" VB #
+                </Process>
+                <Process
+                        ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField"
+                        Date="20180717" Time="141224">CalculateField Damage SS [FID] VB #
+                </Process>
+                <Process
+                        ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\DeleteField"
+                        Date="20180717" Time="142043">DeleteField Damage
+                    MDR_MOD;BARMAN;MDR_TIPO;LOC;UPLA;NUM_UPLA;SECTOR_CAT;UPLA_;TOT_CONST;A_CONS_USO;VAL_CONST;POB_2017;TOT_PREDIO;TOT_LOTES;SS
+                </Process>
+                <Process Name="Add Field MDR_MOD"
+                         ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\AddField"
+                         Date="20180717" Time="151555">AddField Damage MDR_MOD DOUBLE # # # # NULLABLE NON_REQUIRED #
+                </Process>
+                <Process Name="Calculate MDR_MOD"
+                         ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField"
+                         Date="20180717" Time="151601">CalculateField Damage MDR_MOD [MDR] VB #
+                </Process>
+                <Process Name="Calculate Field MDR_MOD=0"
+                         ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField"
+                         Date="20180717" Time="151602">CalculateField Damage MDR_MOD 0 VB #
+                </Process>
+                <Process Name="Calculate Field PF=0"
+                         ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField"
+                         Date="20180717" Time="151602">CalculateField Damage PF 0 VB #
+                </Process>
+                <Process Name="Calculate Field PH=0"
+                         ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField"
+                         Date="20180717" Time="151602">CalculateField Damage PH 0 VB #
+                </Process>
+                <Process Name="Calculate Field INJURED=0"
+                         ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField"
+                         Date="20180717" Time="151602">CalculateField Damage Injured 0 VB #
+                </Process>
+                <Process Name="Add Field"
+                         ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\AddField"
+                         Date="20180717" Time="151602">AddField Damage BARMAN TEXT # # 9 # NULLABLE NON_REQUIRED #
+                </Process>
+                <Process Name="Add Field (2)"
+                         ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\AddField"
+                         Date="20180717" Time="151603">AddField Damage MDR_TIPO TEXT # # 10 # NULLABLE NON_REQUIRED #
+                </Process>
+                <Process Name="Calculate Field (3)"
+                         ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField"
+                         Date="20180717" Time="151604">CalculateField Damage MDR_TIPO "1-NINGUNO" VB #
+                </Process>
+                <Process Name="Calculate Field (4)"
+                         ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField"
+                         Date="20180717" Time="151608">CalculateField Damage MDR_TIPO "2-LEVE" VB #
+                </Process>
+                <Process Name="Calculate Field (5)"
+                         ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField"
+                         Date="20180717" Time="151610">CalculateField Damage MDR_TIPO "3-MODERADO" VB #
+                </Process>
+                <Process Name="Calculate Field (6)"
+                         ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField"
+                         Date="20180717" Time="151611">CalculateField Damage MDR_TIPO "4-FUERTE" VB #
+                </Process>
+                <Process Name="Calculate Field (7)"
+                         ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField"
+                         Date="20180717" Time="151612">CalculateField Damage MDR_TIPO "5-SEVERO" VB #
+                </Process>
+                <Process Name="Add Field (4)"
+                         ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\AddField"
+                         Date="20180717" Time="151612">AddField Damage LOC TEXT # # 2 # NULLABLE NON_REQUIRED #
+                </Process>
+                <Process Name="Add Field (5)"
+                         ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\AddField"
+                         Date="20180717" Time="151613">AddField Damage UPLA TEXT # # 3 # NULLABLE NON_REQUIRED #
+                </Process>
+                <Process Name="Add Field (6)"
+                         ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\AddField"
+                         Date="20180717" Time="151613">AddField Damage NUM_UPLA TEXT # # 3 # NULLABLE NON_REQUIRED #
+                </Process>
+                <Process Name="Add Field (8)"
+                         ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\AddField"
+                         Date="20180717" Time="151613">AddField Damage SECTOR_CAT TEXT # # 60 # NULLABLE NON_REQUIRED #
+                </Process>
+                <Process Name="Add Field (7)"
+                         ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\AddField"
+                         Date="20180717" Time="151614">AddField Damage UPLA_ TEXT # # 6 # NULLABLE NON_REQUIRED #
+                </Process>
+                <Process Name="Add Field (9)"
+                         ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\AddField"
+                         Date="20180717" Time="151614">AddField Damage TOT_CONST LONG # # # # NULLABLE NON_REQUIRED #
+                </Process>
+                <Process Name="Add Field (10)"
+                         ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\AddField"
+                         Date="20180717" Time="151614">AddField Damage A_CONS_USO DOUBLE # # # # NULLABLE NON_REQUIRED #
+                </Process>
+                <Process Name="Add Field (11)"
+                         ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\AddField"
+                         Date="20180717" Time="151615">AddField Damage VAL_CONST DOUBLE # # # # NULLABLE NON_REQUIRED #
+                </Process>
+                <Process Name="Add Field (12)"
+                         ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\AddField"
+                         Date="20180717" Time="151615">AddField Damage POB_2017 LONG # # # # NULLABLE NON_REQUIRED #
+                </Process>
+                <Process Name="Add Field (3)"
+                         ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\AddField"
+                         Date="20180717" Time="151615">AddField Damage TOT_PREDIO LONG # # # # NULLABLE NON_REQUIRED #
+                </Process>
+                <Process Name="Add Field (13)"
+                         ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\AddField"
+                         Date="20180717" Time="151616">AddField Damage TOT_LOTES LONG # # # # NULLABLE NON_REQUIRED #
+                </Process>
+                <Process Name="Calculate Field (12)"
+                         ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField"
+                         Date="20180717" Time="151721">CalculateField Damage Damage.UPLA_ "[UPLA] &amp; [NUM_UPLA]" VB #
+                </Process>
+                <Process Name="Add Field (4)"
+                         ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\AddField"
+                         Date="20180717" Time="151839">AddField Damage UNION5 TEXT # # 20 # NULLABLE NON_REQUIRED #
+                </Process>
+                <Process Name="Calculate Field (4)"
+                         ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField"
+                         Date="20180717" Time="151845">CalculateField Damage UNION5 " [LOC] &amp; "-" &amp; [MDR_TIPO] "
+                    VB #
+                </Process>
+                <Process Name="Delete Field (4)"
+                         ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\DeleteField"
+                         Date="20180717" Time="151850">DeleteField Damage UNION5
+                </Process>
+                <Process Name="Add Field (3)"
+                         ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\AddField"
+                         Date="20180717" Time="151851">AddField Damage UNION3 TEXT # # 20 # NULLABLE NON_REQUIRED #
+                </Process>
+                <Process Name="Calculate Field (3)"
+                         ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField"
+                         Date="20180717" Time="151852">CalculateField Damage UNION3 "[MDR_TIPO] &amp; "-" &amp; [LOC] "
+                    VB #
+                </Process>
+                <Process Name="Delete Field (3)"
+                         ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\DeleteField"
+                         Date="20180717" Time="151853">DeleteField Damage UNION3
+                </Process>
+                <Process Name="Add Field"
+                         ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\AddField"
+                         Date="20180717" Time="151853">AddField Damage UNION TEXT # # 20 # NULLABLE NON_REQUIRED #
+                </Process>
+                <Process Name="Calculate Field"
+                         ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField"
+                         Date="20180717" Time="151854">CalculateField Damage UNION "[MDR_TIPO] &amp; "-" &amp; [LOC]
+                    &amp; "-" &amp; [UPLA_]" VB #
+                </Process>
+                <Process Name="Delete Field"
+                         ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\DeleteField"
+                         Date="20180717" Time="151855">DeleteField Damage UNION
+                </Process>
+                <Process Name="Add Field (2)"
+                         ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\AddField"
+                         Date="20180717" Time="151856">AddField Damage UNION2 TEXT # # 255 # NULLABLE NON_REQUIRED #
+                </Process>
+                <Process Name="Calculate Field (2)"
+                         ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField"
+                         Date="20180717" Time="151857">CalculateField Damage UNION2 " [MDR_TIPO] &amp; "-" &amp; [LOC]
+                    &amp; "-" &amp; [UPLA_] &amp; "-" &amp; [SECTOR_CAT]" VB #
+                </Process>
+                <Process Name="Delete Field (2)"
+                         ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\DeleteField"
+                         Date="20180717" Time="151858">DeleteField Damage UNION2
+                </Process>
+                <Process Name="Add Field (5)"
+                         ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\AddField"
+                         Date="20180717" Time="151858">AddField Damage UNION8 TEXT # # 255 # NULLABLE NON_REQUIRED #
+                </Process>
+                <Process Name="Calculate Field (5)"
+                         ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField"
+                         Date="20180717" Time="151905">CalculateField Damage UNION8 "[LOC] &amp; "-" &amp; [UPLA_]" VB #
+                </Process>
+                <Process Name="Delete Field (5)"
+                         ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\DeleteField"
+                         Date="20180717" Time="151910">DeleteField Damage UNION8
+                </Process>
+                <Process Name="Add Field (6)"
+                         ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\AddField"
+                         Date="20180717" Time="151911">AddField Damage UNION20 TEXT # # 20 # NULLABLE NON_REQUIRED #
+                </Process>
+                <Process Name="Calculate Field (6)"
+                         ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField"
+                         Date="20180717" Time="151917">CalculateField Damage UNION20 "[MDR_TIPO] &amp; "-" &amp; [LOC]
+                    &amp; "-" &amp; [UPLA_]" VB #
+                </Process>
+                <Process Name="Delete Field (6)"
+                         ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\DeleteField"
+                         Date="20180717" Time="151923">DeleteField Damage UNION20
+                </Process>
+                <Process
+                        ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField"
+                        Date="20180717" Time="154332">CalculateField Damage MDR_TIPO "" VB #
+                </Process>
+                <Process Name="Add Field (4)"
+                         ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\AddField"
+                         Date="20180717" Time="154552">AddField Damage UNION5 TEXT # # 20 # NULLABLE NON_REQUIRED #
+                </Process>
+                <Process Name="Calculate Field (4)"
+                         ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField"
+                         Date="20180717" Time="154559">CalculateField Damage UNION5 " [LOC] &amp; "-" &amp; [MDR_TIPO] "
+                    VB #
+                </Process>
+                <Process Name="Delete Field (4)"
+                         ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\DeleteField"
+                         Date="20180717" Time="154604">DeleteField Damage UNION5
+                </Process>
+                <Process Name="Add Field (3)"
+                         ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\AddField"
+                         Date="20180717" Time="154604">AddField Damage UNION3 TEXT # # 20 # NULLABLE NON_REQUIRED #
+                </Process>
+                <Process Name="Calculate Field (3)"
+                         ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField"
+                         Date="20180717" Time="154605">CalculateField Damage UNION3 "[MDR_TIPO] &amp; "-" &amp; [LOC] "
+                    VB #
+                </Process>
+                <Process Name="Delete Field (3)"
+                         ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\DeleteField"
+                         Date="20180717" Time="154606">DeleteField Damage UNION3
+                </Process>
+                <Process Name="Add Field"
+                         ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\AddField"
+                         Date="20180717" Time="154606">AddField Damage UNION TEXT # # 20 # NULLABLE NON_REQUIRED #
+                </Process>
+                <Process Name="Calculate Field"
+                         ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField"
+                         Date="20180717" Time="154607">CalculateField Damage UNION "[MDR_TIPO] &amp; "-" &amp; [LOC]
+                    &amp; "-" &amp; [UPLA_]" VB #
+                </Process>
+                <Process Name="Delete Field"
+                         ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\DeleteField"
+                         Date="20180717" Time="154608">DeleteField Damage UNION
+                </Process>
+                <Process Name="Add Field (2)"
+                         ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\AddField"
+                         Date="20180717" Time="154608">AddField Damage UNION2 TEXT # # 255 # NULLABLE NON_REQUIRED #
+                </Process>
+                <Process Name="Calculate Field (2)"
+                         ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField"
+                         Date="20180717" Time="154609">CalculateField Damage UNION2 " [MDR_TIPO] &amp; "-" &amp; [LOC]
+                    &amp; "-" &amp; [UPLA_] &amp; "-" &amp; [SECTOR_CAT]" VB #
+                </Process>
+                <Process Name="Delete Field (2)"
+                         ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\DeleteField"
+                         Date="20180717" Time="154610">DeleteField Damage UNION2
+                </Process>
+                <Process Name="Add Field (5)"
+                         ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\AddField"
+                         Date="20180717" Time="154611">AddField Damage UNION8 TEXT # # 255 # NULLABLE NON_REQUIRED #
+                </Process>
+                <Process Name="Calculate Field (5)"
+                         ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField"
+                         Date="20180717" Time="154617">CalculateField Damage UNION8 "[LOC] &amp; "-" &amp; [UPLA_]" VB #
+                </Process>
+                <Process Name="Delete Field (5)"
+                         ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\DeleteField"
+                         Date="20180717" Time="154622">DeleteField Damage UNION8
+                </Process>
+                <Process Name="Add Field (6)"
+                         ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\AddField"
+                         Date="20180717" Time="154622">AddField Damage UNION20 TEXT # # 20 # NULLABLE NON_REQUIRED #
+                </Process>
+                <Process Name="Calculate Field (6)"
+                         ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField"
+                         Date="20180717" Time="154629">CalculateField Damage UNION20 "[MDR_TIPO] &amp; "-" &amp; [LOC]
+                    &amp; "-" &amp; [UPLA_]" VB #
+                </Process>
+                <Process Name="Delete Field (6)"
+                         ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\DeleteField"
+                         Date="20180717" Time="154634">DeleteField Damage UNION20
+                </Process>
+                <Process
+                        ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField"
+                        Date="20180718" Time="095151">CalculateField Damage POB_2017 0 VB #
+                </Process>
+                <Process
+                        ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField"
+                        Date="20180718" Time="095154">CalculateField Damage TOT_PREDIO 0 VB #
+                </Process>
+                <Process
+                        ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField"
+                        Date="20180718" Time="095158">CalculateField Damage TOT_LOTES 0 VB #
+                </Process>
+                <Process
+                        ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField"
+                        Date="20180718" Time="095203">CalculateField Damage VAL_CONST 0 VB #
+                </Process>
+                <Process
+                        ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField"
+                        Date="20180718" Time="095206">CalculateField Damage A_CONS_USO 0 VB #
+                </Process>
+                <Process
+                        ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField"
+                        Date="20180718" Time="095210">CalculateField Damage TOT_CONST 0 VB #
+                </Process>
+                <Process Name="Add Field (4)"
+                         ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\AddField"
+                         Date="20180718" Time="095303">AddField Damage UNION5 TEXT # # 20 # NULLABLE NON_REQUIRED #
+                </Process>
+                <Process Name="Calculate Field (4)"
+                         ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField"
+                         Date="20180718" Time="095310">CalculateField Damage UNION5 " [LOC] &amp; "-" &amp; [MDR_TIPO] "
+                    VB #
+                </Process>
+                <Process Name="Delete Field (4)"
+                         ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\DeleteField"
+                         Date="20180718" Time="095315">DeleteField Damage UNION5
+                </Process>
+                <Process Name="Add Field (3)"
+                         ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\AddField"
+                         Date="20180718" Time="095315">AddField Damage UNION3 TEXT # # 20 # NULLABLE NON_REQUIRED #
+                </Process>
+                <Process Name="Calculate Field (3)"
+                         ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField"
+                         Date="20180718" Time="095317">CalculateField Damage UNION3 "[MDR_TIPO] &amp; "-" &amp; [LOC] "
+                    VB #
+                </Process>
+                <Process Name="Delete Field (3)"
+                         ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\DeleteField"
+                         Date="20180718" Time="095318">DeleteField Damage UNION3
+                </Process>
+                <Process Name="Add Field"
+                         ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\AddField"
+                         Date="20180718" Time="095318">AddField Damage UNION TEXT # # 20 # NULLABLE NON_REQUIRED #
+                </Process>
+                <Process Name="Calculate Field"
+                         ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField"
+                         Date="20180718" Time="095320">CalculateField Damage UNION "[MDR_TIPO] &amp; "-" &amp; [LOC]
+                    &amp; "-" &amp; [UPLA_]" VB #
+                </Process>
+                <Process Name="Delete Field"
+                         ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\DeleteField"
+                         Date="20180718" Time="095320">DeleteField Damage UNION
+                </Process>
+                <Process Name="Add Field (2)"
+                         ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\AddField"
+                         Date="20180718" Time="095321">AddField Damage UNION2 TEXT # # 255 # NULLABLE NON_REQUIRED #
+                </Process>
+                <Process Name="Calculate Field (2)"
+                         ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField"
+                         Date="20180718" Time="095323">CalculateField Damage UNION2 " [MDR_TIPO] &amp; "-" &amp; [LOC]
+                    &amp; "-" &amp; [UPLA_] &amp; "-" &amp; [SECTOR_CAT]" VB #
+                </Process>
+                <Process Name="Delete Field (2)"
+                         ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\DeleteField"
+                         Date="20180718" Time="095324">DeleteField Damage UNION2
+                </Process>
+                <Process Name="Add Field (5)"
+                         ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\AddField"
+                         Date="20180718" Time="095324">AddField Damage UNION8 TEXT # # 255 # NULLABLE NON_REQUIRED #
+                </Process>
+                <Process Name="Calculate Field (5)"
+                         ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField"
+                         Date="20180718" Time="095331">CalculateField Damage UNION8 "[LOC] &amp; "-" &amp; [UPLA_]" VB #
+                </Process>
+                <Process Name="Delete Field (5)"
+                         ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\DeleteField"
+                         Date="20180718" Time="095336">DeleteField Damage UNION8
+                </Process>
+                <Process Name="Add Field (6)"
+                         ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\AddField"
+                         Date="20180718" Time="095336">AddField Damage UNION20 TEXT # # 20 # NULLABLE NON_REQUIRED #
+                </Process>
+                <Process Name="Calculate Field (6)"
+                         ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField"
+                         Date="20180718" Time="095343">CalculateField Damage UNION20 "[MDR_TIPO] &amp; "-" &amp; [LOC]
+                    &amp; "-" &amp; [UPLA_]" VB #
+                </Process>
+                <Process Name="Delete Field (6)"
+                         ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\DeleteField"
+                         Date="20180718" Time="095348">DeleteField Damage UNION20
+                </Process>
+                <Process
+                        ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\DeleteField"
+                        Date="20180718" Time="103359">DeleteField Damage
+                    MDR_MOD;BARMAN;MDR_TIPO;LOC;UPLA;NUM_UPLA;SECTOR_CAT;UPLA_;TOT_CONST;A_CONS_USO;VAL_CONST;POB_2017;TOT_PREDIO;TOT_LOTES
+                </Process>
+                <Process Name="Add Field MDR_MOD"
+                         ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\AddField"
+                         Date="20180718" Time="103802">AddField Damage MDR_MOD DOUBLE # # # # NULLABLE NON_REQUIRED #
+                </Process>
+                <Process Name="Calculate MDR_MOD"
+                         ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField"
+                         Date="20180718" Time="103809">CalculateField Damage MDR_MOD [MDR] VB #
+                </Process>
+                <Process Name="Calculate Field MDR_MOD=0"
+                         ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField"
+                         Date="20180718" Time="103810">CalculateField Damage MDR_MOD 0 VB #
+                </Process>
+                <Process Name="Calculate Field PF=0"
+                         ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField"
+                         Date="20180718" Time="103810">CalculateField Damage PF 0 VB #
+                </Process>
+                <Process Name="Calculate Field PH=0"
+                         ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField"
+                         Date="20180718" Time="103810">CalculateField Damage PH 0 VB #
+                </Process>
+                <Process Name="Calculate Field INJURED=0"
+                         ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField"
+                         Date="20180718" Time="103811">CalculateField Damage Injured 0 VB #
+                </Process>
+                <Process Name="Add Field MDR_MOD"
+                         ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\AddField"
+                         Date="20180718" Time="103850">AddField Damage MDR_MOD DOUBLE # # # # NULLABLE NON_REQUIRED #
+                </Process>
+                <Process Name="Calculate MDR_MOD"
+                         ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField"
+                         Date="20180718" Time="103859">CalculateField Damage MDR_MOD [MDR] VB #
+                </Process>
+                <Process Name="Calculate Field MDR_MOD=0"
+                         ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField"
+                         Date="20180718" Time="103859">CalculateField Damage MDR_MOD 0 VB #
+                </Process>
+                <Process Name="Calculate Field PF=0"
+                         ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField"
+                         Date="20180718" Time="103859">CalculateField Damage PF 0 VB #
+                </Process>
+                <Process Name="Calculate Field PH=0"
+                         ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField"
+                         Date="20180718" Time="103900">CalculateField Damage PH 0 VB #
+                </Process>
+                <Process Name="Calculate Field INJURED=0"
+                         ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField"
+                         Date="20180718" Time="103900">CalculateField Damage Injured 0 VB #
+                </Process>
+                <Process Name="Add Field MDR_MOD"
+                         ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\AddField"
+                         Date="20180718" Time="104229">AddField Damage MDR_MOD DOUBLE # # # # NULLABLE NON_REQUIRED #
+                </Process>
+                <Process Name="Add Field"
+                         ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\AddField"
+                         Date="20180718" Time="104229">AddField Damage BARMAN TEXT # # 9 # NULLABLE NON_REQUIRED #
+                </Process>
+                <Process Name="Add Field (2)"
+                         ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\AddField"
+                         Date="20180718" Time="104229">AddField Damage MDR_TIPO TEXT # # 10 # NULLABLE NON_REQUIRED #
+                </Process>
+                <Process Name="Calculate MDR_MOD"
+                         ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField"
+                         Date="20180718" Time="104236">CalculateField Damage MDR_MOD [MDR] VB #
+                </Process>
+                <Process Name="Calculate Field MDR_MOD=0"
+                         ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField"
+                         Date="20180718" Time="104237">CalculateField Damage MDR_MOD 0 VB #
+                </Process>
+                <Process Name="Calculate Field PF=0"
+                         ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField"
+                         Date="20180718" Time="104237">CalculateField Damage PF 0 VB #
+                </Process>
+                <Process Name="Calculate Field PH=0"
+                         ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField"
+                         Date="20180718" Time="104237">CalculateField Damage PH 0 VB #
+                </Process>
+                <Process Name="Calculate Field INJURED=0"
+                         ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField"
+                         Date="20180718" Time="104238">CalculateField Damage Injured 0 VB #
+                </Process>
+                <Process Name="Calculate Field (18)"
+                         ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField"
+                         Date="20180718" Time="104238">CalculateField Damage MDR_TIPO "" VB #
+                </Process>
+                <Process Name="Add Field MDR_MOD"
+                         ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\AddField"
+                         Date="20180718" Time="111213">AddField Damage MDR_MOD DOUBLE # # # # NULLABLE NON_REQUIRED #
+                </Process>
+                <Process Name="Add Field BARMAN"
+                         ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\AddField"
+                         Date="20180718" Time="111213">AddField Damage BARMAN TEXT # # 9 # NULLABLE NON_REQUIRED #
+                </Process>
+                <Process Name="Add Field MDR_TIPO"
+                         ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\AddField"
+                         Date="20180718" Time="111213">AddField Damage MDR_TIPO TEXT # # 10 # NULLABLE NON_REQUIRED #
+                </Process>
+                <Process Name="Calculate MDR_MOD"
+                         ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField"
+                         Date="20180718" Time="111221">CalculateField Damage MDR_MOD [MDR] VB #
+                </Process>
+                <Process Name="Calculate Field NINGUNO"
+                         ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField"
+                         Date="20180718" Time="111225">CalculateField Damage MDR_TIPO "1-NINGUNO" VB #
+                </Process>
+                <Process Name="Calculate Field (4)"
+                         ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField"
+                         Date="20180718" Time="111231">CalculateField Damage MDR_TIPO "2-LEVE" VB #
+                </Process>
+                <Process Name="Calculate Field (5)"
+                         ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField"
+                         Date="20180718" Time="111237">CalculateField Damage MDR_TIPO "3-MODERADO" VB #
+                </Process>
+                <Process Name="Calculate Field (6)"
+                         ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField"
+                         Date="20180718" Time="111239">CalculateField Damage MDR_TIPO "4-FUERTE" VB #
+                </Process>
+                <Process Name="Calculate Field SEVERO"
+                         ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField"
+                         Date="20180718" Time="111240">CalculateField Damage MDR_TIPO "5-SEVERO" VB #
+                </Process>
+                <Process Name="Add Field LOC"
+                         ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\AddField"
+                         Date="20180718" Time="111240">AddField Damage LOC TEXT # # 2 # NULLABLE NON_REQUIRED #
+                </Process>
+                <Process Name="Add Field UPLA"
+                         ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\AddField"
+                         Date="20180718" Time="111240">AddField Damage UPLA TEXT # # 3 # NULLABLE NON_REQUIRED #
+                </Process>
+                <Process Name="Add Field NUM_UPLA"
+                         ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\AddField"
+                         Date="20180718" Time="111241">AddField Damage NUM_UPLA TEXT # # 3 # NULLABLE NON_REQUIRED #
+                </Process>
+                <Process Name="Add Field SEC_CAT"
+                         ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\AddField"
+                         Date="20180718" Time="111241">AddField Damage SECTOR_CAT TEXT # # 60 # NULLABLE NON_REQUIRED #
+                </Process>
+                <Process Name="Add Field N_UPLA"
+                         ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\AddField"
+                         Date="20180718" Time="111241">AddField Damage UPLA_ TEXT # # 6 # NULLABLE NON_REQUIRED #
+                </Process>
+                <Process Name="Add Field TOT_CONST"
+                         ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\AddField"
+                         Date="20180718" Time="111242">AddField Damage TOT_CONST LONG # # # # NULLABLE NON_REQUIRED #
+                </Process>
+                <Process Name="Add Field A_CONST_USO"
+                         ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\AddField"
+                         Date="20180718" Time="111242">AddField Damage A_CONS_USO DOUBLE # # # # NULLABLE NON_REQUIRED #
+                </Process>
+                <Process Name="Add Field VAL_CONST"
+                         ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\AddField"
+                         Date="20180718" Time="111242">AddField Damage VAL_CONST DOUBLE # # # # NULLABLE NON_REQUIRED #
+                </Process>
+                <Process Name="Add Field POB_2017"
+                         ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\AddField"
+                         Date="20180718" Time="111243">AddField Damage POB_2017 LONG # # # # NULLABLE NON_REQUIRED #
+                </Process>
+                <Process Name="Add Field TOT_PREDIO"
+                         ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\AddField"
+                         Date="20180718" Time="111243">AddField Damage TOT_PREDIO LONG # # # # NULLABLE NON_REQUIRED #
+                </Process>
+                <Process Name="Add Field TOT_LOTES"
+                         ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\AddField"
+                         Date="20180718" Time="111243">AddField Damage TOT_LOTES LONG # # # # NULLABLE NON_REQUIRED #
+                </Process>
+                <Process Name="Calculate Field (12)"
+                         ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField"
+                         Date="20180718" Time="111407">CalculateField Damage Damage.UPLA_ "[UPLA] &amp; [NUM_UPLA]" VB #
+                </Process>
+                <Process Name="Calculate Field MDR_MOD=0"
+                         ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField"
+                         Date="20180718" Time="111408">CalculateField Damage MDR_MOD 0 VB #
+                </Process>
+                <Process Name="Calculate Field PF=0"
+                         ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField"
+                         Date="20180718" Time="111408">CalculateField Damage PF 0 VB #
+                </Process>
+                <Process Name="Calculate Field PH=0"
+                         ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField"
+                         Date="20180718" Time="111409">CalculateField Damage PH 0 VB #
+                </Process>
+                <Process Name="Calculate Field INJURED=0"
+                         ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField"
+                         Date="20180718" Time="111409">CalculateField Damage Injured 0 VB #
+                </Process>
+                <Process Name="Calculate Field TOT_CONST=0"
+                         ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField"
+                         Date="20180718" Time="111409">CalculateField Damage TOT_CONST 0 VB #
+                </Process>
+                <Process Name="Calculate Field AREA_USO=0"
+                         ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField"
+                         Date="20180718" Time="111409">CalculateField Damage A_CONS_USO 0 VB #
+                </Process>
+                <Process Name="Calculate Field VAL_CONST=0"
+                         ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField"
+                         Date="20180718" Time="111410">CalculateField Damage VAL_CONST 0 VB #
+                </Process>
+                <Process Name="Calculate Field POB_2017=0"
+                         ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField"
+                         Date="20180718" Time="111410">CalculateField Damage POB_2017 0 VB #
+                </Process>
+                <Process Name="Add Field (4)"
+                         ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\AddField"
+                         Date="20180718" Time="111501">AddField Damage UNION5 TEXT # # 20 # NULLABLE NON_REQUIRED #
+                </Process>
+                <Process Name="Calculate Field (4)"
+                         ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField"
+                         Date="20180718" Time="111508">CalculateField Damage UNION5 " [LOC] &amp; "-" &amp; [MDR_TIPO] "
+                    VB #
+                </Process>
+                <Process Name="Delete Field (4)"
+                         ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\DeleteField"
+                         Date="20180718" Time="111513">DeleteField Damage UNION5
+                </Process>
+                <Process Name="Add Field (3)"
+                         ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\AddField"
+                         Date="20180718" Time="111513">AddField Damage UNION3 TEXT # # 20 # NULLABLE NON_REQUIRED #
+                </Process>
+                <Process Name="Calculate Field (3)"
+                         ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField"
+                         Date="20180718" Time="111515">CalculateField Damage UNION3 "[MDR_TIPO] &amp; "-" &amp; [LOC] "
+                    VB #
+                </Process>
+                <Process Name="Delete Field (3)"
+                         ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\DeleteField"
+                         Date="20180718" Time="111516">DeleteField Damage UNION3
+                </Process>
+                <Process Name="Add Field"
+                         ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\AddField"
+                         Date="20180718" Time="111516">AddField Damage UNION TEXT # # 20 # NULLABLE NON_REQUIRED #
+                </Process>
+                <Process Name="Calculate Field"
+                         ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField"
+                         Date="20180718" Time="111518">CalculateField Damage UNION "[MDR_TIPO] &amp; "-" &amp; [LOC]
+                    &amp; "-" &amp; [UPLA_]" VB #
+                </Process>
+                <Process Name="Delete Field"
+                         ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\DeleteField"
+                         Date="20180718" Time="111518">DeleteField Damage UNION
+                </Process>
+                <Process Name="Add Field (2)"
+                         ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\AddField"
+                         Date="20180718" Time="111519">AddField Damage UNION2 TEXT # # 255 # NULLABLE NON_REQUIRED #
+                </Process>
+                <Process Name="Calculate Field (2)"
+                         ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField"
+                         Date="20180718" Time="111521">CalculateField Damage UNION2 " [MDR_TIPO] &amp; "-" &amp; [LOC]
+                    &amp; "-" &amp; [UPLA_] &amp; "-" &amp; [SECTOR_CAT]" VB #
+                </Process>
+                <Process Name="Delete Field (2)"
+                         ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\DeleteField"
+                         Date="20180718" Time="111522">DeleteField Damage UNION2
+                </Process>
+                <Process Name="Add Field (5)"
+                         ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\AddField"
+                         Date="20180718" Time="111522">AddField Damage UNION8 TEXT # # 255 # NULLABLE NON_REQUIRED #
+                </Process>
+                <Process Name="Calculate Field (5)"
+                         ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField"
+                         Date="20180718" Time="111529">CalculateField Damage UNION8 "[LOC] &amp; "-" &amp; [UPLA_]" VB #
+                </Process>
+                <Process Name="Delete Field (5)"
+                         ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\DeleteField"
+                         Date="20180718" Time="111534">DeleteField Damage UNION8
+                </Process>
+                <Process Name="Add Field (6)"
+                         ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\AddField"
+                         Date="20180718" Time="111534">AddField Damage UNION20 TEXT # # 20 # NULLABLE NON_REQUIRED #
+                </Process>
+                <Process Name="Calculate Field (6)"
+                         ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField"
+                         Date="20180718" Time="111541">CalculateField Damage UNION20 "[MDR_TIPO] &amp; "-" &amp; [LOC]
+                    &amp; "-" &amp; [UPLA_]" VB #
+                </Process>
+                <Process Name="Delete Field (6)"
+                         ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\DeleteField"
+                         Date="20180718" Time="111545">DeleteField Damage UNION20
+                </Process>
+                <Process
+                        ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\DeleteField"
+                        Date="20180718" Time="112148">DeleteField Damage
+                    MDR_MOD;BARMAN;MDR_TIPO;LOC;UPLA;NUM_UPLA;SECTOR_CAT;UPLA_;TOT_CONST;A_CONS_USO;VAL_CONST;POB_2017;TOT_PREDIO;TOT_LOTES
+                </Process>
+                <Process Name="Add Field MDR_MOD"
+                         ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\AddField"
+                         Date="20180718" Time="112219">AddField Damage MDR_MOD DOUBLE # # # # NULLABLE NON_REQUIRED #
+                </Process>
+                <Process Name="Add Field BARMAN"
+                         ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\AddField"
+                         Date="20180718" Time="112219">AddField Damage BARMAN TEXT # # 9 # NULLABLE NON_REQUIRED #
+                </Process>
+                <Process Name="Add Field MDR_TIPO"
+                         ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\AddField"
+                         Date="20180718" Time="112219">AddField Damage MDR_TIPO TEXT # # 10 # NULLABLE NON_REQUIRED #
+                </Process>
+                <Process Name="Calculate MDR_MOD"
+                         ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField"
+                         Date="20180718" Time="112226">CalculateField Damage MDR_MOD [MDR] VB #
+                </Process>
+                <Process Name="Calculate Field NINGUNO"
+                         ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField"
+                         Date="20180718" Time="112231">CalculateField Damage MDR_TIPO "1-NINGUNO" VB #
+                </Process>
+                <Process Name="Calculate Field (4)"
+                         ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField"
+                         Date="20180718" Time="112236">CalculateField Damage MDR_TIPO "2-LEVE" VB #
+                </Process>
+                <Process Name="Calculate Field (5)"
+                         ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField"
+                         Date="20180718" Time="112242">CalculateField Damage MDR_TIPO "3-MODERADO" VB #
+                </Process>
+                <Process Name="Calculate Field (6)"
+                         ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField"
+                         Date="20180718" Time="112244">CalculateField Damage MDR_TIPO "4-FUERTE" VB #
+                </Process>
+                <Process Name="Calculate Field SEVERO"
+                         ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField"
+                         Date="20180718" Time="112244">CalculateField Damage MDR_TIPO "5-SEVERO" VB #
+                </Process>
+                <Process Name="Add Field LOC"
+                         ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\AddField"
+                         Date="20180718" Time="112244">AddField Damage LOC TEXT # # 2 # NULLABLE NON_REQUIRED #
+                </Process>
+                <Process Name="Add Field UPLA"
+                         ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\AddField"
+                         Date="20180718" Time="112245">AddField Damage UPLA TEXT # # 3 # NULLABLE NON_REQUIRED #
+                </Process>
+                <Process Name="Add Field NUM_UPLA"
+                         ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\AddField"
+                         Date="20180718" Time="112245">AddField Damage NUM_UPLA TEXT # # 3 # NULLABLE NON_REQUIRED #
+                </Process>
+                <Process Name="Add Field SEC_CAT"
+                         ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\AddField"
+                         Date="20180718" Time="112245">AddField Damage SECTOR_CAT TEXT # # 60 # NULLABLE NON_REQUIRED #
+                </Process>
+                <Process Name="Add Field N_UPLA"
+                         ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\AddField"
+                         Date="20180718" Time="112245">AddField Damage UPLA_ TEXT # # 6 # NULLABLE NON_REQUIRED #
+                </Process>
+                <Process Name="Add Field TOT_CONST"
+                         ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\AddField"
+                         Date="20180718" Time="112246">AddField Damage TOT_CONST LONG # # # # NULLABLE NON_REQUIRED #
+                </Process>
+                <Process Name="Add Field A_CONST_USO"
+                         ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\AddField"
+                         Date="20180718" Time="112246">AddField Damage A_CONS_USO DOUBLE # # # # NULLABLE NON_REQUIRED #
+                </Process>
+                <Process Name="Add Field VAL_CONST"
+                         ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\AddField"
+                         Date="20180718" Time="112246">AddField Damage VAL_CONST DOUBLE # # # # NULLABLE NON_REQUIRED #
+                </Process>
+                <Process Name="Add Field POB_2017"
+                         ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\AddField"
+                         Date="20180718" Time="112247">AddField Damage POB_2017 LONG # # # # NULLABLE NON_REQUIRED #
+                </Process>
+                <Process Name="Add Field TOT_PREDIO"
+                         ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\AddField"
+                         Date="20180718" Time="112247">AddField Damage TOT_PREDIO LONG # # # # NULLABLE NON_REQUIRED #
+                </Process>
+                <Process Name="Add Field TOT_LOTES"
+                         ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\AddField"
+                         Date="20180718" Time="112247">AddField Damage TOT_LOTES LONG # # # # NULLABLE NON_REQUIRED #
+                </Process>
+                <Process Name="Calculate Field (12)"
+                         ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField"
+                         Date="20180718" Time="112350">CalculateField Damage Damage.UPLA_ "[UPLA] &amp; [NUM_UPLA]" VB #
+                </Process>
+                <Process Name="Calculate Field MDR_MOD=0"
+                         ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField"
+                         Date="20180718" Time="112350">CalculateField Damage MDR_MOD 0 VB #
+                </Process>
+                <Process Name="Calculate Field PF=0"
+                         ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField"
+                         Date="20180718" Time="112350">CalculateField Damage PF 0 VB #
+                </Process>
+                <Process Name="Calculate Field PH=0"
+                         ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField"
+                         Date="20180718" Time="112351">CalculateField Damage PH 0 VB #
+                </Process>
+                <Process Name="Calculate Field INJURED=0"
+                         ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField"
+                         Date="20180718" Time="112351">CalculateField Damage Injured 0 VB #
+                </Process>
+                <Process Name="Calculate Field TOT_CONST=0"
+                         ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField"
+                         Date="20180718" Time="112351">CalculateField Damage TOT_CONST 0 VB #
+                </Process>
+                <Process Name="Calculate Field AREA_USO=0"
+                         ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField"
+                         Date="20180718" Time="112352">CalculateField Damage A_CONS_USO 0 VB #
+                </Process>
+                <Process Name="Calculate Field VAL_CONST=0"
+                         ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField"
+                         Date="20180718" Time="112352">CalculateField Damage VAL_CONST 0 VB #
+                </Process>
+                <Process Name="Calculate Field POB_2017=0"
+                         ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField"
+                         Date="20180718" Time="112352">CalculateField Damage POB_2017 0 VB #
+                </Process>
+                <Process Name="Calculate Field MDR_TIPO=&quot;&quot;"
+                         ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField"
+                         Date="20180718" Time="112353">CalculateField Damage MDR_TIPO "" VB #
+                </Process>
+                <Process Name="Add Field (4)"
+                         ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\AddField"
+                         Date="20180718" Time="112501">AddField Damage UNION5 TEXT # # 20 # NULLABLE NON_REQUIRED #
+                </Process>
+                <Process Name="Calculate Field (4)"
+                         ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField"
+                         Date="20180718" Time="112508">CalculateField Damage UNION5 " [LOC] &amp; "-" &amp; [MDR_TIPO] "
+                    VB #
+                </Process>
+                <Process Name="Delete Field (4)"
+                         ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\DeleteField"
+                         Date="20180718" Time="112513">DeleteField Damage UNION5
+                </Process>
+                <Process Name="Add Field (3)"
+                         ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\AddField"
+                         Date="20180718" Time="112513">AddField Damage UNION3 TEXT # # 20 # NULLABLE NON_REQUIRED #
+                </Process>
+                <Process Name="Calculate Field (3)"
+                         ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField"
+                         Date="20180718" Time="112515">CalculateField Damage UNION3 "[MDR_TIPO] &amp; "-" &amp; [LOC] "
+                    VB #
+                </Process>
+                <Process Name="Delete Field (3)"
+                         ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\DeleteField"
+                         Date="20180718" Time="112516">DeleteField Damage UNION3
+                </Process>
+                <Process Name="Add Field"
+                         ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\AddField"
+                         Date="20180718" Time="112516">AddField Damage UNION TEXT # # 20 # NULLABLE NON_REQUIRED #
+                </Process>
+                <Process Name="Calculate Field"
+                         ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField"
+                         Date="20180718" Time="112518">CalculateField Damage UNION "[MDR_TIPO] &amp; "-" &amp; [LOC]
+                    &amp; "-" &amp; [UPLA_]" VB #
+                </Process>
+                <Process Name="Delete Field"
+                         ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\DeleteField"
+                         Date="20180718" Time="112519">DeleteField Damage UNION
+                </Process>
+                <Process Name="Add Field (2)"
+                         ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\AddField"
+                         Date="20180718" Time="112519">AddField Damage UNION2 TEXT # # 255 # NULLABLE NON_REQUIRED #
+                </Process>
+                <Process Name="Calculate Field (2)"
+                         ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField"
+                         Date="20180718" Time="112521">CalculateField Damage UNION2 " [MDR_TIPO] &amp; "-" &amp; [LOC]
+                    &amp; "-" &amp; [UPLA_] &amp; "-" &amp; [SECTOR_CAT]" VB #
+                </Process>
+                <Process Name="Delete Field (2)"
+                         ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\DeleteField"
+                         Date="20180718" Time="112522">DeleteField Damage UNION2
+                </Process>
+                <Process Name="Add Field (5)"
+                         ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\AddField"
+                         Date="20180718" Time="112522">AddField Damage UNION8 TEXT # # 255 # NULLABLE NON_REQUIRED #
+                </Process>
+                <Process Name="Calculate Field (5)"
+                         ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField"
+                         Date="20180718" Time="112529">CalculateField Damage UNION8 "[LOC] &amp; "-" &amp; [UPLA_]" VB #
+                </Process>
+                <Process Name="Delete Field (5)"
+                         ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\DeleteField"
+                         Date="20180718" Time="112534">DeleteField Damage UNION8
+                </Process>
+                <Process Name="Add Field (6)"
+                         ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\AddField"
+                         Date="20180718" Time="112534">AddField Damage UNION20 TEXT # # 20 # NULLABLE NON_REQUIRED #
+                </Process>
+                <Process Name="Calculate Field (6)"
+                         ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField"
+                         Date="20180718" Time="112541">CalculateField Damage UNION20 "[MDR_TIPO] &amp; "-" &amp; [LOC]
+                    &amp; "-" &amp; [UPLA_]" VB #
+                </Process>
+                <Process Name="Delete Field (6)"
+                         ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\DeleteField"
+                         Date="20180718" Time="112546">DeleteField Damage UNION20
+                </Process>
+                <Process
+                        ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\DeleteField"
+                        Date="20180718" Time="141458">DeleteField Damage
+                    MDR_MOD;BARMAN;MDR_TIPO;LOC;UPLA;NUM_UPLA;SECTOR_CAT;UPLA_;TOT_CONST;A_CONS_USO;VAL_CONST;POB_2017;TOT_PREDIO;TOT_LOTES
+                </Process>
+                <Process Name="Add Field MDR_MOD"
+                         ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\AddField"
+                         Date="20180718" Time="141509">AddField Damage MDR_MOD DOUBLE # # # # NULLABLE NON_REQUIRED #
+                </Process>
+                <Process Name="Add Field BARMAN"
+                         ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\AddField"
+                         Date="20180718" Time="141509">AddField Damage BARMAN TEXT # # 9 # NULLABLE NON_REQUIRED #
+                </Process>
+                <Process Name="Add Field MDR_TIPO"
+                         ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\AddField"
+                         Date="20180718" Time="141509">AddField Damage MDR_TIPO TEXT # # 10 # NULLABLE NON_REQUIRED #
+                </Process>
+                <Process Name="Calculate MDR_MOD"
+                         ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField"
+                         Date="20180718" Time="141516">CalculateField Damage MDR_MOD [MDR] VB #
+                </Process>
+                <Process Name="Calculate Field NINGUNO"
+                         ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField"
+                         Date="20180718" Time="141520">CalculateField Damage MDR_TIPO "1-NINGUNO" VB #
+                </Process>
+                <Process Name="Calculate Field (4)"
+                         ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField"
+                         Date="20180718" Time="141524">CalculateField Damage MDR_TIPO "2-LEVE" VB #
+                </Process>
+                <Process Name="Calculate Field (5)"
+                         ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField"
+                         Date="20180718" Time="141530">CalculateField Damage MDR_TIPO "3-MODERADO" VB #
+                </Process>
+                <Process Name="Calculate Field (6)"
+                         ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField"
+                         Date="20180718" Time="141532">CalculateField Damage MDR_TIPO "4-FUERTE" VB #
+                </Process>
+                <Process Name="Calculate Field SEVERO"
+                         ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField"
+                         Date="20180718" Time="141532">CalculateField Damage MDR_TIPO "5-SEVERO" VB #
+                </Process>
+                <Process Name="Add Field LOC"
+                         ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\AddField"
+                         Date="20180718" Time="141533">AddField Damage LOC TEXT # # 2 # NULLABLE NON_REQUIRED #
+                </Process>
+                <Process Name="Add Field UPLA"
+                         ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\AddField"
+                         Date="20180718" Time="141533">AddField Damage UPLA TEXT # # 3 # NULLABLE NON_REQUIRED #
+                </Process>
+                <Process Name="Add Field NUM_UPLA"
+                         ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\AddField"
+                         Date="20180718" Time="141533">AddField Damage NUM_UPLA TEXT # # 3 # NULLABLE NON_REQUIRED #
+                </Process>
+                <Process Name="Add Field SEC_CAT"
+                         ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\AddField"
+                         Date="20180718" Time="141534">AddField Damage SECTOR_CAT TEXT # # 60 # NULLABLE NON_REQUIRED #
+                </Process>
+                <Process Name="Add Field N_UPLA"
+                         ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\AddField"
+                         Date="20180718" Time="141534">AddField Damage UPLA_ TEXT # # 6 # NULLABLE NON_REQUIRED #
+                </Process>
+                <Process Name="Add Field TOT_CONST"
+                         ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\AddField"
+                         Date="20180718" Time="141534">AddField Damage TOT_CONST LONG # # # # NULLABLE NON_REQUIRED #
+                </Process>
+                <Process Name="Add Field A_CONST_USO"
+                         ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\AddField"
+                         Date="20180718" Time="141535">AddField Damage A_CONS_USO DOUBLE # # # # NULLABLE NON_REQUIRED #
+                </Process>
+                <Process Name="Add Field VAL_CONST"
+                         ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\AddField"
+                         Date="20180718" Time="141535">AddField Damage VAL_CONST DOUBLE # # # # NULLABLE NON_REQUIRED #
+                </Process>
+                <Process Name="Add Field POB_2017"
+                         ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\AddField"
+                         Date="20180718" Time="141535">AddField Damage POB_2017 LONG # # # # NULLABLE NON_REQUIRED #
+                </Process>
+                <Process Name="Add Field TOT_PREDIO"
+                         ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\AddField"
+                         Date="20180718" Time="141535">AddField Damage TOT_PREDIO LONG # # # # NULLABLE NON_REQUIRED #
+                </Process>
+                <Process Name="Add Field TOT_LOTES"
+                         ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\AddField"
+                         Date="20180718" Time="141536">AddField Damage TOT_LOTES LONG # # # # NULLABLE NON_REQUIRED #
+                </Process>
+                <Process Name="Calculate Field (12)"
+                         ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField"
+                         Date="20180718" Time="141644">CalculateField Damage Damage.UPLA_ "[UPLA] &amp; [NUM_UPLA]" VB #
+                </Process>
+                <Process Name="Calculate Field MDR_MOD=0"
+                         ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField"
+                         Date="20180718" Time="141644">CalculateField Damage MDR_MOD 0 VB #
+                </Process>
+                <Process Name="Calculate Field PF=0"
+                         ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField"
+                         Date="20180718" Time="141645">CalculateField Damage PF 0 VB #
+                </Process>
+                <Process Name="Calculate Field PH=0"
+                         ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField"
+                         Date="20180718" Time="141645">CalculateField Damage PH 0 VB #
+                </Process>
+                <Process Name="Calculate Field INJURED=0"
+                         ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField"
+                         Date="20180718" Time="141646">CalculateField Damage Injured 0 VB #
+                </Process>
+                <Process Name="Calculate Field TOT_CONST=0"
+                         ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField"
+                         Date="20180718" Time="141646">CalculateField Damage TOT_CONST 0 VB #
+                </Process>
+                <Process Name="Calculate Field AREA_USO=0"
+                         ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField"
+                         Date="20180718" Time="141646">CalculateField Damage A_CONS_USO 0 VB #
+                </Process>
+                <Process Name="Calculate Field VAL_CONST=0"
+                         ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField"
+                         Date="20180718" Time="141647">CalculateField Damage VAL_CONST 0 VB #
+                </Process>
+                <Process Name="Calculate Field POB_2017=0"
+                         ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField"
+                         Date="20180718" Time="141647">CalculateField Damage POB_2017 0 VB #
+                </Process>
+                <Process Name="Calculate Field MDR_TIPO=&quot;&quot;"
+                         ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField"
+                         Date="20180718" Time="141647">CalculateField Damage MDR_TIPO "" VB #
+                </Process>
+                <Process Name="Add Field (4)"
+                         ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\AddField"
+                         Date="20180718" Time="141750">AddField Damage UNION5 TEXT # # 20 # NULLABLE NON_REQUIRED #
+                </Process>
+                <Process Name="Calculate Field (4)"
+                         ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField"
+                         Date="20180718" Time="141759">CalculateField Damage UNION5 " [LOC] &amp; "-" &amp; [MDR_TIPO] "
+                    VB #
+                </Process>
+                <Process Name="Delete Field (4)"
+                         ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\DeleteField"
+                         Date="20180718" Time="141804">DeleteField Damage UNION5
+                </Process>
+                <Process Name="Add Field (3)"
+                         ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\AddField"
+                         Date="20180718" Time="141805">AddField Damage UNION3 TEXT # # 20 # NULLABLE NON_REQUIRED #
+                </Process>
+                <Process Name="Calculate Field (3)"
+                         ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField"
+                         Date="20180718" Time="141807">CalculateField Damage UNION3 "[MDR_TIPO] &amp; "-" &amp; [LOC] "
+                    VB #
+                </Process>
+                <Process Name="Delete Field (3)"
+                         ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\DeleteField"
+                         Date="20180718" Time="141808">DeleteField Damage UNION3
+                </Process>
+                <Process Name="Add Field"
+                         ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\AddField"
+                         Date="20180718" Time="141808">AddField Damage UNION TEXT # # 20 # NULLABLE NON_REQUIRED #
+                </Process>
+                <Process Name="Calculate Field"
+                         ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField"
+                         Date="20180718" Time="141810">CalculateField Damage UNION "[MDR_TIPO] &amp; "-" &amp; [LOC]
+                    &amp; "-" &amp; [UPLA_]" VB #
+                </Process>
+                <Process Name="Delete Field"
+                         ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\DeleteField"
+                         Date="20180718" Time="141811">DeleteField Damage UNION
+                </Process>
+                <Process Name="Add Field (2)"
+                         ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\AddField"
+                         Date="20180718" Time="141811">AddField Damage UNION2 TEXT # # 255 # NULLABLE NON_REQUIRED #
+                </Process>
+                <Process Name="Calculate Field (2)"
+                         ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField"
+                         Date="20180718" Time="141813">CalculateField Damage UNION2 " [MDR_TIPO] &amp; "-" &amp; [LOC]
+                    &amp; "-" &amp; [UPLA_] &amp; "-" &amp; [SECTOR_CAT]" VB #
+                </Process>
+                <Process Name="Delete Field (2)"
+                         ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\DeleteField"
+                         Date="20180718" Time="141814">DeleteField Damage UNION2
+                </Process>
+                <Process Name="Add Field (5)"
+                         ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\AddField"
+                         Date="20180718" Time="141815">AddField Damage UNION8 TEXT # # 255 # NULLABLE NON_REQUIRED #
+                </Process>
+                <Process Name="Calculate Field (5)"
+                         ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField"
+                         Date="20180718" Time="141824">CalculateField Damage UNION8 "[LOC] &amp; "-" &amp; [UPLA_]" VB #
+                </Process>
+                <Process Name="Delete Field (5)"
+                         ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\DeleteField"
+                         Date="20180718" Time="141828">DeleteField Damage UNION8
+                </Process>
+                <Process Name="Add Field (6)"
+                         ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\AddField"
+                         Date="20180718" Time="141829">AddField Damage UNION20 TEXT # # 20 # NULLABLE NON_REQUIRED #
+                </Process>
+                <Process Name="Calculate Field (6)"
+                         ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField"
+                         Date="20180718" Time="141837">CalculateField Damage UNION20 "[MDR_TIPO] &amp; "-" &amp; [LOC]
+                    &amp; "-" &amp; [UPLA_]" VB #
+                </Process>
+                <Process Name="Delete Field (6)"
+                         ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\DeleteField"
+                         Date="20180718" Time="141842">DeleteField Damage UNION20
+                </Process>
+                <Process
+                        ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField"
+                        Date="20180718" Time="151845">CalculateField "Relación media de daño" POB_ALBERG "[POB_2017]-
+                    [PH]- [Injured]" VB #
+                </Process>
+                <Process
+                        ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField"
+                        Date="20180719" Time="093319">CalculateField Damage UNION "[LOC] &amp; "-" &amp; [UPLA_]" VB #
+                </Process>
+                <Process Name="Add Field POB_ALBERG"
+                         ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\AddField"
+                         Date="20180830" Time="112540">AddField Damage POB_ALBERG LONG # # # # NULLABLE NON_REQUIRED #
+                </Process>
+                <Process Name="Calculate Field POB_ALBERG"
+                         ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField"
+                         Date="20180830" Time="112541">CalculateField Damage POB_ALBERG "[POB_2017]- [PH]- [Injured]" VB
+                    #
+                </Process>
+                <Process Name="Add Field POB_ALBERG"
+                         ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\AddField"
+                         Date="20180830" Time="112631">AddField Damage POB_ALBERG LONG # # # # NULLABLE NON_REQUIRED #
+                </Process>
+                <Process Name="Calculate Field POB_ALBERG"
+                         ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField"
+                         Date="20180830" Time="112633">CalculateField Damage POB_ALBERG "[POB_2017]- [PH]- [Injured]" VB
+                    #
+                </Process>
+                <Process Name="Add Field UNION9"
+                         ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\AddField"
+                         Date="20180830" Time="112633">AddField Damage UNION9 TEXT # # 250 # NULLABLE NON_REQUIRED #
+                </Process>
+                <Process Name="Calculate Field UNION9"
+                         ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField"
+                         Date="20180830" Time="112635">CalculateField Damage UNION9 "[LOC] &amp; [UPLA_]" VB #
+                </Process>
+                <Process Name="Delete Field UNION9"
+                         ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\DeleteField"
+                         Date="20180830" Time="112636">DeleteField Damage UNION9
+                </Process>
+                <Process Name="Join Field"
+                         ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\JoinField"
+                         Date="20180914" Time="153730">JoinField Damage BARMAN dec176 BARMAN ESTRAT
+                </Process>
+                <Process Name="Join Field"
+                         ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\JoinField"
+                         Date="20180917" Time="111046">JoinField Damage BARMAN
+                    C:\Users\jprieto\Documents\JULIO_PRIETO\SHAPES\ESTRATIFICACION\dec176.shp BARMAN ESTRAT
+                </Process>
+                <Process Name="Add Field"
+                         ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\AddField"
+                         Date="20180917" Time="135557">AddField Damage ESTRATO TEXT # # 2 # NULLABLE NON_REQUIRED #
+                </Process>
+                <Process Name="Add Field (4)"
+                         ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\AddField"
+                         Date="20181120" Time="144052">AddField Damage UNION5 TEXT # # 20 # NULLABLE NON_REQUIRED #
+                </Process>
+                <Process Name="Calculate Field (4)"
+                         ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField"
+                         Date="20181120" Time="144059">CalculateField Damage UNION5 " [LOC] &amp; "-" &amp; [MDR_TIPO] "
+                    VB #
+                </Process>
+                <Process Name="Delete Field (4)"
+                         ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\DeleteField"
+                         Date="20181120" Time="144104">DeleteField Damage UNION5
+                </Process>
+                <Process Name="Add Field (3)"
+                         ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\AddField"
+                         Date="20181120" Time="144104">AddField Damage UNION3 TEXT # # 20 # NULLABLE NON_REQUIRED #
+                </Process>
+                <Process Name="Calculate Field (3)"
+                         ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField"
+                         Date="20181120" Time="144105">CalculateField Damage UNION3 "[MDR_TIPO] &amp; "-" &amp; [LOC] "
+                    VB #
+                </Process>
+                <Process Name="Delete Field (3)"
+                         ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\DeleteField"
+                         Date="20181120" Time="144106">DeleteField Damage UNION3
+                </Process>
+                <Process Name="Add Field"
+                         ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\AddField"
+                         Date="20181120" Time="144106">AddField Damage UNION TEXT # # 20 # NULLABLE NON_REQUIRED #
+                </Process>
+                <Process Name="Calculate Field"
+                         ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField"
+                         Date="20181120" Time="144108">CalculateField Damage UNION "[MDR_TIPO] &amp; "-" &amp; [LOC]
+                    &amp; "-" &amp; [UPLA_]" VB #
+                </Process>
+                <Process Name="Delete Field"
+                         ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\DeleteField"
+                         Date="20181120" Time="144108">DeleteField Damage UNION
+                </Process>
+                <Process Name="Add Field (2)"
+                         ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\AddField"
+                         Date="20181120" Time="144109">AddField Damage UNION2 TEXT # # 255 # NULLABLE NON_REQUIRED #
+                </Process>
+                <Process Name="Calculate Field (2)"
+                         ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField"
+                         Date="20181120" Time="144110">CalculateField Damage UNION2 " [MDR_TIPO] &amp; "-" &amp; [LOC]
+                    &amp; "-" &amp; [UPLA_] &amp; "-" &amp; [SECTOR_CAT]" VB #
+                </Process>
+                <Process Name="Delete Field (2)"
+                         ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\DeleteField"
+                         Date="20181120" Time="144111">DeleteField Damage UNION2
+                </Process>
+                <Process Name="Add Field (5)"
+                         ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\AddField"
+                         Date="20181120" Time="144112">AddField Damage UNION8 TEXT # # 255 # NULLABLE NON_REQUIRED #
+                </Process>
+                <Process Name="Calculate Field (5)"
+                         ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField"
+                         Date="20181120" Time="144121">CalculateField Damage UNION8 "[LOC] &amp; "-" &amp; [UPLA_]" VB #
+                </Process>
+                <Process Name="Delete Field (5)"
+                         ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\DeleteField"
+                         Date="20181120" Time="144126">DeleteField Damage UNION8
+                </Process>
+                <Process Name="Add Field (6)"
+                         ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\AddField"
+                         Date="20181120" Time="144126">AddField Damage UNION20 TEXT # # 20 # NULLABLE NON_REQUIRED #
+                </Process>
+                <Process Name="Calculate Field (6)"
+                         ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField"
+                         Date="20181120" Time="144134">CalculateField Damage UNION20 "[MDR_TIPO] &amp; "-" &amp; [LOC]
+                    &amp; "-" &amp; [UPLA_]" VB #
+                </Process>
+                <Process Name="Delete Field (6)"
+                         ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\DeleteField"
+                         Date="20181120" Time="144139">DeleteField Damage UNION20
+                </Process>
+                <Process Name="Add Field POB_ALBERG"
+                         ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\AddField"
+                         Date="20181120" Time="144203">AddField Damage POB_ALBERG LONG # # # # NULLABLE NON_REQUIRED #
+                </Process>
+                <Process Name="Calculate Field POB_ALBERG"
+                         ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField"
+                         Date="20181120" Time="144205">CalculateField Damage POB_ALBERG "[POB_2017]- [PH]- [Injured]" VB
+                    #
+                </Process>
+                <Process Name="Add Field UNION9"
+                         ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\AddField"
+                         Date="20181120" Time="144205">AddField Damage UNION9 TEXT # # 250 # NULLABLE NON_REQUIRED #
+                </Process>
+                <Process Name="Calculate Field UNION9"
+                         ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\CalculateField"
+                         Date="20181120" Time="144207">CalculateField Damage UNION9 "[LOC] &amp; [UPLA_]" VB #
+                </Process>
+                <Process Name="Delete Field UNION9"
+                         ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\DeleteField"
+                         Date="20181120" Time="144208">DeleteField Damage UNION9
+                </Process>
+                <Process Name="Add Field"
+                         ToolSource="c:\program files (x86)\arcgis\desktop10.4\ArcToolbox\Toolboxes\Data Management Tools.tbx\AddField"
+                         Date="20181120" Time="144211">AddField Damage ESTRATO TEXT # # 2 # NULLABLE NON_REQUIRED #
+                </Process>
+            </lineage>
+        </DataProperties>
+    </Esri>
+</metadata>
