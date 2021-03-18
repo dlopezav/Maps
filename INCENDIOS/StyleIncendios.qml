@@ -1,241 +1,442 @@
 <!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
-<qgis minScale="100000000" readOnly="0" maxScale="0" simplifyMaxScale="1" simplifyAlgorithm="0" version="3.16.3-Hannover" simplifyLocal="1" simplifyDrawingHints="0" styleCategories="AllStyleCategories" hasScaleBasedVisibilityFlag="0" labelsEnabled="0" simplifyDrawingTol="1">
+<qgis version="3.18.0-Zürich" readOnly="0" simplifyDrawingHints="0" simplifyAlgorithm="0" simplifyDrawingTol="1" minScale="100000000" labelsEnabled="0" hasScaleBasedVisibilityFlag="0" simplifyMaxScale="1" styleCategories="AllStyleCategories" maxScale="0" simplifyLocal="1">
   <flags>
     <Identifiable>1</Identifiable>
     <Removable>1</Removable>
     <Searchable>1</Searchable>
+    <Private>0</Private>
   </flags>
-  <temporal startExpression="" accumulate="0" fixedDuration="0" enabled="0" endField="" startField="" durationField="" durationUnit="min" mode="0" endExpression="">
+  <temporal startField="" mode="0" fixedDuration="0" accumulate="0" startExpression="" endField="" enabled="0" durationUnit="min" endExpression="" durationField="">
     <fixedRange>
       <start></start>
       <end></end>
     </fixedRange>
   </temporal>
-  <renderer-v2 enableorderby="0" symbollevels="0" attr="CLASE DE S" type="categorizedSymbol" forceraster="0">
+  <renderer-v2 forceraster="0" symbollevels="0" attr="CLASE DE S" type="categorizedSymbol" enableorderby="0">
     <categories>
-      <category render="true" symbol="0" value="1.1 ESTRUCTURALES" label="ESTRUCTURALES"/>
-      <category render="true" symbol="1" value="1.2 VEHICULARES" label="VEHICULARES"/>
-      <category render="true" symbol="2" value="1.3 FORESTALES" label="FORESTALES"/>
-      <category render="true" symbol="3" value="1.4 SÃ“TANOS" label="SÓTANOS"/>
-      <category render="true" symbol="4" value="1.5 TÃšNELES" label="TÚNELES"/>
-      <category render="true" symbol="5" value="1.6 RELLENOS SANITARIOS" label="RELLENOS SANITARIOS"/>
+      <category value="1.1 ESTRUCTURALES" symbol="0" render="true" label="ESTRUCTURALES"/>
+      <category value="1.2 VEHICULARES" symbol="1" render="true" label="VEHICULARES"/>
+      <category value="1.3 FORESTALES" symbol="2" render="true" label="FORESTALES"/>
+      <category value="1.4 SÃ“TANOS" symbol="3" render="true" label="SÓTANOS"/>
+      <category value="1.5 TÃšNELES" symbol="4" render="true" label="TÚNELES"/>
+      <category value="1.6 RELLENOS SANITARIOS" symbol="5" render="true" label="RELLENOS SANITARIOS"/>
     </categories>
     <symbols>
-      <symbol name="0" force_rhr="0" alpha="1" clip_to_extent="1" type="marker">
-        <layer locked="0" enabled="1" class="SimpleMarker" pass="0">
-          <prop v="0" k="angle"/>
-          <prop v="66,130,220,255" k="color"/>
-          <prop v="1" k="horizontal_anchor_point"/>
-          <prop v="bevel" k="joinstyle"/>
-          <prop v="triangle" k="name"/>
-          <prop v="0,0" k="offset"/>
-          <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
-          <prop v="MM" k="offset_unit"/>
-          <prop v="61,128,53,255" k="outline_color"/>
-          <prop v="solid" k="outline_style"/>
-          <prop v="0.4" k="outline_width"/>
-          <prop v="3x:0,0,0,0,0,0" k="outline_width_map_unit_scale"/>
-          <prop v="MM" k="outline_width_unit"/>
-          <prop v="diameter" k="scale_method"/>
-          <prop v="4" k="size"/>
-          <prop v="3x:0,0,0,0,0,0" k="size_map_unit_scale"/>
-          <prop v="MM" k="size_unit"/>
-          <prop v="1" k="vertical_anchor_point"/>
+      <symbol clip_to_extent="1" type="marker" alpha="1" force_rhr="0" name="0">
+        <data_defined_properties>
+          <Option type="Map">
+            <Option value="" type="QString" name="name"/>
+            <Option name="properties"/>
+            <Option value="collection" type="QString" name="type"/>
+          </Option>
+        </data_defined_properties>
+        <layer pass="0" enabled="1" class="SimpleMarker" locked="0">
+          <Option type="Map">
+            <Option value="0" type="QString" name="angle"/>
+            <Option value="215,25,28,255" type="QString" name="color"/>
+            <Option value="1" type="QString" name="horizontal_anchor_point"/>
+            <Option value="bevel" type="QString" name="joinstyle"/>
+            <Option value="triangle" type="QString" name="name"/>
+            <Option value="0,0" type="QString" name="offset"/>
+            <Option value="3x:0,0,0,0,0,0" type="QString" name="offset_map_unit_scale"/>
+            <Option value="MM" type="QString" name="offset_unit"/>
+            <Option value="50,87,128,255" type="QString" name="outline_color"/>
+            <Option value="solid" type="QString" name="outline_style"/>
+            <Option value="0.4" type="QString" name="outline_width"/>
+            <Option value="3x:0,0,0,0,0,0" type="QString" name="outline_width_map_unit_scale"/>
+            <Option value="MM" type="QString" name="outline_width_unit"/>
+            <Option value="diameter" type="QString" name="scale_method"/>
+            <Option value="2.6" type="QString" name="size"/>
+            <Option value="3x:0,0,0,0,0,0" type="QString" name="size_map_unit_scale"/>
+            <Option value="MM" type="QString" name="size_unit"/>
+            <Option value="1" type="QString" name="vertical_anchor_point"/>
+          </Option>
+          <prop k="angle" v="0"/>
+          <prop k="color" v="215,25,28,255"/>
+          <prop k="horizontal_anchor_point" v="1"/>
+          <prop k="joinstyle" v="bevel"/>
+          <prop k="name" v="triangle"/>
+          <prop k="offset" v="0,0"/>
+          <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+          <prop k="offset_unit" v="MM"/>
+          <prop k="outline_color" v="50,87,128,255"/>
+          <prop k="outline_style" v="solid"/>
+          <prop k="outline_width" v="0.4"/>
+          <prop k="outline_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+          <prop k="outline_width_unit" v="MM"/>
+          <prop k="scale_method" v="diameter"/>
+          <prop k="size" v="2.6"/>
+          <prop k="size_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+          <prop k="size_unit" v="MM"/>
+          <prop k="vertical_anchor_point" v="1"/>
           <data_defined_properties>
             <Option type="Map">
-              <Option name="name" value="" type="QString"/>
+              <Option value="" type="QString" name="name"/>
               <Option name="properties"/>
-              <Option name="type" value="collection" type="QString"/>
+              <Option value="collection" type="QString" name="type"/>
             </Option>
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol name="1" force_rhr="0" alpha="1" clip_to_extent="1" type="marker">
-        <layer locked="0" enabled="1" class="SimpleMarker" pass="0">
-          <prop v="0" k="angle"/>
-          <prop v="187,100,231,255" k="color"/>
-          <prop v="1" k="horizontal_anchor_point"/>
-          <prop v="bevel" k="joinstyle"/>
-          <prop v="triangle" k="name"/>
-          <prop v="0,0" k="offset"/>
-          <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
-          <prop v="MM" k="offset_unit"/>
-          <prop v="61,128,53,255" k="outline_color"/>
-          <prop v="solid" k="outline_style"/>
-          <prop v="0.4" k="outline_width"/>
-          <prop v="3x:0,0,0,0,0,0" k="outline_width_map_unit_scale"/>
-          <prop v="MM" k="outline_width_unit"/>
-          <prop v="diameter" k="scale_method"/>
-          <prop v="4" k="size"/>
-          <prop v="3x:0,0,0,0,0,0" k="size_map_unit_scale"/>
-          <prop v="MM" k="size_unit"/>
-          <prop v="1" k="vertical_anchor_point"/>
+      <symbol clip_to_extent="1" type="marker" alpha="1" force_rhr="0" name="1">
+        <data_defined_properties>
+          <Option type="Map">
+            <Option value="" type="QString" name="name"/>
+            <Option name="properties"/>
+            <Option value="collection" type="QString" name="type"/>
+          </Option>
+        </data_defined_properties>
+        <layer pass="0" enabled="1" class="SimpleMarker" locked="0">
+          <Option type="Map">
+            <Option value="0" type="QString" name="angle"/>
+            <Option value="246,144,83,255" type="QString" name="color"/>
+            <Option value="1" type="QString" name="horizontal_anchor_point"/>
+            <Option value="bevel" type="QString" name="joinstyle"/>
+            <Option value="triangle" type="QString" name="name"/>
+            <Option value="0,0" type="QString" name="offset"/>
+            <Option value="3x:0,0,0,0,0,0" type="QString" name="offset_map_unit_scale"/>
+            <Option value="MM" type="QString" name="offset_unit"/>
+            <Option value="50,87,128,255" type="QString" name="outline_color"/>
+            <Option value="solid" type="QString" name="outline_style"/>
+            <Option value="0.4" type="QString" name="outline_width"/>
+            <Option value="3x:0,0,0,0,0,0" type="QString" name="outline_width_map_unit_scale"/>
+            <Option value="MM" type="QString" name="outline_width_unit"/>
+            <Option value="diameter" type="QString" name="scale_method"/>
+            <Option value="2" type="QString" name="size"/>
+            <Option value="3x:0,0,0,0,0,0" type="QString" name="size_map_unit_scale"/>
+            <Option value="MM" type="QString" name="size_unit"/>
+            <Option value="1" type="QString" name="vertical_anchor_point"/>
+          </Option>
+          <prop k="angle" v="0"/>
+          <prop k="color" v="246,144,83,255"/>
+          <prop k="horizontal_anchor_point" v="1"/>
+          <prop k="joinstyle" v="bevel"/>
+          <prop k="name" v="triangle"/>
+          <prop k="offset" v="0,0"/>
+          <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+          <prop k="offset_unit" v="MM"/>
+          <prop k="outline_color" v="50,87,128,255"/>
+          <prop k="outline_style" v="solid"/>
+          <prop k="outline_width" v="0.4"/>
+          <prop k="outline_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+          <prop k="outline_width_unit" v="MM"/>
+          <prop k="scale_method" v="diameter"/>
+          <prop k="size" v="2"/>
+          <prop k="size_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+          <prop k="size_unit" v="MM"/>
+          <prop k="vertical_anchor_point" v="1"/>
           <data_defined_properties>
             <Option type="Map">
-              <Option name="name" value="" type="QString"/>
+              <Option value="" type="QString" name="name"/>
               <Option name="properties"/>
-              <Option name="type" value="collection" type="QString"/>
+              <Option value="collection" type="QString" name="type"/>
             </Option>
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol name="2" force_rhr="0" alpha="1" clip_to_extent="1" type="marker">
-        <layer locked="0" enabled="1" class="SimpleMarker" pass="0">
-          <prop v="0" k="angle"/>
-          <prop v="8,188,26,255" k="color"/>
-          <prop v="1" k="horizontal_anchor_point"/>
-          <prop v="bevel" k="joinstyle"/>
-          <prop v="triangle" k="name"/>
-          <prop v="0,0" k="offset"/>
-          <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
-          <prop v="MM" k="offset_unit"/>
-          <prop v="61,128,53,255" k="outline_color"/>
-          <prop v="solid" k="outline_style"/>
-          <prop v="0.4" k="outline_width"/>
-          <prop v="3x:0,0,0,0,0,0" k="outline_width_map_unit_scale"/>
-          <prop v="MM" k="outline_width_unit"/>
-          <prop v="diameter" k="scale_method"/>
-          <prop v="4" k="size"/>
-          <prop v="3x:0,0,0,0,0,0" k="size_map_unit_scale"/>
-          <prop v="MM" k="size_unit"/>
-          <prop v="1" k="vertical_anchor_point"/>
+      <symbol clip_to_extent="1" type="marker" alpha="1" force_rhr="0" name="2">
+        <data_defined_properties>
+          <Option type="Map">
+            <Option value="" type="QString" name="name"/>
+            <Option name="properties"/>
+            <Option value="collection" type="QString" name="type"/>
+          </Option>
+        </data_defined_properties>
+        <layer pass="0" enabled="1" class="SimpleMarker" locked="0">
+          <Option type="Map">
+            <Option value="0" type="QString" name="angle"/>
+            <Option value="255,223,154,255" type="QString" name="color"/>
+            <Option value="1" type="QString" name="horizontal_anchor_point"/>
+            <Option value="bevel" type="QString" name="joinstyle"/>
+            <Option value="triangle" type="QString" name="name"/>
+            <Option value="0,0" type="QString" name="offset"/>
+            <Option value="3x:0,0,0,0,0,0" type="QString" name="offset_map_unit_scale"/>
+            <Option value="MM" type="QString" name="offset_unit"/>
+            <Option value="50,87,128,255" type="QString" name="outline_color"/>
+            <Option value="solid" type="QString" name="outline_style"/>
+            <Option value="0.4" type="QString" name="outline_width"/>
+            <Option value="3x:0,0,0,0,0,0" type="QString" name="outline_width_map_unit_scale"/>
+            <Option value="MM" type="QString" name="outline_width_unit"/>
+            <Option value="diameter" type="QString" name="scale_method"/>
+            <Option value="2" type="QString" name="size"/>
+            <Option value="3x:0,0,0,0,0,0" type="QString" name="size_map_unit_scale"/>
+            <Option value="MM" type="QString" name="size_unit"/>
+            <Option value="1" type="QString" name="vertical_anchor_point"/>
+          </Option>
+          <prop k="angle" v="0"/>
+          <prop k="color" v="255,223,154,255"/>
+          <prop k="horizontal_anchor_point" v="1"/>
+          <prop k="joinstyle" v="bevel"/>
+          <prop k="name" v="triangle"/>
+          <prop k="offset" v="0,0"/>
+          <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+          <prop k="offset_unit" v="MM"/>
+          <prop k="outline_color" v="50,87,128,255"/>
+          <prop k="outline_style" v="solid"/>
+          <prop k="outline_width" v="0.4"/>
+          <prop k="outline_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+          <prop k="outline_width_unit" v="MM"/>
+          <prop k="scale_method" v="diameter"/>
+          <prop k="size" v="2"/>
+          <prop k="size_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+          <prop k="size_unit" v="MM"/>
+          <prop k="vertical_anchor_point" v="1"/>
           <data_defined_properties>
             <Option type="Map">
-              <Option name="name" value="" type="QString"/>
+              <Option value="" type="QString" name="name"/>
               <Option name="properties"/>
-              <Option name="type" value="collection" type="QString"/>
+              <Option value="collection" type="QString" name="type"/>
             </Option>
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol name="3" force_rhr="0" alpha="1" clip_to_extent="1" type="marker">
-        <layer locked="0" enabled="1" class="SimpleMarker" pass="0">
-          <prop v="0" k="angle"/>
-          <prop v="141,155,164,255" k="color"/>
-          <prop v="1" k="horizontal_anchor_point"/>
-          <prop v="bevel" k="joinstyle"/>
-          <prop v="triangle" k="name"/>
-          <prop v="0,0" k="offset"/>
-          <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
-          <prop v="MM" k="offset_unit"/>
-          <prop v="61,128,53,255" k="outline_color"/>
-          <prop v="solid" k="outline_style"/>
-          <prop v="0.4" k="outline_width"/>
-          <prop v="3x:0,0,0,0,0,0" k="outline_width_map_unit_scale"/>
-          <prop v="MM" k="outline_width_unit"/>
-          <prop v="diameter" k="scale_method"/>
-          <prop v="4" k="size"/>
-          <prop v="3x:0,0,0,0,0,0" k="size_map_unit_scale"/>
-          <prop v="MM" k="size_unit"/>
-          <prop v="1" k="vertical_anchor_point"/>
+      <symbol clip_to_extent="1" type="marker" alpha="1" force_rhr="0" name="3">
+        <data_defined_properties>
+          <Option type="Map">
+            <Option value="" type="QString" name="name"/>
+            <Option name="properties"/>
+            <Option value="collection" type="QString" name="type"/>
+          </Option>
+        </data_defined_properties>
+        <layer pass="0" enabled="1" class="SimpleMarker" locked="0">
+          <Option type="Map">
+            <Option value="0" type="QString" name="angle"/>
+            <Option value="222,242,180,255" type="QString" name="color"/>
+            <Option value="1" type="QString" name="horizontal_anchor_point"/>
+            <Option value="bevel" type="QString" name="joinstyle"/>
+            <Option value="triangle" type="QString" name="name"/>
+            <Option value="0,0" type="QString" name="offset"/>
+            <Option value="3x:0,0,0,0,0,0" type="QString" name="offset_map_unit_scale"/>
+            <Option value="MM" type="QString" name="offset_unit"/>
+            <Option value="50,87,128,255" type="QString" name="outline_color"/>
+            <Option value="solid" type="QString" name="outline_style"/>
+            <Option value="0.4" type="QString" name="outline_width"/>
+            <Option value="3x:0,0,0,0,0,0" type="QString" name="outline_width_map_unit_scale"/>
+            <Option value="MM" type="QString" name="outline_width_unit"/>
+            <Option value="diameter" type="QString" name="scale_method"/>
+            <Option value="2" type="QString" name="size"/>
+            <Option value="3x:0,0,0,0,0,0" type="QString" name="size_map_unit_scale"/>
+            <Option value="MM" type="QString" name="size_unit"/>
+            <Option value="1" type="QString" name="vertical_anchor_point"/>
+          </Option>
+          <prop k="angle" v="0"/>
+          <prop k="color" v="222,242,180,255"/>
+          <prop k="horizontal_anchor_point" v="1"/>
+          <prop k="joinstyle" v="bevel"/>
+          <prop k="name" v="triangle"/>
+          <prop k="offset" v="0,0"/>
+          <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+          <prop k="offset_unit" v="MM"/>
+          <prop k="outline_color" v="50,87,128,255"/>
+          <prop k="outline_style" v="solid"/>
+          <prop k="outline_width" v="0.4"/>
+          <prop k="outline_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+          <prop k="outline_width_unit" v="MM"/>
+          <prop k="scale_method" v="diameter"/>
+          <prop k="size" v="2"/>
+          <prop k="size_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+          <prop k="size_unit" v="MM"/>
+          <prop k="vertical_anchor_point" v="1"/>
           <data_defined_properties>
             <Option type="Map">
-              <Option name="name" value="" type="QString"/>
+              <Option value="" type="QString" name="name"/>
               <Option name="properties"/>
-              <Option name="type" value="collection" type="QString"/>
+              <Option value="collection" type="QString" name="type"/>
             </Option>
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol name="4" force_rhr="0" alpha="1" clip_to_extent="1" type="marker">
-        <layer locked="0" enabled="1" class="SimpleMarker" pass="0">
-          <prop v="0" k="angle"/>
-          <prop v="185,54,25,202" k="color"/>
-          <prop v="1" k="horizontal_anchor_point"/>
-          <prop v="bevel" k="joinstyle"/>
-          <prop v="triangle" k="name"/>
-          <prop v="0,0" k="offset"/>
-          <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
-          <prop v="MM" k="offset_unit"/>
-          <prop v="61,128,53,255" k="outline_color"/>
-          <prop v="solid" k="outline_style"/>
-          <prop v="0.4" k="outline_width"/>
-          <prop v="3x:0,0,0,0,0,0" k="outline_width_map_unit_scale"/>
-          <prop v="MM" k="outline_width_unit"/>
-          <prop v="diameter" k="scale_method"/>
-          <prop v="4" k="size"/>
-          <prop v="3x:0,0,0,0,0,0" k="size_map_unit_scale"/>
-          <prop v="MM" k="size_unit"/>
-          <prop v="1" k="vertical_anchor_point"/>
+      <symbol clip_to_extent="1" type="marker" alpha="1" force_rhr="0" name="4">
+        <data_defined_properties>
+          <Option type="Map">
+            <Option value="" type="QString" name="name"/>
+            <Option name="properties"/>
+            <Option value="collection" type="QString" name="type"/>
+          </Option>
+        </data_defined_properties>
+        <layer pass="0" enabled="1" class="SimpleMarker" locked="0">
+          <Option type="Map">
+            <Option value="0" type="QString" name="angle"/>
+            <Option value="145,203,169,255" type="QString" name="color"/>
+            <Option value="1" type="QString" name="horizontal_anchor_point"/>
+            <Option value="bevel" type="QString" name="joinstyle"/>
+            <Option value="triangle" type="QString" name="name"/>
+            <Option value="0,0" type="QString" name="offset"/>
+            <Option value="3x:0,0,0,0,0,0" type="QString" name="offset_map_unit_scale"/>
+            <Option value="MM" type="QString" name="offset_unit"/>
+            <Option value="50,87,128,255" type="QString" name="outline_color"/>
+            <Option value="solid" type="QString" name="outline_style"/>
+            <Option value="0.4" type="QString" name="outline_width"/>
+            <Option value="3x:0,0,0,0,0,0" type="QString" name="outline_width_map_unit_scale"/>
+            <Option value="MM" type="QString" name="outline_width_unit"/>
+            <Option value="diameter" type="QString" name="scale_method"/>
+            <Option value="2" type="QString" name="size"/>
+            <Option value="3x:0,0,0,0,0,0" type="QString" name="size_map_unit_scale"/>
+            <Option value="MM" type="QString" name="size_unit"/>
+            <Option value="1" type="QString" name="vertical_anchor_point"/>
+          </Option>
+          <prop k="angle" v="0"/>
+          <prop k="color" v="145,203,169,255"/>
+          <prop k="horizontal_anchor_point" v="1"/>
+          <prop k="joinstyle" v="bevel"/>
+          <prop k="name" v="triangle"/>
+          <prop k="offset" v="0,0"/>
+          <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+          <prop k="offset_unit" v="MM"/>
+          <prop k="outline_color" v="50,87,128,255"/>
+          <prop k="outline_style" v="solid"/>
+          <prop k="outline_width" v="0.4"/>
+          <prop k="outline_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+          <prop k="outline_width_unit" v="MM"/>
+          <prop k="scale_method" v="diameter"/>
+          <prop k="size" v="2"/>
+          <prop k="size_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+          <prop k="size_unit" v="MM"/>
+          <prop k="vertical_anchor_point" v="1"/>
           <data_defined_properties>
             <Option type="Map">
-              <Option name="name" value="" type="QString"/>
+              <Option value="" type="QString" name="name"/>
               <Option name="properties"/>
-              <Option name="type" value="collection" type="QString"/>
+              <Option value="collection" type="QString" name="type"/>
             </Option>
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol name="5" force_rhr="0" alpha="1" clip_to_extent="1" type="marker">
-        <layer locked="0" enabled="1" class="SimpleMarker" pass="0">
-          <prop v="0" k="angle"/>
-          <prop v="237,236,138,255" k="color"/>
-          <prop v="1" k="horizontal_anchor_point"/>
-          <prop v="bevel" k="joinstyle"/>
-          <prop v="triangle" k="name"/>
-          <prop v="0,0" k="offset"/>
-          <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
-          <prop v="MM" k="offset_unit"/>
-          <prop v="61,128,53,255" k="outline_color"/>
-          <prop v="solid" k="outline_style"/>
-          <prop v="0.4" k="outline_width"/>
-          <prop v="3x:0,0,0,0,0,0" k="outline_width_map_unit_scale"/>
-          <prop v="MM" k="outline_width_unit"/>
-          <prop v="diameter" k="scale_method"/>
-          <prop v="4" k="size"/>
-          <prop v="3x:0,0,0,0,0,0" k="size_map_unit_scale"/>
-          <prop v="MM" k="size_unit"/>
-          <prop v="1" k="vertical_anchor_point"/>
+      <symbol clip_to_extent="1" type="marker" alpha="1" force_rhr="0" name="5">
+        <data_defined_properties>
+          <Option type="Map">
+            <Option value="" type="QString" name="name"/>
+            <Option name="properties"/>
+            <Option value="collection" type="QString" name="type"/>
+          </Option>
+        </data_defined_properties>
+        <layer pass="0" enabled="1" class="SimpleMarker" locked="0">
+          <Option type="Map">
+            <Option value="0" type="QString" name="angle"/>
+            <Option value="43,131,186,255" type="QString" name="color"/>
+            <Option value="1" type="QString" name="horizontal_anchor_point"/>
+            <Option value="bevel" type="QString" name="joinstyle"/>
+            <Option value="triangle" type="QString" name="name"/>
+            <Option value="0,0" type="QString" name="offset"/>
+            <Option value="3x:0,0,0,0,0,0" type="QString" name="offset_map_unit_scale"/>
+            <Option value="MM" type="QString" name="offset_unit"/>
+            <Option value="50,87,128,255" type="QString" name="outline_color"/>
+            <Option value="solid" type="QString" name="outline_style"/>
+            <Option value="0.4" type="QString" name="outline_width"/>
+            <Option value="3x:0,0,0,0,0,0" type="QString" name="outline_width_map_unit_scale"/>
+            <Option value="MM" type="QString" name="outline_width_unit"/>
+            <Option value="diameter" type="QString" name="scale_method"/>
+            <Option value="2" type="QString" name="size"/>
+            <Option value="3x:0,0,0,0,0,0" type="QString" name="size_map_unit_scale"/>
+            <Option value="MM" type="QString" name="size_unit"/>
+            <Option value="1" type="QString" name="vertical_anchor_point"/>
+          </Option>
+          <prop k="angle" v="0"/>
+          <prop k="color" v="43,131,186,255"/>
+          <prop k="horizontal_anchor_point" v="1"/>
+          <prop k="joinstyle" v="bevel"/>
+          <prop k="name" v="triangle"/>
+          <prop k="offset" v="0,0"/>
+          <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+          <prop k="offset_unit" v="MM"/>
+          <prop k="outline_color" v="50,87,128,255"/>
+          <prop k="outline_style" v="solid"/>
+          <prop k="outline_width" v="0.4"/>
+          <prop k="outline_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+          <prop k="outline_width_unit" v="MM"/>
+          <prop k="scale_method" v="diameter"/>
+          <prop k="size" v="2"/>
+          <prop k="size_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+          <prop k="size_unit" v="MM"/>
+          <prop k="vertical_anchor_point" v="1"/>
           <data_defined_properties>
             <Option type="Map">
-              <Option name="name" value="" type="QString"/>
+              <Option value="" type="QString" name="name"/>
               <Option name="properties"/>
-              <Option name="type" value="collection" type="QString"/>
+              <Option value="collection" type="QString" name="type"/>
             </Option>
           </data_defined_properties>
         </layer>
       </symbol>
     </symbols>
     <source-symbol>
-      <symbol name="0" force_rhr="0" alpha="1" clip_to_extent="1" type="marker">
-        <layer locked="0" enabled="1" class="SimpleMarker" pass="0">
-          <prop v="0" k="angle"/>
-          <prop v="84,176,74,255" k="color"/>
-          <prop v="1" k="horizontal_anchor_point"/>
-          <prop v="bevel" k="joinstyle"/>
-          <prop v="triangle" k="name"/>
-          <prop v="0,0" k="offset"/>
-          <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
-          <prop v="MM" k="offset_unit"/>
-          <prop v="61,128,53,255" k="outline_color"/>
-          <prop v="solid" k="outline_style"/>
-          <prop v="0.4" k="outline_width"/>
-          <prop v="3x:0,0,0,0,0,0" k="outline_width_map_unit_scale"/>
-          <prop v="MM" k="outline_width_unit"/>
-          <prop v="diameter" k="scale_method"/>
-          <prop v="4" k="size"/>
-          <prop v="3x:0,0,0,0,0,0" k="size_map_unit_scale"/>
-          <prop v="MM" k="size_unit"/>
-          <prop v="1" k="vertical_anchor_point"/>
+      <symbol clip_to_extent="1" type="marker" alpha="1" force_rhr="0" name="0">
+        <data_defined_properties>
+          <Option type="Map">
+            <Option value="" type="QString" name="name"/>
+            <Option name="properties"/>
+            <Option value="collection" type="QString" name="type"/>
+          </Option>
+        </data_defined_properties>
+        <layer pass="0" enabled="1" class="SimpleMarker" locked="0">
+          <Option type="Map">
+            <Option value="0" type="QString" name="angle"/>
+            <Option value="0,0,0,255" type="QString" name="color"/>
+            <Option value="1" type="QString" name="horizontal_anchor_point"/>
+            <Option value="bevel" type="QString" name="joinstyle"/>
+            <Option value="triangle" type="QString" name="name"/>
+            <Option value="0,0" type="QString" name="offset"/>
+            <Option value="3x:0,0,0,0,0,0" type="QString" name="offset_map_unit_scale"/>
+            <Option value="MM" type="QString" name="offset_unit"/>
+            <Option value="50,87,128,255" type="QString" name="outline_color"/>
+            <Option value="solid" type="QString" name="outline_style"/>
+            <Option value="0.4" type="QString" name="outline_width"/>
+            <Option value="3x:0,0,0,0,0,0" type="QString" name="outline_width_map_unit_scale"/>
+            <Option value="MM" type="QString" name="outline_width_unit"/>
+            <Option value="diameter" type="QString" name="scale_method"/>
+            <Option value="2" type="QString" name="size"/>
+            <Option value="3x:0,0,0,0,0,0" type="QString" name="size_map_unit_scale"/>
+            <Option value="MM" type="QString" name="size_unit"/>
+            <Option value="1" type="QString" name="vertical_anchor_point"/>
+          </Option>
+          <prop k="angle" v="0"/>
+          <prop k="color" v="0,0,0,255"/>
+          <prop k="horizontal_anchor_point" v="1"/>
+          <prop k="joinstyle" v="bevel"/>
+          <prop k="name" v="triangle"/>
+          <prop k="offset" v="0,0"/>
+          <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+          <prop k="offset_unit" v="MM"/>
+          <prop k="outline_color" v="50,87,128,255"/>
+          <prop k="outline_style" v="solid"/>
+          <prop k="outline_width" v="0.4"/>
+          <prop k="outline_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+          <prop k="outline_width_unit" v="MM"/>
+          <prop k="scale_method" v="diameter"/>
+          <prop k="size" v="2"/>
+          <prop k="size_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+          <prop k="size_unit" v="MM"/>
+          <prop k="vertical_anchor_point" v="1"/>
           <data_defined_properties>
             <Option type="Map">
-              <Option name="name" value="" type="QString"/>
+              <Option value="" type="QString" name="name"/>
               <Option name="properties"/>
-              <Option name="type" value="collection" type="QString"/>
+              <Option value="collection" type="QString" name="type"/>
             </Option>
           </data_defined_properties>
         </layer>
       </symbol>
     </source-symbol>
-    <colorramp name="[source]" type="randomcolors"/>
+    <colorramp type="gradient" name="[source]">
+      <Option type="Map">
+        <Option value="215,25,28,255" type="QString" name="color1"/>
+        <Option value="43,131,186,255" type="QString" name="color2"/>
+        <Option value="0" type="QString" name="discrete"/>
+        <Option value="gradient" type="QString" name="rampType"/>
+        <Option value="0.25;253,174,97,255:0.5;255,255,191,255:0.75;171,221,164,255" type="QString" name="stops"/>
+      </Option>
+      <prop k="color1" v="215,25,28,255"/>
+      <prop k="color2" v="43,131,186,255"/>
+      <prop k="discrete" v="0"/>
+      <prop k="rampType" v="gradient"/>
+      <prop k="stops" v="0.25;253,174,97,255:0.5;255,255,191,255:0.75;171,221,164,255"/>
+    </colorramp>
     <rotation/>
     <sizescale/>
   </renderer-v2>
   <customproperties>
-    <property key="dualview/previewExpressions">
-      <value>"Heridos Ho"</value>
-    </property>
-    <property value="0" key="embeddedWidgets/count"/>
+    <property key="dualview/previewExpressions" value="&quot;Heridos Ho&quot;"/>
+    <property key="embeddedWidgets/count" value="0"/>
     <property key="variableNames"/>
     <property key="variableValues"/>
   </customproperties>
@@ -243,37 +444,68 @@
   <featureBlendMode>0</featureBlendMode>
   <layerOpacity>1</layerOpacity>
   <SingleCategoryDiagramRenderer attributeLegend="1" diagramType="Histogram">
-    <DiagramCategory spacingUnit="MM" rotationOffset="270" scaleBasedVisibility="0" backgroundAlpha="255" scaleDependency="Area" showAxis="1" opacity="1" backgroundColor="#ffffff" minimumSize="0" penColor="#000000" spacingUnitScale="3x:0,0,0,0,0,0" direction="0" penWidth="0" barWidth="5" spacing="5" lineSizeScale="3x:0,0,0,0,0,0" labelPlacementMethod="XHeight" minScaleDenominator="0" lineSizeType="MM" sizeType="MM" sizeScale="3x:0,0,0,0,0,0" penAlpha="255" diagramOrientation="Up" width="15" enabled="0" height="15" maxScaleDenominator="1e+08">
-      <fontProperties description="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0" style=""/>
+    <DiagramCategory minimumSize="0" minScaleDenominator="0" barWidth="5" lineSizeType="MM" sizeScale="3x:0,0,0,0,0,0" showAxis="1" scaleDependency="Area" rotationOffset="270" scaleBasedVisibility="0" opacity="1" maxScaleDenominator="1e+08" penColor="#000000" backgroundAlpha="255" spacing="5" penWidth="0" spacingUnitScale="3x:0,0,0,0,0,0" labelPlacementMethod="XHeight" enabled="0" backgroundColor="#ffffff" height="15" spacingUnit="MM" diagramOrientation="Up" lineSizeScale="3x:0,0,0,0,0,0" direction="0" width="15" penAlpha="255" sizeType="MM">
+      <fontProperties style="" description="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0"/>
+      <attribute color="#000000" field="" label=""/>
       <axisSymbol>
-        <symbol name="" force_rhr="0" alpha="1" clip_to_extent="1" type="line">
-          <layer locked="0" enabled="1" class="SimpleLine" pass="0">
-            <prop v="0" k="align_dash_pattern"/>
-            <prop v="square" k="capstyle"/>
-            <prop v="5;2" k="customdash"/>
-            <prop v="3x:0,0,0,0,0,0" k="customdash_map_unit_scale"/>
-            <prop v="MM" k="customdash_unit"/>
-            <prop v="0" k="dash_pattern_offset"/>
-            <prop v="3x:0,0,0,0,0,0" k="dash_pattern_offset_map_unit_scale"/>
-            <prop v="MM" k="dash_pattern_offset_unit"/>
-            <prop v="0" k="draw_inside_polygon"/>
-            <prop v="bevel" k="joinstyle"/>
-            <prop v="35,35,35,255" k="line_color"/>
-            <prop v="solid" k="line_style"/>
-            <prop v="0.26" k="line_width"/>
-            <prop v="MM" k="line_width_unit"/>
-            <prop v="0" k="offset"/>
-            <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
-            <prop v="MM" k="offset_unit"/>
-            <prop v="0" k="ring_filter"/>
-            <prop v="0" k="tweak_dash_pattern_on_corners"/>
-            <prop v="0" k="use_custom_dash"/>
-            <prop v="3x:0,0,0,0,0,0" k="width_map_unit_scale"/>
+        <symbol clip_to_extent="1" type="line" alpha="1" force_rhr="0" name="">
+          <data_defined_properties>
+            <Option type="Map">
+              <Option value="" type="QString" name="name"/>
+              <Option name="properties"/>
+              <Option value="collection" type="QString" name="type"/>
+            </Option>
+          </data_defined_properties>
+          <layer pass="0" enabled="1" class="SimpleLine" locked="0">
+            <Option type="Map">
+              <Option value="0" type="QString" name="align_dash_pattern"/>
+              <Option value="square" type="QString" name="capstyle"/>
+              <Option value="5;2" type="QString" name="customdash"/>
+              <Option value="3x:0,0,0,0,0,0" type="QString" name="customdash_map_unit_scale"/>
+              <Option value="MM" type="QString" name="customdash_unit"/>
+              <Option value="0" type="QString" name="dash_pattern_offset"/>
+              <Option value="3x:0,0,0,0,0,0" type="QString" name="dash_pattern_offset_map_unit_scale"/>
+              <Option value="MM" type="QString" name="dash_pattern_offset_unit"/>
+              <Option value="0" type="QString" name="draw_inside_polygon"/>
+              <Option value="bevel" type="QString" name="joinstyle"/>
+              <Option value="35,35,35,255" type="QString" name="line_color"/>
+              <Option value="solid" type="QString" name="line_style"/>
+              <Option value="0.26" type="QString" name="line_width"/>
+              <Option value="MM" type="QString" name="line_width_unit"/>
+              <Option value="0" type="QString" name="offset"/>
+              <Option value="3x:0,0,0,0,0,0" type="QString" name="offset_map_unit_scale"/>
+              <Option value="MM" type="QString" name="offset_unit"/>
+              <Option value="0" type="QString" name="ring_filter"/>
+              <Option value="0" type="QString" name="tweak_dash_pattern_on_corners"/>
+              <Option value="0" type="QString" name="use_custom_dash"/>
+              <Option value="3x:0,0,0,0,0,0" type="QString" name="width_map_unit_scale"/>
+            </Option>
+            <prop k="align_dash_pattern" v="0"/>
+            <prop k="capstyle" v="square"/>
+            <prop k="customdash" v="5;2"/>
+            <prop k="customdash_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+            <prop k="customdash_unit" v="MM"/>
+            <prop k="dash_pattern_offset" v="0"/>
+            <prop k="dash_pattern_offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+            <prop k="dash_pattern_offset_unit" v="MM"/>
+            <prop k="draw_inside_polygon" v="0"/>
+            <prop k="joinstyle" v="bevel"/>
+            <prop k="line_color" v="35,35,35,255"/>
+            <prop k="line_style" v="solid"/>
+            <prop k="line_width" v="0.26"/>
+            <prop k="line_width_unit" v="MM"/>
+            <prop k="offset" v="0"/>
+            <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+            <prop k="offset_unit" v="MM"/>
+            <prop k="ring_filter" v="0"/>
+            <prop k="tweak_dash_pattern_on_corners" v="0"/>
+            <prop k="use_custom_dash" v="0"/>
+            <prop k="width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
             <data_defined_properties>
               <Option type="Map">
-                <Option name="name" value="" type="QString"/>
+                <Option value="" type="QString" name="name"/>
                 <Option name="properties"/>
-                <Option name="type" value="collection" type="QString"/>
+                <Option value="collection" type="QString" name="type"/>
               </Option>
             </data_defined_properties>
           </layer>
@@ -281,16 +513,16 @@
       </axisSymbol>
     </DiagramCategory>
   </SingleCategoryDiagramRenderer>
-  <DiagramLayerSettings placement="0" zIndex="0" priority="0" dist="0" obstacle="0" showAll="1" linePlacementFlags="18">
+  <DiagramLayerSettings showAll="1" obstacle="0" placement="0" zIndex="0" linePlacementFlags="18" dist="0" priority="0">
     <properties>
       <Option type="Map">
-        <Option name="name" value="" type="QString"/>
+        <Option value="" type="QString" name="name"/>
         <Option name="properties"/>
-        <Option name="type" value="collection" type="QString"/>
+        <Option value="collection" type="QString" name="type"/>
       </Option>
     </properties>
   </DiagramLayerSettings>
-  <geometryOptions removeDuplicateNodes="0" geometryPrecision="0">
+  <geometryOptions geometryPrecision="0" removeDuplicateNodes="0">
     <activeChecks/>
     <checkConfiguration/>
   </geometryOptions>
@@ -698,305 +930,305 @@
     </field>
   </fieldConfiguration>
   <aliases>
-    <alias index="0" name="" field="FECHA DEL"/>
-    <alias index="1" name="" field="DIRECCIÃ�"/>
-    <alias index="2" name="" field="LATITUD"/>
-    <alias index="3" name="" field="LONGITUD"/>
-    <alias index="4" name="" field="Tiempo de"/>
-    <alias index="5" name="" field="Tiempo tot"/>
-    <alias index="6" name="" field="RECURSOS"/>
-    <alias index="7" name="" field="RECURSOS2"/>
-    <alias index="8" name="" field="RECURSOS3"/>
-    <alias index="9" name="" field="RECURSOS4"/>
-    <alias index="10" name="" field="RECURSOS5"/>
-    <alias index="11" name="" field="RECURSOS6"/>
-    <alias index="12" name="" field="RECURSOS7"/>
-    <alias index="13" name="" field="TOTAL RECU"/>
-    <alias index="14" name="" field="J1"/>
-    <alias index="15" name="" field="J2"/>
-    <alias index="16" name="" field="Cdte."/>
-    <alias index="17" name="" field="Sub. Cdte."/>
-    <alias index="18" name="" field="Tte."/>
-    <alias index="19" name="" field="Sgto."/>
-    <alias index="20" name="" field="Cabo"/>
-    <alias index="21" name="" field="Bro."/>
-    <alias index="22" name="" field="Otro"/>
-    <alias index="23" name="" field="Total"/>
-    <alias index="24" name="" field="SERVICIO"/>
-    <alias index="25" name="" field="CLASE DE S"/>
-    <alias index="26" name="" field="SUBCLASE D"/>
-    <alias index="27" name="" field="TIPO SUBCL"/>
-    <alias index="28" name="" field="USO DE LA"/>
-    <alias index="29" name="" field="CLASE DE U"/>
-    <alias index="30" name="" field="CLASE DE V"/>
-    <alias index="31" name="" field="SUBCLASE_1"/>
-    <alias index="32" name="" field="ÃREA AF"/>
-    <alias index="33" name="" field="ÃREA EX"/>
-    <alias index="34" name="" field="ORIGEN DE"/>
-    <alias index="35" name="" field="CAUSAS"/>
-    <alias index="36" name="" field="PoblaciÃ�"/>
-    <alias index="37" name="" field="Poblaci�_1"/>
-    <alias index="38" name="" field="Poblaci�_2"/>
-    <alias index="39" name="" field="Poblaci�_3"/>
-    <alias index="40" name="" field="Poblaci�_4"/>
-    <alias index="41" name="" field="Poblaci�_5"/>
-    <alias index="42" name="" field="Poblaci�_6"/>
-    <alias index="43" name="" field="Poblaci�_7"/>
-    <alias index="44" name="" field="Rescatados"/>
-    <alias index="45" name="" field="Rescatad_1"/>
-    <alias index="46" name="" field="Rescatad_2"/>
-    <alias index="47" name="" field="Rescatad_3"/>
-    <alias index="48" name="" field="Heridos Ho"/>
-    <alias index="49" name="" field="Heridos Mu"/>
-    <alias index="50" name="" field="Heridos Ni"/>
-    <alias index="51" name="" field="Heridos _1"/>
-    <alias index="52" name="" field="Sin signos"/>
-    <alias index="53" name="" field="Sin sign_1"/>
-    <alias index="54" name="" field="Sin sign_2"/>
-    <alias index="55" name="" field="Sin sign_3"/>
-    <alias index="56" name="" field="field_57"/>
+    <alias index="0" field="FECHA DEL" name=""/>
+    <alias index="1" field="DIRECCIÃ�" name=""/>
+    <alias index="2" field="LATITUD" name=""/>
+    <alias index="3" field="LONGITUD" name=""/>
+    <alias index="4" field="Tiempo de" name=""/>
+    <alias index="5" field="Tiempo tot" name=""/>
+    <alias index="6" field="RECURSOS" name=""/>
+    <alias index="7" field="RECURSOS2" name=""/>
+    <alias index="8" field="RECURSOS3" name=""/>
+    <alias index="9" field="RECURSOS4" name=""/>
+    <alias index="10" field="RECURSOS5" name=""/>
+    <alias index="11" field="RECURSOS6" name=""/>
+    <alias index="12" field="RECURSOS7" name=""/>
+    <alias index="13" field="TOTAL RECU" name=""/>
+    <alias index="14" field="J1" name=""/>
+    <alias index="15" field="J2" name=""/>
+    <alias index="16" field="Cdte." name=""/>
+    <alias index="17" field="Sub. Cdte." name=""/>
+    <alias index="18" field="Tte." name=""/>
+    <alias index="19" field="Sgto." name=""/>
+    <alias index="20" field="Cabo" name=""/>
+    <alias index="21" field="Bro." name=""/>
+    <alias index="22" field="Otro" name=""/>
+    <alias index="23" field="Total" name=""/>
+    <alias index="24" field="SERVICIO" name=""/>
+    <alias index="25" field="CLASE DE S" name=""/>
+    <alias index="26" field="SUBCLASE D" name=""/>
+    <alias index="27" field="TIPO SUBCL" name=""/>
+    <alias index="28" field="USO DE LA" name=""/>
+    <alias index="29" field="CLASE DE U" name=""/>
+    <alias index="30" field="CLASE DE V" name=""/>
+    <alias index="31" field="SUBCLASE_1" name=""/>
+    <alias index="32" field="ÃREA AF" name=""/>
+    <alias index="33" field="ÃREA EX" name=""/>
+    <alias index="34" field="ORIGEN DE" name=""/>
+    <alias index="35" field="CAUSAS" name=""/>
+    <alias index="36" field="PoblaciÃ�" name=""/>
+    <alias index="37" field="Poblaci�_1" name=""/>
+    <alias index="38" field="Poblaci�_2" name=""/>
+    <alias index="39" field="Poblaci�_3" name=""/>
+    <alias index="40" field="Poblaci�_4" name=""/>
+    <alias index="41" field="Poblaci�_5" name=""/>
+    <alias index="42" field="Poblaci�_6" name=""/>
+    <alias index="43" field="Poblaci�_7" name=""/>
+    <alias index="44" field="Rescatados" name=""/>
+    <alias index="45" field="Rescatad_1" name=""/>
+    <alias index="46" field="Rescatad_2" name=""/>
+    <alias index="47" field="Rescatad_3" name=""/>
+    <alias index="48" field="Heridos Ho" name=""/>
+    <alias index="49" field="Heridos Mu" name=""/>
+    <alias index="50" field="Heridos Ni" name=""/>
+    <alias index="51" field="Heridos _1" name=""/>
+    <alias index="52" field="Sin signos" name=""/>
+    <alias index="53" field="Sin sign_1" name=""/>
+    <alias index="54" field="Sin sign_2" name=""/>
+    <alias index="55" field="Sin sign_3" name=""/>
+    <alias index="56" field="field_57" name=""/>
   </aliases>
   <defaults>
-    <default applyOnUpdate="0" expression="" field="FECHA DEL"/>
-    <default applyOnUpdate="0" expression="" field="DIRECCIÃ�"/>
-    <default applyOnUpdate="0" expression="" field="LATITUD"/>
-    <default applyOnUpdate="0" expression="" field="LONGITUD"/>
-    <default applyOnUpdate="0" expression="" field="Tiempo de"/>
-    <default applyOnUpdate="0" expression="" field="Tiempo tot"/>
-    <default applyOnUpdate="0" expression="" field="RECURSOS"/>
-    <default applyOnUpdate="0" expression="" field="RECURSOS2"/>
-    <default applyOnUpdate="0" expression="" field="RECURSOS3"/>
-    <default applyOnUpdate="0" expression="" field="RECURSOS4"/>
-    <default applyOnUpdate="0" expression="" field="RECURSOS5"/>
-    <default applyOnUpdate="0" expression="" field="RECURSOS6"/>
-    <default applyOnUpdate="0" expression="" field="RECURSOS7"/>
-    <default applyOnUpdate="0" expression="" field="TOTAL RECU"/>
-    <default applyOnUpdate="0" expression="" field="J1"/>
-    <default applyOnUpdate="0" expression="" field="J2"/>
-    <default applyOnUpdate="0" expression="" field="Cdte."/>
-    <default applyOnUpdate="0" expression="" field="Sub. Cdte."/>
-    <default applyOnUpdate="0" expression="" field="Tte."/>
-    <default applyOnUpdate="0" expression="" field="Sgto."/>
-    <default applyOnUpdate="0" expression="" field="Cabo"/>
-    <default applyOnUpdate="0" expression="" field="Bro."/>
-    <default applyOnUpdate="0" expression="" field="Otro"/>
-    <default applyOnUpdate="0" expression="" field="Total"/>
-    <default applyOnUpdate="0" expression="" field="SERVICIO"/>
-    <default applyOnUpdate="0" expression="" field="CLASE DE S"/>
-    <default applyOnUpdate="0" expression="" field="SUBCLASE D"/>
-    <default applyOnUpdate="0" expression="" field="TIPO SUBCL"/>
-    <default applyOnUpdate="0" expression="" field="USO DE LA"/>
-    <default applyOnUpdate="0" expression="" field="CLASE DE U"/>
-    <default applyOnUpdate="0" expression="" field="CLASE DE V"/>
-    <default applyOnUpdate="0" expression="" field="SUBCLASE_1"/>
-    <default applyOnUpdate="0" expression="" field="ÃREA AF"/>
-    <default applyOnUpdate="0" expression="" field="ÃREA EX"/>
-    <default applyOnUpdate="0" expression="" field="ORIGEN DE"/>
-    <default applyOnUpdate="0" expression="" field="CAUSAS"/>
-    <default applyOnUpdate="0" expression="" field="PoblaciÃ�"/>
-    <default applyOnUpdate="0" expression="" field="Poblaci�_1"/>
-    <default applyOnUpdate="0" expression="" field="Poblaci�_2"/>
-    <default applyOnUpdate="0" expression="" field="Poblaci�_3"/>
-    <default applyOnUpdate="0" expression="" field="Poblaci�_4"/>
-    <default applyOnUpdate="0" expression="" field="Poblaci�_5"/>
-    <default applyOnUpdate="0" expression="" field="Poblaci�_6"/>
-    <default applyOnUpdate="0" expression="" field="Poblaci�_7"/>
-    <default applyOnUpdate="0" expression="" field="Rescatados"/>
-    <default applyOnUpdate="0" expression="" field="Rescatad_1"/>
-    <default applyOnUpdate="0" expression="" field="Rescatad_2"/>
-    <default applyOnUpdate="0" expression="" field="Rescatad_3"/>
-    <default applyOnUpdate="0" expression="" field="Heridos Ho"/>
-    <default applyOnUpdate="0" expression="" field="Heridos Mu"/>
-    <default applyOnUpdate="0" expression="" field="Heridos Ni"/>
-    <default applyOnUpdate="0" expression="" field="Heridos _1"/>
-    <default applyOnUpdate="0" expression="" field="Sin signos"/>
-    <default applyOnUpdate="0" expression="" field="Sin sign_1"/>
-    <default applyOnUpdate="0" expression="" field="Sin sign_2"/>
-    <default applyOnUpdate="0" expression="" field="Sin sign_3"/>
-    <default applyOnUpdate="0" expression="" field="field_57"/>
+    <default field="FECHA DEL" applyOnUpdate="0" expression=""/>
+    <default field="DIRECCIÃ�" applyOnUpdate="0" expression=""/>
+    <default field="LATITUD" applyOnUpdate="0" expression=""/>
+    <default field="LONGITUD" applyOnUpdate="0" expression=""/>
+    <default field="Tiempo de" applyOnUpdate="0" expression=""/>
+    <default field="Tiempo tot" applyOnUpdate="0" expression=""/>
+    <default field="RECURSOS" applyOnUpdate="0" expression=""/>
+    <default field="RECURSOS2" applyOnUpdate="0" expression=""/>
+    <default field="RECURSOS3" applyOnUpdate="0" expression=""/>
+    <default field="RECURSOS4" applyOnUpdate="0" expression=""/>
+    <default field="RECURSOS5" applyOnUpdate="0" expression=""/>
+    <default field="RECURSOS6" applyOnUpdate="0" expression=""/>
+    <default field="RECURSOS7" applyOnUpdate="0" expression=""/>
+    <default field="TOTAL RECU" applyOnUpdate="0" expression=""/>
+    <default field="J1" applyOnUpdate="0" expression=""/>
+    <default field="J2" applyOnUpdate="0" expression=""/>
+    <default field="Cdte." applyOnUpdate="0" expression=""/>
+    <default field="Sub. Cdte." applyOnUpdate="0" expression=""/>
+    <default field="Tte." applyOnUpdate="0" expression=""/>
+    <default field="Sgto." applyOnUpdate="0" expression=""/>
+    <default field="Cabo" applyOnUpdate="0" expression=""/>
+    <default field="Bro." applyOnUpdate="0" expression=""/>
+    <default field="Otro" applyOnUpdate="0" expression=""/>
+    <default field="Total" applyOnUpdate="0" expression=""/>
+    <default field="SERVICIO" applyOnUpdate="0" expression=""/>
+    <default field="CLASE DE S" applyOnUpdate="0" expression=""/>
+    <default field="SUBCLASE D" applyOnUpdate="0" expression=""/>
+    <default field="TIPO SUBCL" applyOnUpdate="0" expression=""/>
+    <default field="USO DE LA" applyOnUpdate="0" expression=""/>
+    <default field="CLASE DE U" applyOnUpdate="0" expression=""/>
+    <default field="CLASE DE V" applyOnUpdate="0" expression=""/>
+    <default field="SUBCLASE_1" applyOnUpdate="0" expression=""/>
+    <default field="ÃREA AF" applyOnUpdate="0" expression=""/>
+    <default field="ÃREA EX" applyOnUpdate="0" expression=""/>
+    <default field="ORIGEN DE" applyOnUpdate="0" expression=""/>
+    <default field="CAUSAS" applyOnUpdate="0" expression=""/>
+    <default field="PoblaciÃ�" applyOnUpdate="0" expression=""/>
+    <default field="Poblaci�_1" applyOnUpdate="0" expression=""/>
+    <default field="Poblaci�_2" applyOnUpdate="0" expression=""/>
+    <default field="Poblaci�_3" applyOnUpdate="0" expression=""/>
+    <default field="Poblaci�_4" applyOnUpdate="0" expression=""/>
+    <default field="Poblaci�_5" applyOnUpdate="0" expression=""/>
+    <default field="Poblaci�_6" applyOnUpdate="0" expression=""/>
+    <default field="Poblaci�_7" applyOnUpdate="0" expression=""/>
+    <default field="Rescatados" applyOnUpdate="0" expression=""/>
+    <default field="Rescatad_1" applyOnUpdate="0" expression=""/>
+    <default field="Rescatad_2" applyOnUpdate="0" expression=""/>
+    <default field="Rescatad_3" applyOnUpdate="0" expression=""/>
+    <default field="Heridos Ho" applyOnUpdate="0" expression=""/>
+    <default field="Heridos Mu" applyOnUpdate="0" expression=""/>
+    <default field="Heridos Ni" applyOnUpdate="0" expression=""/>
+    <default field="Heridos _1" applyOnUpdate="0" expression=""/>
+    <default field="Sin signos" applyOnUpdate="0" expression=""/>
+    <default field="Sin sign_1" applyOnUpdate="0" expression=""/>
+    <default field="Sin sign_2" applyOnUpdate="0" expression=""/>
+    <default field="Sin sign_3" applyOnUpdate="0" expression=""/>
+    <default field="field_57" applyOnUpdate="0" expression=""/>
   </defaults>
   <constraints>
-    <constraint unique_strength="0" constraints="0" exp_strength="0" field="FECHA DEL" notnull_strength="0"/>
-    <constraint unique_strength="0" constraints="0" exp_strength="0" field="DIRECCIÃ�" notnull_strength="0"/>
-    <constraint unique_strength="0" constraints="0" exp_strength="0" field="LATITUD" notnull_strength="0"/>
-    <constraint unique_strength="0" constraints="0" exp_strength="0" field="LONGITUD" notnull_strength="0"/>
-    <constraint unique_strength="0" constraints="0" exp_strength="0" field="Tiempo de" notnull_strength="0"/>
-    <constraint unique_strength="0" constraints="0" exp_strength="0" field="Tiempo tot" notnull_strength="0"/>
-    <constraint unique_strength="0" constraints="0" exp_strength="0" field="RECURSOS" notnull_strength="0"/>
-    <constraint unique_strength="0" constraints="0" exp_strength="0" field="RECURSOS2" notnull_strength="0"/>
-    <constraint unique_strength="0" constraints="0" exp_strength="0" field="RECURSOS3" notnull_strength="0"/>
-    <constraint unique_strength="0" constraints="0" exp_strength="0" field="RECURSOS4" notnull_strength="0"/>
-    <constraint unique_strength="0" constraints="0" exp_strength="0" field="RECURSOS5" notnull_strength="0"/>
-    <constraint unique_strength="0" constraints="0" exp_strength="0" field="RECURSOS6" notnull_strength="0"/>
-    <constraint unique_strength="0" constraints="0" exp_strength="0" field="RECURSOS7" notnull_strength="0"/>
-    <constraint unique_strength="0" constraints="0" exp_strength="0" field="TOTAL RECU" notnull_strength="0"/>
-    <constraint unique_strength="0" constraints="0" exp_strength="0" field="J1" notnull_strength="0"/>
-    <constraint unique_strength="0" constraints="0" exp_strength="0" field="J2" notnull_strength="0"/>
-    <constraint unique_strength="0" constraints="0" exp_strength="0" field="Cdte." notnull_strength="0"/>
-    <constraint unique_strength="0" constraints="0" exp_strength="0" field="Sub. Cdte." notnull_strength="0"/>
-    <constraint unique_strength="0" constraints="0" exp_strength="0" field="Tte." notnull_strength="0"/>
-    <constraint unique_strength="0" constraints="0" exp_strength="0" field="Sgto." notnull_strength="0"/>
-    <constraint unique_strength="0" constraints="0" exp_strength="0" field="Cabo" notnull_strength="0"/>
-    <constraint unique_strength="0" constraints="0" exp_strength="0" field="Bro." notnull_strength="0"/>
-    <constraint unique_strength="0" constraints="0" exp_strength="0" field="Otro" notnull_strength="0"/>
-    <constraint unique_strength="0" constraints="0" exp_strength="0" field="Total" notnull_strength="0"/>
-    <constraint unique_strength="0" constraints="0" exp_strength="0" field="SERVICIO" notnull_strength="0"/>
-    <constraint unique_strength="0" constraints="0" exp_strength="0" field="CLASE DE S" notnull_strength="0"/>
-    <constraint unique_strength="0" constraints="0" exp_strength="0" field="SUBCLASE D" notnull_strength="0"/>
-    <constraint unique_strength="0" constraints="0" exp_strength="0" field="TIPO SUBCL" notnull_strength="0"/>
-    <constraint unique_strength="0" constraints="0" exp_strength="0" field="USO DE LA" notnull_strength="0"/>
-    <constraint unique_strength="0" constraints="0" exp_strength="0" field="CLASE DE U" notnull_strength="0"/>
-    <constraint unique_strength="0" constraints="0" exp_strength="0" field="CLASE DE V" notnull_strength="0"/>
-    <constraint unique_strength="0" constraints="0" exp_strength="0" field="SUBCLASE_1" notnull_strength="0"/>
-    <constraint unique_strength="0" constraints="0" exp_strength="0" field="ÃREA AF" notnull_strength="0"/>
-    <constraint unique_strength="0" constraints="0" exp_strength="0" field="ÃREA EX" notnull_strength="0"/>
-    <constraint unique_strength="0" constraints="0" exp_strength="0" field="ORIGEN DE" notnull_strength="0"/>
-    <constraint unique_strength="0" constraints="0" exp_strength="0" field="CAUSAS" notnull_strength="0"/>
-    <constraint unique_strength="0" constraints="0" exp_strength="0" field="PoblaciÃ�" notnull_strength="0"/>
-    <constraint unique_strength="0" constraints="0" exp_strength="0" field="Poblaci�_1" notnull_strength="0"/>
-    <constraint unique_strength="0" constraints="0" exp_strength="0" field="Poblaci�_2" notnull_strength="0"/>
-    <constraint unique_strength="0" constraints="0" exp_strength="0" field="Poblaci�_3" notnull_strength="0"/>
-    <constraint unique_strength="0" constraints="0" exp_strength="0" field="Poblaci�_4" notnull_strength="0"/>
-    <constraint unique_strength="0" constraints="0" exp_strength="0" field="Poblaci�_5" notnull_strength="0"/>
-    <constraint unique_strength="0" constraints="0" exp_strength="0" field="Poblaci�_6" notnull_strength="0"/>
-    <constraint unique_strength="0" constraints="0" exp_strength="0" field="Poblaci�_7" notnull_strength="0"/>
-    <constraint unique_strength="0" constraints="0" exp_strength="0" field="Rescatados" notnull_strength="0"/>
-    <constraint unique_strength="0" constraints="0" exp_strength="0" field="Rescatad_1" notnull_strength="0"/>
-    <constraint unique_strength="0" constraints="0" exp_strength="0" field="Rescatad_2" notnull_strength="0"/>
-    <constraint unique_strength="0" constraints="0" exp_strength="0" field="Rescatad_3" notnull_strength="0"/>
-    <constraint unique_strength="0" constraints="0" exp_strength="0" field="Heridos Ho" notnull_strength="0"/>
-    <constraint unique_strength="0" constraints="0" exp_strength="0" field="Heridos Mu" notnull_strength="0"/>
-    <constraint unique_strength="0" constraints="0" exp_strength="0" field="Heridos Ni" notnull_strength="0"/>
-    <constraint unique_strength="0" constraints="0" exp_strength="0" field="Heridos _1" notnull_strength="0"/>
-    <constraint unique_strength="0" constraints="0" exp_strength="0" field="Sin signos" notnull_strength="0"/>
-    <constraint unique_strength="0" constraints="0" exp_strength="0" field="Sin sign_1" notnull_strength="0"/>
-    <constraint unique_strength="0" constraints="0" exp_strength="0" field="Sin sign_2" notnull_strength="0"/>
-    <constraint unique_strength="0" constraints="0" exp_strength="0" field="Sin sign_3" notnull_strength="0"/>
-    <constraint unique_strength="0" constraints="0" exp_strength="0" field="field_57" notnull_strength="0"/>
+    <constraint field="FECHA DEL" notnull_strength="0" unique_strength="0" constraints="0" exp_strength="0"/>
+    <constraint field="DIRECCIÃ�" notnull_strength="0" unique_strength="0" constraints="0" exp_strength="0"/>
+    <constraint field="LATITUD" notnull_strength="0" unique_strength="0" constraints="0" exp_strength="0"/>
+    <constraint field="LONGITUD" notnull_strength="0" unique_strength="0" constraints="0" exp_strength="0"/>
+    <constraint field="Tiempo de" notnull_strength="0" unique_strength="0" constraints="0" exp_strength="0"/>
+    <constraint field="Tiempo tot" notnull_strength="0" unique_strength="0" constraints="0" exp_strength="0"/>
+    <constraint field="RECURSOS" notnull_strength="0" unique_strength="0" constraints="0" exp_strength="0"/>
+    <constraint field="RECURSOS2" notnull_strength="0" unique_strength="0" constraints="0" exp_strength="0"/>
+    <constraint field="RECURSOS3" notnull_strength="0" unique_strength="0" constraints="0" exp_strength="0"/>
+    <constraint field="RECURSOS4" notnull_strength="0" unique_strength="0" constraints="0" exp_strength="0"/>
+    <constraint field="RECURSOS5" notnull_strength="0" unique_strength="0" constraints="0" exp_strength="0"/>
+    <constraint field="RECURSOS6" notnull_strength="0" unique_strength="0" constraints="0" exp_strength="0"/>
+    <constraint field="RECURSOS7" notnull_strength="0" unique_strength="0" constraints="0" exp_strength="0"/>
+    <constraint field="TOTAL RECU" notnull_strength="0" unique_strength="0" constraints="0" exp_strength="0"/>
+    <constraint field="J1" notnull_strength="0" unique_strength="0" constraints="0" exp_strength="0"/>
+    <constraint field="J2" notnull_strength="0" unique_strength="0" constraints="0" exp_strength="0"/>
+    <constraint field="Cdte." notnull_strength="0" unique_strength="0" constraints="0" exp_strength="0"/>
+    <constraint field="Sub. Cdte." notnull_strength="0" unique_strength="0" constraints="0" exp_strength="0"/>
+    <constraint field="Tte." notnull_strength="0" unique_strength="0" constraints="0" exp_strength="0"/>
+    <constraint field="Sgto." notnull_strength="0" unique_strength="0" constraints="0" exp_strength="0"/>
+    <constraint field="Cabo" notnull_strength="0" unique_strength="0" constraints="0" exp_strength="0"/>
+    <constraint field="Bro." notnull_strength="0" unique_strength="0" constraints="0" exp_strength="0"/>
+    <constraint field="Otro" notnull_strength="0" unique_strength="0" constraints="0" exp_strength="0"/>
+    <constraint field="Total" notnull_strength="0" unique_strength="0" constraints="0" exp_strength="0"/>
+    <constraint field="SERVICIO" notnull_strength="0" unique_strength="0" constraints="0" exp_strength="0"/>
+    <constraint field="CLASE DE S" notnull_strength="0" unique_strength="0" constraints="0" exp_strength="0"/>
+    <constraint field="SUBCLASE D" notnull_strength="0" unique_strength="0" constraints="0" exp_strength="0"/>
+    <constraint field="TIPO SUBCL" notnull_strength="0" unique_strength="0" constraints="0" exp_strength="0"/>
+    <constraint field="USO DE LA" notnull_strength="0" unique_strength="0" constraints="0" exp_strength="0"/>
+    <constraint field="CLASE DE U" notnull_strength="0" unique_strength="0" constraints="0" exp_strength="0"/>
+    <constraint field="CLASE DE V" notnull_strength="0" unique_strength="0" constraints="0" exp_strength="0"/>
+    <constraint field="SUBCLASE_1" notnull_strength="0" unique_strength="0" constraints="0" exp_strength="0"/>
+    <constraint field="ÃREA AF" notnull_strength="0" unique_strength="0" constraints="0" exp_strength="0"/>
+    <constraint field="ÃREA EX" notnull_strength="0" unique_strength="0" constraints="0" exp_strength="0"/>
+    <constraint field="ORIGEN DE" notnull_strength="0" unique_strength="0" constraints="0" exp_strength="0"/>
+    <constraint field="CAUSAS" notnull_strength="0" unique_strength="0" constraints="0" exp_strength="0"/>
+    <constraint field="PoblaciÃ�" notnull_strength="0" unique_strength="0" constraints="0" exp_strength="0"/>
+    <constraint field="Poblaci�_1" notnull_strength="0" unique_strength="0" constraints="0" exp_strength="0"/>
+    <constraint field="Poblaci�_2" notnull_strength="0" unique_strength="0" constraints="0" exp_strength="0"/>
+    <constraint field="Poblaci�_3" notnull_strength="0" unique_strength="0" constraints="0" exp_strength="0"/>
+    <constraint field="Poblaci�_4" notnull_strength="0" unique_strength="0" constraints="0" exp_strength="0"/>
+    <constraint field="Poblaci�_5" notnull_strength="0" unique_strength="0" constraints="0" exp_strength="0"/>
+    <constraint field="Poblaci�_6" notnull_strength="0" unique_strength="0" constraints="0" exp_strength="0"/>
+    <constraint field="Poblaci�_7" notnull_strength="0" unique_strength="0" constraints="0" exp_strength="0"/>
+    <constraint field="Rescatados" notnull_strength="0" unique_strength="0" constraints="0" exp_strength="0"/>
+    <constraint field="Rescatad_1" notnull_strength="0" unique_strength="0" constraints="0" exp_strength="0"/>
+    <constraint field="Rescatad_2" notnull_strength="0" unique_strength="0" constraints="0" exp_strength="0"/>
+    <constraint field="Rescatad_3" notnull_strength="0" unique_strength="0" constraints="0" exp_strength="0"/>
+    <constraint field="Heridos Ho" notnull_strength="0" unique_strength="0" constraints="0" exp_strength="0"/>
+    <constraint field="Heridos Mu" notnull_strength="0" unique_strength="0" constraints="0" exp_strength="0"/>
+    <constraint field="Heridos Ni" notnull_strength="0" unique_strength="0" constraints="0" exp_strength="0"/>
+    <constraint field="Heridos _1" notnull_strength="0" unique_strength="0" constraints="0" exp_strength="0"/>
+    <constraint field="Sin signos" notnull_strength="0" unique_strength="0" constraints="0" exp_strength="0"/>
+    <constraint field="Sin sign_1" notnull_strength="0" unique_strength="0" constraints="0" exp_strength="0"/>
+    <constraint field="Sin sign_2" notnull_strength="0" unique_strength="0" constraints="0" exp_strength="0"/>
+    <constraint field="Sin sign_3" notnull_strength="0" unique_strength="0" constraints="0" exp_strength="0"/>
+    <constraint field="field_57" notnull_strength="0" unique_strength="0" constraints="0" exp_strength="0"/>
   </constraints>
   <constraintExpressions>
-    <constraint desc="" exp="" field="FECHA DEL"/>
-    <constraint desc="" exp="" field="DIRECCIÃ�"/>
-    <constraint desc="" exp="" field="LATITUD"/>
-    <constraint desc="" exp="" field="LONGITUD"/>
-    <constraint desc="" exp="" field="Tiempo de"/>
-    <constraint desc="" exp="" field="Tiempo tot"/>
-    <constraint desc="" exp="" field="RECURSOS"/>
-    <constraint desc="" exp="" field="RECURSOS2"/>
-    <constraint desc="" exp="" field="RECURSOS3"/>
-    <constraint desc="" exp="" field="RECURSOS4"/>
-    <constraint desc="" exp="" field="RECURSOS5"/>
-    <constraint desc="" exp="" field="RECURSOS6"/>
-    <constraint desc="" exp="" field="RECURSOS7"/>
-    <constraint desc="" exp="" field="TOTAL RECU"/>
-    <constraint desc="" exp="" field="J1"/>
-    <constraint desc="" exp="" field="J2"/>
-    <constraint desc="" exp="" field="Cdte."/>
-    <constraint desc="" exp="" field="Sub. Cdte."/>
-    <constraint desc="" exp="" field="Tte."/>
-    <constraint desc="" exp="" field="Sgto."/>
-    <constraint desc="" exp="" field="Cabo"/>
-    <constraint desc="" exp="" field="Bro."/>
-    <constraint desc="" exp="" field="Otro"/>
-    <constraint desc="" exp="" field="Total"/>
-    <constraint desc="" exp="" field="SERVICIO"/>
-    <constraint desc="" exp="" field="CLASE DE S"/>
-    <constraint desc="" exp="" field="SUBCLASE D"/>
-    <constraint desc="" exp="" field="TIPO SUBCL"/>
-    <constraint desc="" exp="" field="USO DE LA"/>
-    <constraint desc="" exp="" field="CLASE DE U"/>
-    <constraint desc="" exp="" field="CLASE DE V"/>
-    <constraint desc="" exp="" field="SUBCLASE_1"/>
-    <constraint desc="" exp="" field="ÃREA AF"/>
-    <constraint desc="" exp="" field="ÃREA EX"/>
-    <constraint desc="" exp="" field="ORIGEN DE"/>
-    <constraint desc="" exp="" field="CAUSAS"/>
-    <constraint desc="" exp="" field="PoblaciÃ�"/>
-    <constraint desc="" exp="" field="Poblaci�_1"/>
-    <constraint desc="" exp="" field="Poblaci�_2"/>
-    <constraint desc="" exp="" field="Poblaci�_3"/>
-    <constraint desc="" exp="" field="Poblaci�_4"/>
-    <constraint desc="" exp="" field="Poblaci�_5"/>
-    <constraint desc="" exp="" field="Poblaci�_6"/>
-    <constraint desc="" exp="" field="Poblaci�_7"/>
-    <constraint desc="" exp="" field="Rescatados"/>
-    <constraint desc="" exp="" field="Rescatad_1"/>
-    <constraint desc="" exp="" field="Rescatad_2"/>
-    <constraint desc="" exp="" field="Rescatad_3"/>
-    <constraint desc="" exp="" field="Heridos Ho"/>
-    <constraint desc="" exp="" field="Heridos Mu"/>
-    <constraint desc="" exp="" field="Heridos Ni"/>
-    <constraint desc="" exp="" field="Heridos _1"/>
-    <constraint desc="" exp="" field="Sin signos"/>
-    <constraint desc="" exp="" field="Sin sign_1"/>
-    <constraint desc="" exp="" field="Sin sign_2"/>
-    <constraint desc="" exp="" field="Sin sign_3"/>
-    <constraint desc="" exp="" field="field_57"/>
+    <constraint desc="" field="FECHA DEL" exp=""/>
+    <constraint desc="" field="DIRECCIÃ�" exp=""/>
+    <constraint desc="" field="LATITUD" exp=""/>
+    <constraint desc="" field="LONGITUD" exp=""/>
+    <constraint desc="" field="Tiempo de" exp=""/>
+    <constraint desc="" field="Tiempo tot" exp=""/>
+    <constraint desc="" field="RECURSOS" exp=""/>
+    <constraint desc="" field="RECURSOS2" exp=""/>
+    <constraint desc="" field="RECURSOS3" exp=""/>
+    <constraint desc="" field="RECURSOS4" exp=""/>
+    <constraint desc="" field="RECURSOS5" exp=""/>
+    <constraint desc="" field="RECURSOS6" exp=""/>
+    <constraint desc="" field="RECURSOS7" exp=""/>
+    <constraint desc="" field="TOTAL RECU" exp=""/>
+    <constraint desc="" field="J1" exp=""/>
+    <constraint desc="" field="J2" exp=""/>
+    <constraint desc="" field="Cdte." exp=""/>
+    <constraint desc="" field="Sub. Cdte." exp=""/>
+    <constraint desc="" field="Tte." exp=""/>
+    <constraint desc="" field="Sgto." exp=""/>
+    <constraint desc="" field="Cabo" exp=""/>
+    <constraint desc="" field="Bro." exp=""/>
+    <constraint desc="" field="Otro" exp=""/>
+    <constraint desc="" field="Total" exp=""/>
+    <constraint desc="" field="SERVICIO" exp=""/>
+    <constraint desc="" field="CLASE DE S" exp=""/>
+    <constraint desc="" field="SUBCLASE D" exp=""/>
+    <constraint desc="" field="TIPO SUBCL" exp=""/>
+    <constraint desc="" field="USO DE LA" exp=""/>
+    <constraint desc="" field="CLASE DE U" exp=""/>
+    <constraint desc="" field="CLASE DE V" exp=""/>
+    <constraint desc="" field="SUBCLASE_1" exp=""/>
+    <constraint desc="" field="ÃREA AF" exp=""/>
+    <constraint desc="" field="ÃREA EX" exp=""/>
+    <constraint desc="" field="ORIGEN DE" exp=""/>
+    <constraint desc="" field="CAUSAS" exp=""/>
+    <constraint desc="" field="PoblaciÃ�" exp=""/>
+    <constraint desc="" field="Poblaci�_1" exp=""/>
+    <constraint desc="" field="Poblaci�_2" exp=""/>
+    <constraint desc="" field="Poblaci�_3" exp=""/>
+    <constraint desc="" field="Poblaci�_4" exp=""/>
+    <constraint desc="" field="Poblaci�_5" exp=""/>
+    <constraint desc="" field="Poblaci�_6" exp=""/>
+    <constraint desc="" field="Poblaci�_7" exp=""/>
+    <constraint desc="" field="Rescatados" exp=""/>
+    <constraint desc="" field="Rescatad_1" exp=""/>
+    <constraint desc="" field="Rescatad_2" exp=""/>
+    <constraint desc="" field="Rescatad_3" exp=""/>
+    <constraint desc="" field="Heridos Ho" exp=""/>
+    <constraint desc="" field="Heridos Mu" exp=""/>
+    <constraint desc="" field="Heridos Ni" exp=""/>
+    <constraint desc="" field="Heridos _1" exp=""/>
+    <constraint desc="" field="Sin signos" exp=""/>
+    <constraint desc="" field="Sin sign_1" exp=""/>
+    <constraint desc="" field="Sin sign_2" exp=""/>
+    <constraint desc="" field="Sin sign_3" exp=""/>
+    <constraint desc="" field="field_57" exp=""/>
   </constraintExpressions>
   <expressionfields/>
   <attributeactions>
-    <defaultAction value="{00000000-0000-0000-0000-000000000000}" key="Canvas"/>
+    <defaultAction key="Canvas" value="{00000000-0000-0000-0000-000000000000}"/>
   </attributeactions>
-  <attributetableconfig sortExpression="" actionWidgetStyle="dropDown" sortOrder="0">
+  <attributetableconfig actionWidgetStyle="dropDown" sortExpression="" sortOrder="0">
     <columns>
-      <column hidden="0" width="-1" name="FECHA DEL" type="field"/>
-      <column hidden="0" width="-1" name="DIRECCIÃ�" type="field"/>
-      <column hidden="0" width="-1" name="LATITUD" type="field"/>
-      <column hidden="0" width="-1" name="LONGITUD" type="field"/>
-      <column hidden="0" width="-1" name="Tiempo de" type="field"/>
-      <column hidden="0" width="-1" name="Tiempo tot" type="field"/>
-      <column hidden="0" width="-1" name="RECURSOS" type="field"/>
-      <column hidden="0" width="-1" name="RECURSOS2" type="field"/>
-      <column hidden="0" width="-1" name="RECURSOS3" type="field"/>
-      <column hidden="0" width="-1" name="RECURSOS4" type="field"/>
-      <column hidden="0" width="-1" name="RECURSOS5" type="field"/>
-      <column hidden="0" width="-1" name="RECURSOS6" type="field"/>
-      <column hidden="0" width="-1" name="RECURSOS7" type="field"/>
-      <column hidden="0" width="-1" name="TOTAL RECU" type="field"/>
-      <column hidden="0" width="-1" name="J1" type="field"/>
-      <column hidden="0" width="-1" name="J2" type="field"/>
-      <column hidden="0" width="-1" name="Cdte." type="field"/>
-      <column hidden="0" width="-1" name="Sub. Cdte." type="field"/>
-      <column hidden="0" width="-1" name="Tte." type="field"/>
-      <column hidden="0" width="-1" name="Sgto." type="field"/>
-      <column hidden="0" width="-1" name="Cabo" type="field"/>
-      <column hidden="0" width="-1" name="Bro." type="field"/>
-      <column hidden="0" width="-1" name="Otro" type="field"/>
-      <column hidden="0" width="-1" name="Total" type="field"/>
-      <column hidden="0" width="-1" name="SERVICIO" type="field"/>
-      <column hidden="0" width="210" name="CLASE DE S" type="field"/>
-      <column hidden="0" width="-1" name="SUBCLASE D" type="field"/>
-      <column hidden="0" width="-1" name="TIPO SUBCL" type="field"/>
-      <column hidden="0" width="-1" name="USO DE LA" type="field"/>
-      <column hidden="0" width="-1" name="CLASE DE U" type="field"/>
-      <column hidden="0" width="-1" name="CLASE DE V" type="field"/>
-      <column hidden="0" width="-1" name="SUBCLASE_1" type="field"/>
-      <column hidden="0" width="-1" name="ÃREA AF" type="field"/>
-      <column hidden="0" width="-1" name="ÃREA EX" type="field"/>
-      <column hidden="0" width="-1" name="ORIGEN DE" type="field"/>
-      <column hidden="0" width="-1" name="CAUSAS" type="field"/>
-      <column hidden="0" width="-1" name="PoblaciÃ�" type="field"/>
-      <column hidden="0" width="-1" name="Poblaci�_1" type="field"/>
-      <column hidden="0" width="-1" name="Poblaci�_2" type="field"/>
-      <column hidden="0" width="-1" name="Poblaci�_3" type="field"/>
-      <column hidden="0" width="-1" name="Poblaci�_4" type="field"/>
-      <column hidden="0" width="-1" name="Poblaci�_5" type="field"/>
-      <column hidden="0" width="-1" name="Poblaci�_6" type="field"/>
-      <column hidden="0" width="-1" name="Poblaci�_7" type="field"/>
-      <column hidden="0" width="-1" name="Rescatados" type="field"/>
-      <column hidden="0" width="-1" name="Rescatad_1" type="field"/>
-      <column hidden="0" width="-1" name="Rescatad_2" type="field"/>
-      <column hidden="0" width="-1" name="Rescatad_3" type="field"/>
-      <column hidden="0" width="-1" name="Heridos Ho" type="field"/>
-      <column hidden="0" width="-1" name="Heridos Mu" type="field"/>
-      <column hidden="0" width="-1" name="Heridos Ni" type="field"/>
-      <column hidden="0" width="-1" name="Heridos _1" type="field"/>
-      <column hidden="0" width="-1" name="Sin signos" type="field"/>
-      <column hidden="0" width="-1" name="Sin sign_1" type="field"/>
-      <column hidden="0" width="-1" name="Sin sign_2" type="field"/>
-      <column hidden="0" width="-1" name="Sin sign_3" type="field"/>
-      <column hidden="0" width="-1" name="field_57" type="field"/>
-      <column hidden="1" width="-1" type="actions"/>
+      <column type="field" hidden="0" width="-1" name="FECHA DEL"/>
+      <column type="field" hidden="0" width="-1" name="DIRECCIÃ�"/>
+      <column type="field" hidden="0" width="-1" name="LATITUD"/>
+      <column type="field" hidden="0" width="-1" name="LONGITUD"/>
+      <column type="field" hidden="0" width="-1" name="Tiempo de"/>
+      <column type="field" hidden="0" width="-1" name="Tiempo tot"/>
+      <column type="field" hidden="0" width="-1" name="RECURSOS"/>
+      <column type="field" hidden="0" width="-1" name="RECURSOS2"/>
+      <column type="field" hidden="0" width="-1" name="RECURSOS3"/>
+      <column type="field" hidden="0" width="-1" name="RECURSOS4"/>
+      <column type="field" hidden="0" width="-1" name="RECURSOS5"/>
+      <column type="field" hidden="0" width="-1" name="RECURSOS6"/>
+      <column type="field" hidden="0" width="-1" name="RECURSOS7"/>
+      <column type="field" hidden="0" width="-1" name="TOTAL RECU"/>
+      <column type="field" hidden="0" width="-1" name="J1"/>
+      <column type="field" hidden="0" width="-1" name="J2"/>
+      <column type="field" hidden="0" width="-1" name="Cdte."/>
+      <column type="field" hidden="0" width="-1" name="Sub. Cdte."/>
+      <column type="field" hidden="0" width="-1" name="Tte."/>
+      <column type="field" hidden="0" width="-1" name="Sgto."/>
+      <column type="field" hidden="0" width="-1" name="Cabo"/>
+      <column type="field" hidden="0" width="-1" name="Bro."/>
+      <column type="field" hidden="0" width="-1" name="Otro"/>
+      <column type="field" hidden="0" width="-1" name="Total"/>
+      <column type="field" hidden="0" width="-1" name="SERVICIO"/>
+      <column type="field" hidden="0" width="210" name="CLASE DE S"/>
+      <column type="field" hidden="0" width="-1" name="SUBCLASE D"/>
+      <column type="field" hidden="0" width="-1" name="TIPO SUBCL"/>
+      <column type="field" hidden="0" width="-1" name="USO DE LA"/>
+      <column type="field" hidden="0" width="-1" name="CLASE DE U"/>
+      <column type="field" hidden="0" width="-1" name="CLASE DE V"/>
+      <column type="field" hidden="0" width="-1" name="SUBCLASE_1"/>
+      <column type="field" hidden="0" width="-1" name="ÃREA AF"/>
+      <column type="field" hidden="0" width="-1" name="ÃREA EX"/>
+      <column type="field" hidden="0" width="-1" name="ORIGEN DE"/>
+      <column type="field" hidden="0" width="-1" name="CAUSAS"/>
+      <column type="field" hidden="0" width="-1" name="PoblaciÃ�"/>
+      <column type="field" hidden="0" width="-1" name="Poblaci�_1"/>
+      <column type="field" hidden="0" width="-1" name="Poblaci�_2"/>
+      <column type="field" hidden="0" width="-1" name="Poblaci�_3"/>
+      <column type="field" hidden="0" width="-1" name="Poblaci�_4"/>
+      <column type="field" hidden="0" width="-1" name="Poblaci�_5"/>
+      <column type="field" hidden="0" width="-1" name="Poblaci�_6"/>
+      <column type="field" hidden="0" width="-1" name="Poblaci�_7"/>
+      <column type="field" hidden="0" width="-1" name="Rescatados"/>
+      <column type="field" hidden="0" width="-1" name="Rescatad_1"/>
+      <column type="field" hidden="0" width="-1" name="Rescatad_2"/>
+      <column type="field" hidden="0" width="-1" name="Rescatad_3"/>
+      <column type="field" hidden="0" width="-1" name="Heridos Ho"/>
+      <column type="field" hidden="0" width="-1" name="Heridos Mu"/>
+      <column type="field" hidden="0" width="-1" name="Heridos Ni"/>
+      <column type="field" hidden="0" width="-1" name="Heridos _1"/>
+      <column type="field" hidden="0" width="-1" name="Sin signos"/>
+      <column type="field" hidden="0" width="-1" name="Sin sign_1"/>
+      <column type="field" hidden="0" width="-1" name="Sin sign_2"/>
+      <column type="field" hidden="0" width="-1" name="Sin sign_3"/>
+      <column type="field" hidden="0" width="-1" name="field_57"/>
+      <column type="actions" hidden="1" width="-1"/>
     </columns>
   </attributetableconfig>
   <conditionalstyles>
