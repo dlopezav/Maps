@@ -1,0 +1,396 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.06244,
+          4.64793
+        ]
+      },
+      "properties": {
+        "FID": 0,
+        "Shape *": "Point",
+        "OBJECTID": 1,
+        "ESTACION": "B- 1 ESTACION CHAPINERO",
+        "TIPO ESTAC": "",
+        "DIRECCION": "KR 9A  61 77",
+        "TELEFONO": "3485420",
+        "DISTRITO": "COMPA��A 1",
+        "Y": 4.64793,
+        "X": -74.06244,
+        "Point": "B 1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.08781209841621,
+          4.606843768522876
+        ]
+      },
+      "properties": {
+        "FID": 1,
+        "Shape *": "Point",
+        "OBJECTID": 2,
+        "ESTACION": "B- 2 ESTACION CENTRAL",
+        "TIPO ESTAC": "",
+        "DIRECCION": "CL 11 20A 10",
+        "TELEFONO": "3602845 - 3602861",
+        "DISTRITO": "COMPA��A 3",
+        "Y": 4.606843768522876,
+        "X": -74.08781209841621,
+        "Point": "B 2"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.10796684272414,
+          4.590347070418797
+        ]
+      },
+      "properties": {
+        "FID": 2,
+        "Shape *": "Point",
+        "OBJECTID": 3,
+        "ESTACION": "B- 3 ESTACION SUR",
+        "TIPO ESTAC": "",
+        "DIRECCION": "AK 27 19A 20 SUR",
+        "TELEFONO": "2727721 - 2727701",
+        "DISTRITO": "COMPA��A 4",
+        "Y": 4.590347070418797,
+        "X": -74.10796684272414,
+        "Point": "B 3"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.113031415611,
+          4.645441900511507
+        ]
+      },
+      "properties": {
+        "FID": 3,
+        "Shape *": "Point",
+        "OBJECTID": 4,
+        "ESTACION": "B- 4 ESTACION PUENTE ARANDA",
+        "TIPO ESTAC": "",
+        "DIRECCION": "CL 20 68A 06",
+        "TELEFONO": "2600106 - 2066687",
+        "DISTRITO": "COMPA��A 3",
+        "Y": 4.645441900511507,
+        "X": -74.113031415611,
+        "Point": "B 4"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.14300748507063,
+          4.669988623115997
+        ]
+      },
+      "properties": {
+        "FID": 4,
+        "Shape *": "Point",
+        "OBJECTID": 5,
+        "ESTACION": "B- 6 ESTACION FONTIBON",
+        "TIPO ESTAC": "A",
+        "DIRECCION": "CL 18 99 38",
+        "TELEFONO": "2676810 - 2676046",
+        "DISTRITO": "COMPA��A 2",
+        "Y": 4.669988623115997,
+        "X": -74.14300748507061,
+        "Point": "B 6"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.08996638242388,
+          4.683473708836514
+        ]
+      },
+      "properties": {
+        "FID": 5,
+        "Shape *": "Point",
+        "OBJECTID": 6,
+        "ESTACION": "B- 7 ESTACION FERIAS",
+        "TIPO ESTAC": "",
+        "DIRECCION": "KR 69J 72 61",
+        "TELEFONO": "2508878 - 2506572",
+        "DISTRITO": "COMPA��A 2",
+        "Y": 4.683473708836514,
+        "X": -74.08996638242388,
+        "Point": "B 7"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0866243444472,
+          4.551817261674265
+        ]
+      },
+      "properties": {
+        "FID": 6,
+        "Shape *": "Point",
+        "OBJECTID": 7,
+        "ESTACION": "B- 9 ESTACION BELLAVISTA",
+        "TIPO ESTAC": "A",
+        "DIRECCION": "CL 36 SUR 10 01",
+        "TELEFONO": "2076167 - 2076143",
+        "DISTRITO": "COMPA��A 4",
+        "Y": 4.551817261674265,
+        "X": -74.0866243444472,
+        "Point": "B 9"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.11683476228312,
+          4.512749807002411
+        ]
+      },
+      "properties": {
+        "FID": 7,
+        "Shape *": "Point",
+        "OBJECTID": 8,
+        "ESTACION": "B-10 ESTACION MARICHUELA",
+        "TIPO ESTAC": "",
+        "DIRECCION": "KR 4B 76A  25 SUIR MJ",
+        "TELEFONO": "2002342 - 2001509",
+        "DISTRITO": "COMPA��A 4",
+        "Y": 4.512749807002411,
+        "X": -74.11683476228312,
+        "Point": "B 10"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.14542773195332,
+          4.56805042994959
+        ]
+      },
+      "properties": {
+        "FID": 8,
+        "Shape *": "Point",
+        "OBJECTID": 9,
+        "ESTACION": "B-11 ESTACION CANDELARIA",
+        "TIPO ESTAC": "",
+        "DIRECCION": "CL 62 SUR 72 - 61",
+        "TELEFONO": "7151464 - 7151613",
+        "DISTRITO": "COMPA��A 5",
+        "Y": 4.56805042994959,
+        "X": -74.14542773195332,
+        "Point": "B 11"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0849599029114,
+          4.741840518020105
+        ]
+      },
+      "properties": {
+        "FID": 9,
+        "Shape *": "Point",
+        "OBJECTID": 10,
+        "ESTACION": "B-12 ESTACION SUBA",
+        "TIPO ESTAC": "B",
+        "DIRECCION": "KR 92 143 23",
+        "TELEFONO": "6804141 - 6857486",
+        "DISTRITO": "COMPA��A 2",
+        "Y": 4.741840518020105,
+        "X": -74.0849599029114,
+        "Point": "B 12"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.04053528095422,
+          4.728610212467756
+        ]
+      },
+      "properties": {
+        "FID": 10,
+        "Shape *": "Point",
+        "OBJECTID": 11,
+        "ESTACION": "B-13 ESTACION CAOBOS SALAZAR",
+        "TIPO ESTAC": "",
+        "DIRECCION": "AK 14B 146 05",
+        "TELEFONO": "6143290 - 6144105",
+        "DISTRITO": "COMPA��A 1",
+        "Y": 4.728610212467756,
+        "X": -74.04053528095422,
+        "Point": "B 13"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.1207713579389,
+          4.7143870772025505
+        ]
+      },
+      "properties": {
+        "FID": 11,
+        "Shape *": "Point",
+        "OBJECTID": 12,
+        "ESTACION": "B-15 ESTACION GARCES NAVAS",
+        "TIPO ESTAC": "",
+        "DIRECCION": "KR 110 77 24",
+        "TELEFONO": "2272658 - 2273140",
+        "DISTRITO": "COMPA��A 2",
+        "Y": 4.71438707720255,
+        "X": -74.1207713579389,
+        "Point": "B 15"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.1358614156112,
+          4.591505168008543
+        ]
+      },
+      "properties": {
+        "FID": 12,
+        "Shape *": "Point",
+        "OBJECTID": 13,
+        "ESTACION": "B-16 ESTACION VENECIA",
+        "TIPO ESTAC": "",
+        "DIRECCION": "KR 49 SUR 48 02",
+        "TELEFONO": "2048209 - 2048252",
+        "DISTRITO": "COMPA��A 5",
+        "Y": 4.591505168008543,
+        "X": -74.1358614156112,
+        "Point": "B 16"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0699440000422,
+          4.592378793481291
+        ]
+      },
+      "properties": {
+        "FID": 13,
+        "Shape *": "Point",
+        "OBJECTID": 14,
+        "ESTACION": "B-17 ESTACION CENTRO HISTORICO",
+        "TIPO ESTAC": "",
+        "DIRECCION": "CL 9 3 12 ESTE",
+        "TELEFONO": "2861305 - 2861288",
+        "DISTRITO": "COMPA��A 3",
+        "Y": 4.592378793481291,
+        "X": -74.0699440000422,
+        "Point": "B 17"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.18599771057414,
+          4.611017739925418
+        ]
+      },
+      "properties": {
+        "FID": 14,
+        "Shape *": "Point",
+        "OBJECTID": 15,
+        "ESTACION": "B- 8 ESTACION BOSA",
+        "TIPO ESTAC": "",
+        "DIRECCION": "CL 63 SUR 80K 15",
+        "TELEFONO": "7767991 - 7767361 - 7768904",
+        "DISTRITO": "COMPA��A 5",
+        "Y": 4.611017739925418,
+        "X": -74.18599771057414,
+        "Point": "B 8"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.16022241561103,
+          4.62027197253236
+        ]
+      },
+      "properties": {
+        "FID": 15,
+        "Shape *": "Point",
+        "OBJECTID": 16,
+        "ESTACION": "B- 5 ESTACION KENNEDY",
+        "TIPO ESTAC": "B",
+        "DIRECCION": "KR 79 41D 20 SUR",
+        "TELEFONO": "2648343 - 2648232",
+        "DISTRITO": "COMPA��A 3",
+        "Y": 4.62027197253236,
+        "X": -74.16022241561102,
+        "Point": "B 5"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.05665100026704,
+          4.750136568340658
+        ]
+      },
+      "properties": {
+        "FID": 16,
+        "Shape *": "Point",
+        "OBJECTID": 17,
+        "ESTACION": "B-14 ESTACION BICENTARIO",
+        "TIPO ESTAC": "",
+        "DIRECCION": "KR 55  167 51",
+        "TELEFONO": "4838153",
+        "DISTRITO": "COMPA��A 1",
+        "Y": 4.750136568340658,
+        "X": -74.05665100026704,
+        "Point": "B 14"
+      }
+    }
+  ]
+}
