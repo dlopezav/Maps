@@ -1,0 +1,33 @@
+Quitar intervalo pendientes 0-4 y 4-7
+
+Formación arenisca(Form) y 27 en adelante: 	Caída de bloques de roca
+
+Friables y lit. (Aren) Formacion arenisca (Form): 14 - 27: 	FLujos de detritos
+Friables y lit. (Aren) 27 en adelante: Flujos de detritos
+Cuater: 14 - 37: Deslizacmientos
+
+Arci menos 27: Deslizamientos
+Arci. mas 27: Flujos de detritos
+
+Todas 7-14: Deslizamientos
+
+
+Unir Ninguno y Leve
+Unir Severo y Fuerte
+
+
+Curzar VUlnerabilidad con Deslizamientos
+
+if( 
+"LEY_GEO" like 'Form%' 
+	and ( ("Intervalo" like '27%' )or ( 		"Intervalo" like '37%')),
+	'Caída de bloques de roca',
+	if( ("LEY_GEO" like 'Fri%' 
+			and ("Intervalo" like '14%' or  	  		"Intervalo" like '27%' or  		  		"Intervalo" like '37%')) 
+		or  ("LEY_GEO" like 'For%' 
+			and  "Intervalo" like '14%') 
+		or ( "LEY_GEO"  like 'Arci' 
+			and ( "Intervalo" like '27%' or  		"Intervalo" like '37%')), 
+			'Flujos de detritos',
+			if( "LEY_GEO" like 'Cu%', 
+				
